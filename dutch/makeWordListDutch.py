@@ -142,8 +142,19 @@ with open('unimorph-nld.txt') as reader:
             except KeyError: # some words may not be in the pronounciation dictionairy
                 pass
 
+def createDatasets(kind):
+    dataset = []
+    if kind == 'ortho':
+        dict = orthoDict
+    elif kind == 'pron':
+        dict = phonDict
+        
+    for word in dict:
+        dataset.append((word, dict[word]['past'][kind]))
+    return dataset
 
 if __name__ == "__main__":
+    createDatasets('pron')
     print("Let me show you some examples")
     
     print("\nGet the pronouncation of the Dutch word 'lays':")
