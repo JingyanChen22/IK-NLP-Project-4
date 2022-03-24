@@ -142,15 +142,15 @@ with open('unimorph-nld.txt') as reader:
             except KeyError: # some words may not be in the pronounciation dictionairy
                 pass
 
-def createDatasets(kind):
+def createDatasets(kindOfDataSet):
     dataset = []
-    if kind == 'ortho':
+    if kindOfDataSet == 'ortho':
         dict = orthoDict
-    elif kind == 'pron':
+    elif kindOfDataSet == 'pron':
         dict = phonDict
         
     for word in dict:
-        dataset.append((word, dict[word]['past'][kind]))
+        dataset.append((word, dict[word]['past'][kindOfDataSet], dict[word]['regular']))
     return dataset
 
 if __name__ == "__main__":
