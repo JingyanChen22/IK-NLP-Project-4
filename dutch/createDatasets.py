@@ -8,4 +8,4 @@ print(orthoList[:6], "and so on...") # print 5 examples
 pronList = createDatasets('pron')
 print("\nThere are", len(pronList), "phonetical wordpairs:")
 print("   PRESENT:       PAST:       REGULAR:")
-print(pronList[:6], "and so on...") # print 5 examples
+print(pronList[:6], "and so on...") # print 6 examples
