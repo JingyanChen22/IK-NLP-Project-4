@@ -1,0 +1,50 @@
+
+## Where the samples will be written
+save_data: data_dutch/dutch_orth/example
+## Where the vocab(s) will be written
+src_vocab:  data_dutch/dutch_orth/example.vocab.src
+tgt_vocab:  data_dutch/dutch_orth/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src:  data_dutch/dutch_orth/src_train_dutch.txt
+        path_tgt:  data_dutch/dutch_orth/tgt_train_dutch.txt
+    valid:
+        path_src: data_dutch/dutch_orth/src_valid_dutch.txt
+        path_tgt: data_dutch/dutch_orth/tgt_valid_dutch.txt
+
+# Vocabulary files that were just created
+src_vocab: data_dutch/dutch_orth/example.vocab.src
+tgt_vocab: data_dutch/dutch_orth/example.vocab.tgt
+
+# Train on a single GPU
+# world_size: 1
+# gpu_ranks: [0]
+seed: 123
+encoder_type: brnn
+dropout: 0.3
+decoder_type: rnn
+rnn_type: LSTM
+batch_size: 20
+learning_rate: 1.0
+train_steps: 23185
+enc_layers: 2
+feat_merge: concat
+dec_layers: 2
+enc_rnn_size: 100
+dec_rnn_size: 100
+feat_vec_size: 300
+beam_size: 12
+optim: adadelta
+verbose: True
+learning_rate_decay: 1.0
+
+
+# Where to save the checkpoints
+save_model: data_dutch/dutch_orth/model
+save_checkpoint_steps: 12000
+train_steps: 23185
+valid_steps: 2900
