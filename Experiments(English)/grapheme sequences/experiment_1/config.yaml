@@ -1,0 +1,51 @@
+# config.yaml
+
+## Where the samples will be written
+save_data: /grapheme_1/run
+## Where the vocab(s) will be written
+src_vocab: /grapheme_1/run/example.vocab.src
+tgt_vocab: /grapheme_1/run/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: /grapheme_1/src_train.txt
+        path_tgt: /grapheme_1/tgt_train.txt
+    # valid:
+        # path_src: /grapheme_1/src_valid.txt
+        # path_tgt: /grapheme_1/tgt_valid.txt
+
+# Vocabulary files that were just created
+src_vocab: /grapheme_1/run/example.vocab.src
+tgt_vocab: /grapheme_1/run/example.vocab.tgt
+
+# Train on a single GPU
+# world_size: 1
+# gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: /grapheme_1/run/model
+save_checkpoint_steps: 8100
+
+train_steps: 16155
+# valid_steps: 2020
+
+word_vec_size: 300
+rnn_type: LSTM
+encoder_type: brnn
+enc_layers: 2
+decoder_type: rnn
+dec_layers: 2
+dropout: 0.3
+enc_rnn_size: 100
+dec_rnn_size: 100
+learning_rate_decay: 1.0
+batch_size: 20
+
+brnn_merge: concat
+optim: adadelta
+beam_size: 12
+verbose: True
+seed: 123
