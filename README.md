@@ -1,1 +1,1 @@
-# NLP-Modern-Neural-Networks-Meet-Linguistic-Theory-
+# NLP-Modern-Neural-Networks-Meet-Linguistic-Theory
