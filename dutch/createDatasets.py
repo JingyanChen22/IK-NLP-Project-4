@@ -1,4 +1,4 @@
-from makeWordListDutch import createDatasets
+from makePythonDictionairies import createDatasets
 
 orthoList = createDatasets('ortho')
 print("\nThere are", len(orthoList), "orthographical wordpairs:")
