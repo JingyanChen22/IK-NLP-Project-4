@@ -118,29 +118,30 @@ with open('unimorph-wordforms.txt') as reader:
         if pos[0] == 'V' and pos[1] == 'IND':
             tense = pos[2]
             number = pos[-1].strip()
+            if number == 'SG':
+                person = pos[3]
+                if tense == 'PRS':
+                    PRS = word
+                    PST = lemmaDict[lemma]['PST']['SG'][person]
+                elif tense == 'PST':
+                    PST = word
+                    PRS = lemmaDict[lemma]['PRS']['SG'][person]
+            else: # number == 'PL'
+                if tense == 'PRS':
+                    PRS = word
+                    PST = lemmaDict[lemma]['PST']['PL']
+                elif tense == 'PST':
+                    PST = word
+                    PRS = lemmaDict[lemma]['PRS']['PL']
+            
             try:
-                if number == 'SG':
-                    person = pos[3]
-                    if tense == 'PRS':
-                        PRS = word
-                        PST = lemmaDict[lemma]['PST']['SG'][person]
-                    elif tense == 'PST':
-                        PST = word
-                        PRS = lemmaDict[lemma]['PRS']['SG'][person]
-                else: # number == 'PL'
-                    if tense == 'PRS':
-                        PRS = word
-                        PST = lemmaDict[lemma]['PST']['PL']
-                    elif tense == 'PST':
-                        PST = word
-                        PRS = lemmaDict[lemma]['PRS']['PL']
-    
-                newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
                 newPhonEntry = {pron[PRS]: {'ortho': PRS, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
                 update(phonDict, newPhonEntry)
-                update(orthoDict, newOrthoEntry)
+                newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
             except KeyError: # some words may not be in the pronounciation dictionairy
-                pass
+                newOrthoEntry = {PRS: {'regular': lemmaDict[lemma]['regular'], 'past': {'ortho': PST}}}
+            update(orthoDict, newOrthoEntry)
+        
 
 def createDatasets(kindOfDataSet):
     dataset = []

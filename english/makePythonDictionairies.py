@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import collections.abc
-TODO: READING POS TAGS
 """
 Examples:
     pron['ligt'] gives 'l I x t'
@@ -56,61 +55,43 @@ with open('pastTenseClx.txt') as reader:
 # we need a temporary dictionairy for the lemma's
 lemmaDict = {} # or defaultdict(lambda:{'PRS': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'},'PST': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'}})
 '''
-example of lemmaDict, key 'hebben':
+example of lemmaDict, key 'have':
 {
  'regular': False,
- 'PRS': {'SG': {1:'heb', 2:'hebt',3:'heeft'}, 'PL': 'liggen'},
- 'PST': {'SG': {1:'had', 2:'had',3:'had'}, 'PL': 'hadden'}
+ 'PRS': 'has',
+ 'PST': 'had',
+ 'NFIN': 'have'}
 }
 
+
 have	had	V;PST
-have	had	V;V.PTCP;PST
 have	has	V;3;SG;PRS
 have	have	V;NFIN
-have	having	V;V.PTCP;PRS
 
-live	lived	V;PST
-live	lived	V;V.PTCP;PST
 live	lives	V;3;SG;PRS
 live	live	V;NFIN
-live	living	V;V.PTCP;PRS
+live	lived	V;PST
 
-
-V;IND;PRS;1;SG  heb
-V;IND;PRS;2;SG  hebt
-V;IND;PRS;3;SG  heeft
-
-V;IND;PRS;PL    hebben
-
-V;IND;PST;1;SG  had
-V;IND;PST;2;SG  had
-V;IND;PST;3;SG  had
-
-V;IND;PST;PL    hadden
 '''
 with open('unimorph-wordforms.txt') as reader:
     for line in reader:
         currentWordForm = line.split('\t')
         lemma = currentWordForm[0].strip()  # abonneren
         word = currentWordForm[1].strip()   # abonneert
-        pos = currentWordForm[2].split(';') # V;IND;PRS;3;SG
-        if pos[0] == 'V' and pos[1] == 'IND':
-            tense = pos[2]
-            number = pos[-1].strip()
-            if number == 'SG':
-                person = pos[3]
+        pos = currentWordForm[2].strip() # V;IND;PRS;3;SG
+        if pos[0] == 'V':
+            if pos in ['V;3;SG;PRS', 'V;NFIN', 'V;PST']: # yes, add this item to lemmaDict
+                tense = pos.split(';')[-1]
                 if tense == 'PST':
-                    if word[-2:] == 'te' or word[-2:] == 'de':
+                    if word[-2:] == 'ed':
                         regular = True
                     else:
                         regular = False
-                    newEntry = {lemma : {'regular': regular, tense: {'SG': {person : word}}}}
-                else:
-                    newEntry = {lemma : {tense: {'SG': {person : word}}}}
+                    newEntry = {lemma : {'regular': regular, 'PST': word}}
+                else: # tense is prs or nfin
+                    newEntry = {lemma : {tense: word}}
                 update(lemmaDict, newEntry)
-            elif number == 'PL':
-                newEntry = {lemma : {tense: {'PL': word}}}
-                update(lemmaDict, newEntry)
+            
 
 ### create two dictionaries
 orthoDict = {}
@@ -128,33 +109,35 @@ with open('unimorph-wordforms.txt') as reader:
         currentWordForm = line.split('\t')  # example:
         lemma = currentWordForm[0].strip()  # abonneren
         word = currentWordForm[1].strip()   # abonneert
-        pos = currentWordForm[2].split(';') # V;IND;PRS;3;SG
-        if pos[0] == 'V' and pos[1] == 'IND':
-            tense = pos[2]
-            number = pos[-1].strip()
-            if number == 'SG':
-                person = pos[3]
-                if tense == 'PRS':
-                    PRS = word
-                    PST = lemmaDict[lemma]['PST']['SG'][person]
-                elif tense == 'PST':
-                    PST = word
-                    PRS = lemmaDict[lemma]['PRS']['SG'][person]
-            else: # number == 'PL'
-                if tense == 'PRS':
-                    PRS = word
-                    PST = lemmaDict[lemma]['PST']['PL']
-                elif tense == 'PST':
-                    PST = word
-                    PRS = lemmaDict[lemma]['PRS']['PL']
+        pos = currentWordForm[2].strip() # V;IND;PRS;3;SG
+        if pos in ['V;3;SG;PRS', 'V;NFIN']: # yes, add this item to phonDict/orthoDict
+            tense = pos.split(';')[-1]
+            if 'PST' in lemmaDict[lemma]:
+                PRS = word
+                PST = lemmaDict[lemma]['PST']
 
-            try:
-                newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
-                newPhonEntry = {pron[PRS]: {'ortho': PRS, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
-                update(phonDict, newPhonEntry)
+                try:
+                    newPhonEntry = {pron[PRS]: {'ortho': PRS, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                    update(phonDict, newPhonEntry)
+                    newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                except KeyError: # some words may not be in the pronounciation dictionairy
+                    newOrthoEntry = {PRS: {'regular': lemmaDict[lemma]['regular'], 'past': {'ortho': PST}}}
                 update(orthoDict, newOrthoEntry)
-            except KeyError: # some words may not be in the pronounciation dictionairy
-                pass
+
+if pos[0] == 'V':
+    if currentWordForm in ['V;3;SG;PRS', 'V;NFIN', 'V;PST']: # yes, add this item to lemmaDict
+        tense = pos[-1].strip()
+        if tense == 'PST':
+            if word[-2:] == 'ed':
+                regular = True
+            else:
+                regular = False
+            newEntry = {lemma : {'regular': regular, 'PST': word}}
+        else: # tense is prs or nfin
+            newEntry = {lemma : {tense: word}}
+        update(lemmaDict, newEntry)
+            
+
 
 def createDatasets(kindOfDataSet):
     dataset = []

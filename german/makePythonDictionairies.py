@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import collections.abc
-TODO: READING POS TAGS
 """
 Examples:
     pron['ligt'] gives 'l I x t'
@@ -56,57 +55,49 @@ with open('pastTenseClx.txt') as reader:
 # we need a temporary dictionairy for the lemma's
 lemmaDict = {} # or defaultdict(lambda:{'PRS': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'},'PST': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'}})
 '''
-example of lemmaDict, key 'hebben':
+POS-tags to ignore:
+    machen	machen	V;SBJV;PRS;1;PL
+    machen	machen	V;SBJV;PRS;3;PL
+    machen	mache	V;SBJV;PRS;1;SG
+    machen	mache	V;SBJV;PRS;3;SG
+    machen	machest	V;SBJV;PRS;2;SG
+    machen	machet	V;SBJV;PRS;2;PL
+    machen	mach	V;IMP;2;SG
+    machen	machten	V;SBJV;PST;1;PL
+    machen	machten	V;SBJV;PST;3;PL
+    machen	machte	V;SBJV;PST;1;SG
+    machen	machte	V;SBJV;PST;3;SG
+    machen	machtest	V;SBJV;PST;2;SG
+    machen	machtet	V;SBJV;PST;2;PL
+    machen	macht	V;IMP;2;PL
+    machen	gemacht	V.PTCP;PST
+    machen	machend	V.PTCP;PRS
+    machen	machen	V;NFIN
+
+
+example of lemmaDict, key 'machen':
 {
  'regular': False,
- 'PRS': {'SG': {1:'heb', 2:'hebt',3:'heeft'}, 'PL': 'liggen'},
- 'PST': {'SG': {1:'had', 2:'had',3:'had'}, 'PL': 'hadden'}
+ 'PRS': {'SG': {1:'mache', 2:'machst',3:'macht'}, 'PL': {1:'machen', 2:'macht', 3:'machen'}},
+ 'PST': {'SG': {1:'machte', 2:'machtest',3:'machte'}, 'PL': {1:'machten', 2:'machtet', 3:'machten'}}
 }
 
-V;IND;PRS;1;SG  heb
-V;IND;PRS;2;SG  hebt
-V;IND;PRS;3;SG  heeft
-
-V;IND;PRS;PL    hebben
-
-V;IND;PST;1;SG  had
-V;IND;PST;2;SG  had
-V;IND;PST;3;SG  had
-
-V;IND;PST;PL    hadden
-
-überschatten	überschattend	V.PTCP;PRS
-überschatten	überschatten	V;IND;PRS;1;PL
-überschatten	überschatten	V;IND;PRS;3;PL
-überschatten	überschatten	V;NFIN
-überschatten	überschatten	V;SBJV;PRS;1;PL
-überschatten	überschatten	V;SBJV;PRS;3;PL
-überschatten	überschattest	V;IND;PRS;2;SG
-überschatten	überschattest	V;SBJV;PRS;2;SG
-überschatten	überschatteten	V;IND;PST;1;PL
-überschatten	überschatteten	V;IND;PST;3;PL
-überschatten	überschatteten	V;SBJV;PST;1;PL
-überschatten	überschatteten	V;SBJV;PST;3;PL
-überschatten	überschattetest	V;IND;PST;2;SG
-überschatten	überschattetest	V;SBJV;PST;2;SG
-überschatten	überschattetet	V;IND;PST;2;PL
-überschatten	überschattetet	V;SBJV;PST;2;PL
-überschatten	überschattete	V;IND;PST;1;SG
-überschatten	überschattete	V;IND;PST;3;SG
-überschatten	überschattete	V;SBJV;PST;1;SG
-überschatten	überschattete	V;SBJV;PST;3;SG
-überschatten	überschattet	V;IMP;2;PL
-überschatten	überschattet	V;IND;PRS;2;PL
-überschatten	überschattet	V;IND;PRS;3;SG
-überschatten	überschattet	V.PTCP;PST
-überschatten	überschattet	V;SBJV;PRS;2;PL
-überschatten	überschatte	V;IMP;2;SG
-überschatten	überschatte	V;IND;PRS;1;SG
-überschatten	überschatte	V;SBJV;PRS;1;SG
-überschatten	überschatte	V;SBJV;PRS;3;SG
+machen	mache	V;IND;PRS;1;SG
+machen	machst	V;IND;PRS;2;SG
+machen	macht	V;IND;PRS;3;SG
 
 
+machen	machen	V;IND;PRS;1;PL
+machen	macht	V;IND;PRS;2;PL
+machen	machen	V;IND;PRS;3;PL
 
+machen	machte	V;IND;PST;1;SG
+machen	machtest	V;IND;PST;2;SG
+machen	machte	V;IND;PST;3;SG
+
+machen	machten	V;IND;PST;1;PL
+machen	machtet	V;IND;PST;2;PL
+machen	machten	V;IND;PST;3;PL
 '''
 with open('unimorph-wordforms.txt') as reader:
     for line in reader:
@@ -115,21 +106,17 @@ with open('unimorph-wordforms.txt') as reader:
         word = currentWordForm[1].strip()   # abonneert
         pos = currentWordForm[2].split(';') # V;IND;PRS;3;SG
         if pos[0] == 'V' and pos[1] == 'IND':
-            tense = pos[2]
-            number = pos[-1].strip()
-            if number == 'SG':
-                person = pos[3]
-                if tense == 'PST':
-                    if word[-2:] == 'te' or word[-2:] == 'de':
-                        regular = True
-                    else:
-                        regular = False
-                    newEntry = {lemma : {'regular': regular, tense: {'SG': {person : word}}}}
+            tense = pos[2].strip()
+            person = pos[3].strip()
+            number = pos[4].strip()
+            newEntry = {lemma : {tense: {number: {person: word}}}}
+            update(lemmaDict, newEntry)
+            if tense == 'PST' and person in ['1','3'] and number == 'SG': # machTE, so regular
+                if word[-2:] == 'te':
+                    regular = True
                 else:
-                    newEntry = {lemma : {tense: {'SG': {person : word}}}}
-                update(lemmaDict, newEntry)
-            elif number == 'PL':
-                newEntry = {lemma : {tense: {'PL': word}}}
+                    regular = False
+                newEntry = {lemma : {'regular': regular}}
                 update(lemmaDict, newEntry)
 
 ### create two dictionaries
@@ -149,33 +136,24 @@ with open('unimorph-wordforms.txt') as reader:
         lemma = currentWordForm[0].strip()  # abonneren
         word = currentWordForm[1].strip()   # abonneert
         pos = currentWordForm[2].split(';') # V;IND;PRS;3;SG
-        if pos[0] == 'V' and pos[1] == 'IND':
-            tense = pos[2]
-            number = pos[-1].strip()
+        if pos[0] == 'V' and pos[1] == 'IND' and pos[2] == 'PRS':
+            person = pos[3].strip()
+            number = pos[4].strip()
             try:
-                if number == 'SG':
-                    person = pos[3]
-                    if tense == 'PRS':
-                        PRS = word
-                        PST = lemmaDict[lemma]['PST']['SG'][person]
-                    elif tense == 'PST':
-                        PST = word
-                        PRS = lemmaDict[lemma]['PRS']['SG'][person]
-                else: # number == 'PL'
-                    if tense == 'PRS':
-                        PRS = word
-                        PST = lemmaDict[lemma]['PST']['PL']
-                    elif tense == 'PST':
-                        PST = word
-                        PRS = lemmaDict[lemma]['PRS']['PL']
-    
-                newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
-                newPhonEntry = {pron[PRS]: {'ortho': PRS, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
-                update(phonDict, newPhonEntry)
-                update(orthoDict, newOrthoEntry)
-            except KeyError: # some words may not be in the pronounciation dictionairy
-                pass
+                PRS = word
+                PST = lemmaDict[lemma]['PST'][number][person]
 
+                newOrthoEntry = {PRS: {'regular': lemmaDict[lemma]['regular'], 'past': {'ortho': PST}}}
+                update(orthoDict, newOrthoEntry)
+
+                newOrthoEntry = {PRS: {'pron': pron[PRS], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                update(orthoDict, newOrthoEntry)
+
+                newPhonEntry = {pron[PRS]: {'ortho': PRS, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                update(phonDict, newPhonEntry)     
+            except KeyError: # some words may not be in the pronounciation dictionairy
+                pass                          
+            
 def createDatasets(kindOfDataSet):
     dataset = []
     if kindOfDataSet == 'ortho':
