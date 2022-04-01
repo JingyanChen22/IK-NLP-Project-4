@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import codecs
 # Python 2: import cPickle
 import _pickle as cPickle
@@ -43,7 +42,6 @@ if phonORortho == 'phon':
 elif phonORortho == 'orth':
     lemmaPart = 0
     formPart = 1
-
 for line in fin:
     parts = line.strip().split()
     lemma = parts[lemmaPart]
