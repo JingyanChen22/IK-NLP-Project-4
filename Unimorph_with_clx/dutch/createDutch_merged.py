@@ -94,6 +94,7 @@ with open('unimorph-wordforms.txt') as reader:
                 newEntry = {lemma : {'freq': freq[lemma], tense: {'PL': word}}}
                 update(lemmaDict, newEntry)
 
+'''
 orthoDict = {}
 #example of Dutch key 'ligt': {'pron': 'lIxt'}, {'PST': {'pron' : 'lAx', 'ortho' : 'lag'}}
 #example of non-extistent English key 'swims': {'pron': 'swIms'}, {'pst': {'pron' : 'swEm', 'ortho' : 'swam'}}
@@ -124,12 +125,57 @@ with open('unimorph-wordforms.txt') as reader:
                     PRS = lemmaDict[lemma]['PRS']['PL']
             
             try:
-                newOrthoEntry = {PRS: {'pron': pron[PRS], 'freq':freq[lemma], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                newOrthoEntry = {PRS: {'pron': pron[PRS], 'freq': freq[lemma], 'lemma': lemma, 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
                 update(orthoDict, newOrthoEntry)
                 
             except KeyError: # some words may not be in the pronounciation dictionairy
                 pass
             #update(orthoDict, newOrthoEntry)
+'''
+
+def saveDataset(minfreq=-99):
+    '''
+    with open('dutch_merged.txt', 'w') as file:
+        for k in orthoDict:
+            if orthoDict[k]['freq'] >= int(minfreq):
+                # the format of english_merged.txt of the original experiment:
+                file.write(k + '\t' + orthoDict[k]['past']['ortho'] + '\t' + orthoDict[k]['pron'] + '\t' + orthoDict[k]['past']['pron'] + '\t' + orthoDict[k]['regular'] + '\n')
+    print("Saved to dutch_merged.txt")
+    '''
+
+    with open('dutch_bylemma_orth.txt', 'w') as file:
+        # {
+        #  'freq': 15
+        #  'regular': False,
+        #  'PRS': {'SG': {1:'heb', 2:'hebt',3:'heeft'}, 'PL': 'liggen'},
+        #  'PST': {'SG': {1:'had', 2:'had',3:'had'}, 'PL': 'hadden'}
+        # }
+
+        for lemma in lemmaDict:
+            if lemmaDict[lemma]['freq'] >= int(minfreq):
+                # the format of english_merged.txt of the original experiment:
+                file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3'] + '\t' +
+                           lemmaDict[lemma]['PRS']['PL']      + ';' + lemmaDict[lemma]['PST']['PL']      + '\n')
+        print("Saved to dutch_bylemma_orth.txt")
+    
+    with open('dutch_bylemma_phon.txt', 'w') as file:
+        for lemma in lemmaDict:
+            if lemmaDict[lemma]['freq'] >= int(minfreq):
+                # the format of english_merged.txt of the original experiment:
+                try:
+                    file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['PL']]      + ';' + pron[lemmaDict[lemma]['PST']['PL']]      + '\n')
+                except KeyError:
+                    pass
+        print("Saved to dutch_bylemma_phon.txt")
+        
+       
 
 def examples():
     print("Let me show you some examples")
@@ -162,16 +208,6 @@ def examples():
     print("\n'Merkt' belongs to the REGULAR verb 'merken', so orthoDict['merkt']['regular'] is", orthoDict['merkt']['regular']) # True
     print("'Slapen' belongs to the IRREGULAR verb 'slapen', so orthoDict['slapen']['regular'] is", orthoDict['slapen']['regular']) # False
         
-
-def saveDataset(minfreq=-99):
-    with open('dutch_merged.txt', 'w') as file:
-        for k in orthoDict:
-            if orthoDict[k]['freq'] >= int(minfreq):
-                # the format of english_merged.txt of the original experiment:
-                file.write(k + '\t' + orthoDict[k]['past']['ortho'] + '\t' + orthoDict[k]['pron'] + '\t' + orthoDict[k]['past']['pron'] + '\t' + orthoDict[k]['regular'] + '\n')
-
-    print("Saved to dutch_merged.txt")
-
 
 
 

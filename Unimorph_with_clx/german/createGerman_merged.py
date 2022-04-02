@@ -136,12 +136,13 @@ with open('unimorph-wordforms.txt') as reader:
                 PRS = word
                 PST = lemmaDict[lemma]['PST'][number][person]
 
-                newOrthoEntry = {PRS: {'pron': pron[PRS], 'freq':freq[lemma], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                newOrthoEntry = {PRS: {'pron': pron[PRS], 'lemma': lemma, 'freq': freq[lemma], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
                 update(orthoDict, newOrthoEntry)
             except KeyError: # some words may not be in the pronounciation dictionairy
                 pass
 
 def saveDataset(minfreq=-99):
+    '''
     with open('german_merged.txt', 'w') as file:
         for k in orthoDict:
             if orthoDict[k]['freq'] >= int(minfreq):
@@ -149,6 +150,45 @@ def saveDataset(minfreq=-99):
                 file.write(k + '\t' + orthoDict[k]['past']['ortho'] + '\t' + orthoDict[k]['pron'] + '\t' + orthoDict[k]['past']['pron'] + '\t' + orthoDict[k]['regular'] + '\n')
 
     print("Saved to german_merged.txt")
+    '''
+    with open('german_bylemma_orth.txt', 'w') as file:
+        # {
+        #  'freq': 15
+        #  'regular': False,
+        #  'PRS': {'SG': {1:'mache', 2:'machst',3:'macht'}, 'PL': {1:'machen', 2:'macht', 3:'machen'}},
+        #  'PST': {'SG': {1:'machte', 2:'machtest',3:'machte'}, 'PL': {1:'machten', 2:'machtet', 3:'machten'}}
+        # }
+
+        for lemma in lemmaDict:
+            try:
+                if lemmaDict[lemma]['freq'] >= int(minfreq):
+                    # the format of english_merged.txt of the original experiment:
+                    file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2'] + '\t' +
+                           lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3'] + '\t' +
+                           lemmaDict[lemma]['PRS']['PL']['1'] + ';' + lemmaDict[lemma]['PST']['PL']['1'] + '\t' +
+                           lemmaDict[lemma]['PRS']['PL']['2'] + ';' + lemmaDict[lemma]['PST']['PL']['2'] + '\t' +
+                           lemmaDict[lemma]['PRS']['PL']['3'] + ';' + lemmaDict[lemma]['PST']['PL']['3'] + '\n')
+            except KeyError:
+                pass
+        print("Saved to german_bylemma_orth.txt")
+    
+    with open('german_bylemma_phon.txt', 'w') as file:
+        for lemma in lemmaDict:
+            try:
+                if lemmaDict[lemma]['freq'] >= int(minfreq):
+                    # the format of english_merged.txt of the original experiment:
+                    file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['PL']['1']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['1']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['PL']['2']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['2']] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']['PL']['3']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['3']] + '\n')
+            except KeyError:
+                pass
+        print("Saved to german_bylemma_phon.txt")
 
 
 

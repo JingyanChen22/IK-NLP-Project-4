@@ -8,16 +8,8 @@ import pandas as pd
 import sys
 import os 
 
-try:
-    language = sys.argv[1]
-except IndexError:
-    print("Command line argument required: [english|dutch|german]")
-
-try:
-    phonORortho = sys.argv[2]
-except IndexError:
-    print("Command line argument required: [phon|orth]")
-
+language = sys.argv[1]    # [english|dutch|german]
+phonORortho = sys.argv[2] # [phon|orth]
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)) + os.sep + language)
 
@@ -31,23 +23,17 @@ fout_src_test = codecs.open(folder + 'src_test.txt','wb','utf-8')
 fout_tgt_test = codecs.open(folder + 'tgt_test.txt','wb','utf-8')
 
 #read in  data
-fin = codecs.open(language + '_merged.txt','rb','utf-8')
+fin = codecs.open(language + '_bylemma_' + phonORortho + '.txt','rb','utf-8')
 
 sources = []
 targets = []
 
-if phonORortho == 'phon':
-    lemmaPart = 2
-    formPart = 3
-elif phonORortho == 'orth':
-    lemmaPart = 0
-    formPart = 1
 for line in fin:
     parts = line.strip().split()
-    lemma = parts[lemmaPart]
-    form = parts[formPart]
-    sources.append(' '.join(lemma))
-    targets.append(' '.join(form))
+    prs = [item.split(';')[0] for item in parts[3:]]
+    pst = [item.split(';')[1] for item in parts[3:]]
+    sources.append(' '.join(prs))
+    targets.append(' '.join(pst))
 fin.close()
 
 # as advised on https://stackoverflow.com/questions/31011631/python-2-3-object-of-type-zip-has-no-len
@@ -62,19 +48,53 @@ valid = pairs[int(.8*len(pairs)):int(.9*len(pairs))]
 test = pairs[int(.9*len(pairs)):]
 
 #write the outputs
+sList = []
+tList = []
 for s,t in train:
+    s = s.split(' ')
+    t = t.split(' ')
+    sList.extend(s)
+    tList.extend(t)
+shuffledTrain = list(zip(sList,tList))
+random.seed(123)
+random.shuffle(shuffledTrain)
+for s,t in shuffledTrain:
+    s = s.replace(' ', '\n')
+    t = t.replace(' ', '\n')
     fout_src_train.write(s + '\n')
     fout_tgt_train.write(t + '\n')
 
+sList = []
+tList = []
 for s,t in valid:
+    s = s.split(' ')
+    t = t.split(' ')
+    sList.extend(s)
+    tList.extend(t)
+shuffledValid = list(zip(sList,tList))
+random.seed(123)
+random.shuffle(shuffledValid)
+for s,t in shuffledValid:
+    s = s.replace(' ', '\n')
+    t = t.replace(' ', '\n')
     fout_src_valid.write(s + '\n')
     fout_tgt_valid.write(t + '\n')
 
+sList = []
+tList = []
 for s,t in test:
+    s = s.split(' ')
+    t = t.split(' ')
+    sList.extend(s)
+    tList.extend(t)
+shuffledTest = list(zip(sList,tList))
+random.seed(123)
+random.shuffle(shuffledTest)
+for s,t in shuffledTest:
+    s = s.replace(' ', '\n')
+    t = t.replace(' ', '\n')
     fout_src_test.write(s + '\n')
     fout_tgt_test.write(t + '\n')
-
-
 
 fout_src_train.close()
 fout_tgt_train.close()

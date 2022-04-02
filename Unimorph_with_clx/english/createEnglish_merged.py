@@ -108,12 +108,13 @@ with open('unimorph-wordforms.txt') as reader:
                 PST = lemmaDict[lemma]['PST']
 
                 try:
-                    newOrthoEntry = {PRS: {'pron': pron[PRS], 'freq':freq[lemma], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
+                    newOrthoEntry = {PRS: {'pron': pron[PRS], 'lemma': lemma, 'freq':freq[lemma], 'regular': lemmaDict[lemma]['regular'], 'past': {'pron': pron[PST], 'ortho': PST}}}
                     update(orthoDict, newOrthoEntry)
                 except KeyError: # some words may not be in the pronounciation dictionairy
                     pass
  
 def saveDataset(minfreq=-99):
+    '''
     with open('english_merged.txt', 'w') as file:
         for k in orthoDict:
             if orthoDict[k]['freq'] >= int(minfreq):
@@ -121,6 +122,39 @@ def saveDataset(minfreq=-99):
                 file.write(k + '\t' + orthoDict[k]['past']['ortho'] + '\t' + orthoDict[k]['pron'] + '\t' + orthoDict[k]['past']['pron'] + '\t' + orthoDict[k]['regular'] + '\n')
 
     print("Saved to english_merged.txt")
+    '''
+    with open('english_bylemma_orth.txt', 'w') as file:
+        # example of lemmaDict, key 'have':
+        # {
+        #  'freq': 15
+        #  'regular': False,
+        #  'PRS': 'has',
+        #  'PST': 'had',
+        #  'NFIN': 'have'}
+        # }
+
+        for lemma in lemmaDict:
+            try:
+                if lemmaDict[lemma]['freq'] >= int(minfreq):
+                    # the format of english_merged.txt of the original experiment:
+                    file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                           lemmaDict[lemma]['PRS']  + ';' + lemmaDict[lemma]['PST'] + '\t' +
+                           lemmaDict[lemma]['NFIN'] + ';' + lemmaDict[lemma]['PST'] + '\n')
+            except KeyError:
+                pass
+        print("Saved to english_bylemma_orth.txt")
+    
+    with open('english_bylemma_phon.txt', 'w') as file:
+        for lemma in lemmaDict:
+            try:
+                if lemmaDict[lemma]['freq'] >= int(minfreq):
+                    # the format of english_merged.txt of the original experiment:
+                    file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
+                               pron[lemmaDict[lemma]['PRS']]  + ';' + pron[lemmaDict[lemma]['PST']] + '\t' +
+                               pron[lemmaDict[lemma]['NFIN']] + ';' + pron[lemmaDict[lemma]['PST']] + '\n')
+            except KeyError:
+                pass
+        print("Saved to english_bylemma_phon.txt")
 
 
 
