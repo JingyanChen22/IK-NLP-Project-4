@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import collections.abc
 from collections import defaultdict
+import sys
 
 import os 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -133,6 +134,7 @@ def saveDataset(minfreq=-99):
         #  'NFIN': 'have'}
         # }
 
+        count = 0
         for lemma in lemmaDict:
             try:
                 if lemmaDict[lemma]['freq'] >= int(minfreq):
@@ -140,11 +142,13 @@ def saveDataset(minfreq=-99):
                     file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
                            lemmaDict[lemma]['PRS']  + ';' + lemmaDict[lemma]['PST'] + '\t' +
                            lemmaDict[lemma]['NFIN'] + ';' + lemmaDict[lemma]['PST'] + '\n')
+                    count += 1
             except KeyError:
                 pass
-        print("Saved to english_bylemma_orth.txt")
+        print(count, "lemma's saved to english_bylemma_orth.txt")
     
     with open('english_bylemma_phon.txt', 'w') as file:
+        count = 0
         for lemma in lemmaDict:
             try:
                 if lemmaDict[lemma]['freq'] >= int(minfreq):
@@ -152,13 +156,16 @@ def saveDataset(minfreq=-99):
                     file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
                                pron[lemmaDict[lemma]['PRS']]  + ';' + pron[lemmaDict[lemma]['PST']] + '\t' +
                                pron[lemmaDict[lemma]['NFIN']] + ';' + pron[lemmaDict[lemma]['PST']] + '\n')
+                    count += 1
             except KeyError:
                 pass
-        print("Saved to english_bylemma_phon.txt")
+        print(count, "lemma's saved to english_bylemma_phon.txt")
 
 
 
 
 if __name__ == "__main__":
-    saveDataset()
-
+    try:
+        saveDataset(sys.argv[1])
+    except IndexError:
+        saveDataset(-1)

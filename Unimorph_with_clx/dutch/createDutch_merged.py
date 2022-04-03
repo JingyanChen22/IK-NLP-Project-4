@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import collections.abc
 from collections import defaultdict
+import sys
 
 import os 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -151,6 +152,7 @@ def saveDataset(minfreq=-99):
         #  'PST': {'SG': {1:'had', 2:'had',3:'had'}, 'PL': 'hadden'}
         # }
 
+        count = 0
         for lemma in lemmaDict:
             if lemmaDict[lemma]['freq'] >= int(minfreq):
                 # the format of english_merged.txt of the original experiment:
@@ -159,9 +161,11 @@ def saveDataset(minfreq=-99):
                            lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2'] + '\t' +
                            lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3'] + '\t' +
                            lemmaDict[lemma]['PRS']['PL']      + ';' + lemmaDict[lemma]['PST']['PL']      + '\n')
-        print("Saved to dutch_bylemma_orth.txt")
+                count += 1
+        print(count, "lemma's saved to dutch_bylemma_orth.txt")
     
     with open('dutch_bylemma_phon.txt', 'w') as file:
+        count = 0
         for lemma in lemmaDict:
             if lemmaDict[lemma]['freq'] >= int(minfreq):
                 # the format of english_merged.txt of the original experiment:
@@ -171,9 +175,10 @@ def saveDataset(minfreq=-99):
                                pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']] + '\t' +
                                pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']] + '\t' +
                                pron[lemmaDict[lemma]['PRS']['PL']]      + ';' + pron[lemmaDict[lemma]['PST']['PL']]      + '\n')
+                    count += 1
                 except KeyError:
                     pass
-        print("Saved to dutch_bylemma_phon.txt")
+        print(count, "lemma's saved to dutch_bylemma_phon.txt")
         
        
 
@@ -196,6 +201,7 @@ def examples():
     print("lemmaDict['hebben']['PST']['SG'][2] -", lemmaDict['hebben']['PST']['SG']['2']) # 'had'
 
     
+    '''
     print("\n\n\nShow the WORDFORM 'zwijgt' (to be silence):")
     print("orthoDict['zwijgt'] -", orthoDict['zwijgt'])
     
@@ -207,10 +213,12 @@ def examples():
 
     print("\n'Merkt' belongs to the REGULAR verb 'merken', so orthoDict['merkt']['regular'] is", orthoDict['merkt']['regular']) # True
     print("'Slapen' belongs to the IRREGULAR verb 'slapen', so orthoDict['slapen']['regular'] is", orthoDict['slapen']['regular']) # False
-        
+    '''    
 
 
 
 if __name__ == "__main__":
-    saveDataset()
-
+    try:
+        saveDataset(sys.argv[1])
+    except IndexError:
+        saveDataset(-1)

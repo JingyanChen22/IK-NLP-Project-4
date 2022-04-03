@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import collections.abc
 from collections import defaultdict
+import sys
 
 import os 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -159,6 +160,7 @@ def saveDataset(minfreq=-99):
         #  'PST': {'SG': {1:'machte', 2:'machtest',3:'machte'}, 'PL': {1:'machten', 2:'machtet', 3:'machten'}}
         # }
 
+        count = 0
         for lemma in lemmaDict:
             try:
                 if lemmaDict[lemma]['freq'] >= int(minfreq):
@@ -170,11 +172,13 @@ def saveDataset(minfreq=-99):
                            lemmaDict[lemma]['PRS']['PL']['1'] + ';' + lemmaDict[lemma]['PST']['PL']['1'] + '\t' +
                            lemmaDict[lemma]['PRS']['PL']['2'] + ';' + lemmaDict[lemma]['PST']['PL']['2'] + '\t' +
                            lemmaDict[lemma]['PRS']['PL']['3'] + ';' + lemmaDict[lemma]['PST']['PL']['3'] + '\n')
+                    count += 1
             except KeyError:
                 pass
-        print("Saved to german_bylemma_orth.txt")
+        print(count, "lemma's saved to german_bylemma_orth.txt")
     
     with open('german_bylemma_phon.txt', 'w') as file:
+        count = 0
         for lemma in lemmaDict:
             try:
                 if lemmaDict[lemma]['freq'] >= int(minfreq):
@@ -186,13 +190,16 @@ def saveDataset(minfreq=-99):
                                pron[lemmaDict[lemma]['PRS']['PL']['1']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['1']] + '\t' +
                                pron[lemmaDict[lemma]['PRS']['PL']['2']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['2']] + '\t' +
                                pron[lemmaDict[lemma]['PRS']['PL']['3']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['3']] + '\n')
+                    count += 1
             except KeyError:
                 pass
-        print("Saved to german_bylemma_phon.txt")
+        print(count, "lemma's saved to german_bylemma_phon.txt")
 
 
 
 
 if __name__ == "__main__":
-    saveDataset()
-
+    try:
+        saveDataset(sys.argv[1])
+    except IndexError:
+        saveDataset(-1)

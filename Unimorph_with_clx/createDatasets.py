@@ -61,6 +61,8 @@ random.shuffle(shuffledTrain)
 for s,t in shuffledTrain:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
+    s = " ".join(s)
+    t = " ".join(t)
     fout_src_train.write(s + '\n')
     fout_tgt_train.write(t + '\n')
 
@@ -77,6 +79,8 @@ random.shuffle(shuffledValid)
 for s,t in shuffledValid:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
+    s = " ".join(s)
+    t = " ".join(t)
     fout_src_valid.write(s + '\n')
     fout_tgt_valid.write(t + '\n')
 
@@ -93,6 +97,8 @@ random.shuffle(shuffledTest)
 for s,t in shuffledTest:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
+    s = " ".join(s)
+    t = " ".join(t)
     fout_src_test.write(s + '\n')
     fout_tgt_test.write(t + '\n')
 
