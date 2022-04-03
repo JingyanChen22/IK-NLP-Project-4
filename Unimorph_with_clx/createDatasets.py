@@ -3,6 +3,7 @@ import codecs
 # Python 2: import cPickle
 import _pickle as cPickle
 import random
+random.seed(123)
 from collections import defaultdict
 import pandas as pd
 import sys
@@ -27,19 +28,36 @@ fin = codecs.open(language + '_bylemma_' + phonORortho + '.txt','rb','utf-8')
 
 sources = []
 targets = []
-
+lowfreqSources = []
+lowfreqTargets = []
+#frequencies = []
+numberOfLines = 0
+numberOfWordforms = 0
 for line in fin:
     parts = line.strip().split()
+    freq = int(parts[1])
     prs = [item.split(';')[0] for item in parts[3:]]
     pst = [item.split(';')[1] for item in parts[3:]]
-    sources.append(' '.join(prs))
-    targets.append(' '.join(pst))
+    
+    numberOfLines += 1
+    numberOfWordforms += len(prs)
+    
+    if freq > 1:
+        sources.append(' '.join(prs))
+        targets.append(' '.join(pst))
+    else:
+        lowfreqSources.append(' '.join(prs))
+        lowfreqTargets.append(' '.join(pst))
+    #frequencies.append(int(freq))
 fin.close()
 
-# as advised on https://stackoverflow.com/questions/31011631/python-2-3-object-of-type-zip-has-no-len
-# I changed zip( into list(zip((
-pairs = list(zip(sources,targets))
-random.seed(123)
+meanNumberOfWordforms = numberOfWordforms/(len(sources)+len(lowfreqSources))
+totalWordforms = 6108
+totalLemmas = totalWordforms / meanNumberOfWordforms
+lemmasStillNeeded = int(totalLemmas - len(sources))
+lowfreqItemstoadd = random.choices(list(zip(lowfreqSources,lowfreqTargets)), k = lemmasStillNeeded)
+
+pairs = list(zip(sources,targets)) + lowfreqItemstoadd
 random.shuffle(pairs)
 
 #split into train and test
@@ -109,4 +127,4 @@ fout_tgt_valid.close()
 fout_src_test.close()
 fout_tgt_test.close()
 
-print('Train/test/valid saved to', language + os.sep + folder)
+print(int(len(pairs)*meanNumberOfWordforms), "wordforms are selected and spread across test/train/valid in the folder:", language + os.sep + folder)
