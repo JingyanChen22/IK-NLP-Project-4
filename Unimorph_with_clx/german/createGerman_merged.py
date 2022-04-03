@@ -152,7 +152,7 @@ def saveDataset(minfreq=-99):
 
     print("Saved to german_merged.txt")
     '''
-    with open('german_bylemma_orth.txt', 'w') as file:
+    with open('german_bylemma_orth.txt', 'w') as orthFile, open('german_bylemma_phon.txt', 'w') as phonFile:
         # {
         #  'freq': 15
         #  'regular': False,
@@ -160,42 +160,77 @@ def saveDataset(minfreq=-99):
         #  'PST': {'SG': {1:'machte', 2:'machtest',3:'machte'}, 'PL': {1:'machten', 2:'machtet', 3:'machten'}}
         # }
 
-        count = 0
+        wordformcount = 0
         for lemma in lemmaDict:
             try:
-                if lemmaDict[lemma]['freq'] >= int(minfreq):
-                    # the format of english_merged.txt of the original experiment:
-                    file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3'] + '\t' +
-                           lemmaDict[lemma]['PRS']['PL']['1'] + ';' + lemmaDict[lemma]['PST']['PL']['1'] + '\t' +
-                           lemmaDict[lemma]['PRS']['PL']['2'] + ';' + lemmaDict[lemma]['PST']['PL']['2'] + '\t' +
-                           lemmaDict[lemma]['PRS']['PL']['3'] + ';' + lemmaDict[lemma]['PST']['PL']['3'] + '\n')
-                    count += 1
+                sg1pron = sg2pron = sg3pron = pl1pron = pl2pron = pl3pron = ''
+                sg1orth = sg2orth = sg3orth = pl1orth = pl2orth = pl3orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['SG']['1']] > int(minfreq):
+                        sg1pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']]
+                        sg1orth = '\t' + lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1']
+                        wordformcount += 1
+                except KeyError:
+                    sg1pron = ''
+                    sg1orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['SG']['2']] > int(minfreq):
+                        sg2pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']]
+                        sg2orth = '\t' + lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2']
+                        wordformcount += 1
+                except KeyError:
+                    sg2pron = ''
+                    sg2orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['SG']['3']] > int(minfreq):
+                        sg3pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']]
+                        sg3orth = '\t' + lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3']
+                        wordformcount += 1
+                except KeyError:
+                    sg3pron = ''
+                    sg3orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['PL']['1']] > int(minfreq):
+                        pl1pron = '\t' + pron[lemmaDict[lemma]['PRS']['PL']['1']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['1']]
+                        pl1orth = '\t' + lemmaDict[lemma]['PRS']['PL']['1'] + ';' + lemmaDict[lemma]['PST']['PL']['1']
+                        wordformcount += 1
+                except KeyError:
+                    pl1pron = ''
+                    pl1orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['PL']['2']] > int(minfreq):
+                        pl2pron = '\t' + pron[lemmaDict[lemma]['PRS']['PL']['2']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['2']]
+                        pl2orth = '\t' + lemmaDict[lemma]['PRS']['PL']['2'] + ';' + lemmaDict[lemma]['PST']['PL']['2']
+                        wordformcount += 1
+                except KeyError:
+                    pl2pron = ''
+                    pl2orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['PL']['3']] > int(minfreq):
+                        pl3pron = '\t' + pron[lemmaDict[lemma]['PRS']['PL']['3']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['3']]
+                        pl3orth = '\t' + lemmaDict[lemma]['PRS']['PL']['3'] + ';' + lemmaDict[lemma]['PST']['PL']['3']
+                        wordformcount += 1
+                except KeyError:
+                    pl3pron = ''
+                    pl3orth = ''
+                
+                if pl1orth == pl3orth: # wir machen / sie machen
+                    pl3pron = ''
+                    pl3orth = ''
+                    if pl1orth != '':
+                        wordformcount -= 1
+                
+                if sg1pron + sg2pron + sg3pron + pl1pron + pl2pron + pl3pron != '':
+                    # FREQUENTIE KAN WEG
+                    phonFile.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               sg1pron + sg2pron + sg3pron + pl1pron + pl2pron + pl3pron + '\n')
+                    orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               sg1orth + sg2orth + sg3orth + pl1orth + pl2orth + pl3orth + '\n')
+
             except KeyError:
                 pass
-        print(count, "lemma's saved to german_bylemma_orth.txt")
-    
-    with open('german_bylemma_phon.txt', 'w') as file:
-        count = 0
-        for lemma in lemmaDict:
-            try:
-                if lemmaDict[lemma]['freq'] >= int(minfreq):
-                    # the format of english_merged.txt of the original experiment:
-                    file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['PL']['1']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['1']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['PL']['2']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['2']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['PL']['3']] + ';' + pron[lemmaDict[lemma]['PST']['PL']['3']] + '\n')
-                    count += 1
-            except KeyError:
-                pass
-        print(count, "lemma's saved to german_bylemma_phon.txt")
 
-
+        print(wordformcount, "wordforms saved to german_bylemma_orth.txt and to german_bylemma_phon.txt")
 
 
 if __name__ == "__main__":

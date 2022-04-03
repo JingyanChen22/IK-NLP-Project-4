@@ -144,7 +144,7 @@ def saveDataset(minfreq=-99):
     print("Saved to dutch_merged.txt")
     '''
 
-    with open('dutch_bylemma_orth.txt', 'w') as file:
+    with open('dutch_bylemma_orth.txt', 'w') as orthFile, open('dutch_bylemma_phon.txt', 'w') as phonFile:
         # {
         #  'freq': 15
         #  'regular': False,
@@ -152,35 +152,59 @@ def saveDataset(minfreq=-99):
         #  'PST': {'SG': {1:'had', 2:'had',3:'had'}, 'PL': 'hadden'}
         # }
 
-        count = 0
+        wordformcount = 0
         for lemma in lemmaDict:
-            if lemmaDict[lemma]['freq'] >= int(minfreq):
-                # the format of english_merged.txt of the original experiment:
-                file.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2'] + '\t' +
-                           lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3'] + '\t' +
-                           lemmaDict[lemma]['PRS']['PL']      + ';' + lemmaDict[lemma]['PST']['PL']      + '\n')
-                count += 1
-        print(count, "lemma's saved to dutch_bylemma_orth.txt")
-    
-    with open('dutch_bylemma_phon.txt', 'w') as file:
-        count = 0
-        for lemma in lemmaDict:
-            if lemmaDict[lemma]['freq'] >= int(minfreq):
-                # the format of english_merged.txt of the original experiment:
+            try:
+                sg1pron = sg2pron = sg3pron = plpron = ''
+                sg1orth = sg2orth = sg3orth = plorth = ''
                 try:
-                    file.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']] + '\t' +
-                               pron[lemmaDict[lemma]['PRS']['PL']]      + ';' + pron[lemmaDict[lemma]['PST']['PL']]      + '\n')
-                    count += 1
+                    if freq[lemmaDict[lemma]['PRS']['SG']['1']] > int(minfreq):
+                        sg1pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['1']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['1']]
+                        sg1orth = '\t' + lemmaDict[lemma]['PRS']['SG']['1'] + ';' + lemmaDict[lemma]['PST']['SG']['1']
+                        wordformcount += 1
                 except KeyError:
-                    pass
-        print(count, "lemma's saved to dutch_bylemma_phon.txt")
-        
-       
+                    sg1pron = ''
+                    sg1orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['SG']['2']] > int(minfreq):
+                        sg2pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['2']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['2']]
+                        sg2orth = '\t' + lemmaDict[lemma]['PRS']['SG']['2'] + ';' + lemmaDict[lemma]['PST']['SG']['2']
+                        wordformcount += 1
+                except KeyError:
+                    sg2pron = ''
+                    sg2orth = ''
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['SG']['3']] > int(minfreq):
+                        sg3pron = '\t' + pron[lemmaDict[lemma]['PRS']['SG']['3']] + ';' + pron[lemmaDict[lemma]['PST']['SG']['3']]
+                        sg3orth = '\t' + lemmaDict[lemma]['PRS']['SG']['3'] + ';' + lemmaDict[lemma]['PST']['SG']['3']
+                        wordformcount += 1
+                except KeyError:
+                    sg3pron = ''
+                    sg3orth = ''
+                if sg2orth == sg3orth: # jij loopt/ hij loopt
+                    sg3orth = ''
+                    sg3pron = ''
+                    if sg2orth != '':
+                        wordformcount -= 1
+                try:
+                    if freq[lemmaDict[lemma]['PRS']['PL']] > int(minfreq):
+                        plpron = '\t' + pron[lemmaDict[lemma]['PRS']['PL']]      + ';' + pron[lemmaDict[lemma]['PST']['PL']]
+                        plorth = '\t' + lemmaDict[lemma]['PRS']['PL']      + ';' + lemmaDict[lemma]['PST']['PL']
+                        wordformcount += 1
+                except KeyError:
+                    plpron = ''
+                    plorth = ''
+                    
+                if sg1pron + sg2pron + sg3pron + plpron != '':
+                    phonFile.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               sg1pron + sg2pron + sg3pron + plpron + '\n')
+                    orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               sg1orth + sg2orth + sg3orth + plorth + '\n')
+
+            except KeyError:
+                pass
+            
+        print(wordformcount, "wordforms saved to dutch_bylemma_orth.txt and to dutch_bylemma_phon.txt")
 
 def examples():
     print("Let me show you some examples")
