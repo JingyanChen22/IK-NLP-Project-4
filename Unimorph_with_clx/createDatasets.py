@@ -42,7 +42,7 @@ for line in fin:
     numberOfLines += 1
     numberOfWordforms += len(prs)
     
-    if freq > 1:
+    if freq >= 1:
         sources.append(' '.join(prs))
         targets.append(' '.join(pst))
     else:
