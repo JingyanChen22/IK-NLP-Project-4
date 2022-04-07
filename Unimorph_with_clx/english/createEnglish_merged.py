@@ -80,7 +80,10 @@ with open('unimorph-wordforms.txt') as reader:
             if pos in ['V;3;SG;PRS', 'V;NFIN', 'V;PST']: # yes, add this item to lemmaDict
                 tense = pos.split(';')[-1]
                 if tense == 'PST':
-                    if word[-2:] == 'ed':
+                    # ending with 'ed', but still irregular are variants of bled, bred, led, fled, fed
+                    if word in ('bled', 'bred', 'led', 'misled', 'fled', 'fed', 'breastfed', 'force-fed', 'bottle-fed', 'force-fed', 'bottle-fed'):
+                        regular = 'irreg'
+                    elif word[-2:] == 'ed':
                         regular = 'reg'
                     else:
                         regular = 'irreg'
@@ -124,7 +127,7 @@ def saveDataset(minfreq=-99):
 
     print("Saved to english_merged.txt")
     '''
-    with open('english_bylemma_orth.txt', 'w') as orthFile, open('english_bylemma_phon.txt', 'w') as phonFile:
+    with open('english_bylemma_orth.txt', 'w') as orthFile, open('english_bylemma_phon.txt', 'w') as phonFile, open('english_merged.txt', 'w') as mergedFile:
         # example of lemmaDict, key 'have':
         # {
         #  'freq': 15
@@ -161,7 +164,22 @@ def saveDataset(minfreq=-99):
                                    prspron + nfinpron + '\n')
                         orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
                                    prsorth + nfinorth + '\n')
-
+                        
+                        
+                        # creating the old-fashioned Pinker english_merged.txt
+                        try: # 'PRS'
+                            mergedFile.write(lemmaDict[lemma]['PRS'] + '\t' + lemmaDict[lemma]['PST']
+                                             + '\t' + pron[lemmaDict[lemma]['PRS']]  + '\t' + pron[lemmaDict[lemma]['PST']]
+                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                        except KeyError:
+                            pass
+                        try: # 'NFIN'
+                            mergedFile.write(lemmaDict[lemma]['NFIN'] + '\t' + lemmaDict[lemma]['PST']
+                                             + '\t' + pron[lemmaDict[lemma]['NFIN']]  + '\t' + pron[lemmaDict[lemma]['PST']]
+                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                        except KeyError:
+                            pass
+                        
             except KeyError:
                 pass
 

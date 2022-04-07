@@ -448,7 +448,7 @@ bl1z	0	reg	bl1zIz;bl1zd	bl1z;bl1zd
 bl1zH	0	reg	bl1zHz;bl1zHd	bl1zH;bl1zHd
 bliJ	0	reg	bliJIz;bliJt	bliJ;bliJt
 blit	0	reg	blits;blitId	blit;blitId
-blid	1	reg	blidz;blEd	blid;blEd
+blid	1	irreg	blidz;blEd	blid;blEd
 blip	0	reg	blips;blipt	blip;blipt
 blEmIS	0	reg	blEmISIz;blEmISt	blEmIS;blEmISt
 blEnJ	0	reg	blEnJIz;blEnJt	blEnJ;blEnJt
@@ -514,7 +514,7 @@ bQt@n2z	0	reg	bQt@n2zIz;bQt@n2zd	bQt@n2z;bQt@n2zd
 bQJ	0	reg	bQJIz;bQJt	bQJ;bQJt
 bQD@R	7	reg	bQD@z;bQD@d	bQD@R;bQD@d
 bQtP	0	reg	bQtPz;bQtPd	bQtP;bQtPd
-bQtPfid	0	reg	bQtPfidz;bQtPfEd	bQtPfid;bQtPfEd
+bQtPfid	0	irreg	bQtPfidz;bQtPfEd	bQtPfid;bQtPfEd
 b6ns	1	reg	b6nsIz;b6nst	b6ns;b6nst
 b6nd	2	reg	b6ndz;b6ndId	b6nd;b6ndId
 b5	0	reg	b5z;b5d	b5;b5d
@@ -542,10 +542,10 @@ briJ	0	reg	briJIz;briJt	briJ;briJt
 br1k	20	irreg	br1ks;br5k	br1k;br5k
 brEkf@st	1	reg	brEkf@sts;brEkf@stId	brEkf@st;brEkf@stId
 brEst	0	reg	brEsts;brEstId	brEst;brEstId
-brEstfid	0	reg	brEstfidz;brEstfEd	brEstfid;brEstfEd
+brEstfid	0	irreg	brEstfidz;brEstfEd	brEstfid;brEstfEd
 brET@l2z	0	reg	brET@l2zIz;brET@l2zd	brET@l2z;brET@l2zd
 briD	4	reg	briDz;briDd	briD;briDd
-brid	2	reg	bridz;brEd	brid;brEd
+brid	2	irreg	bridz;brEd	brid;brEd
 briz	0	reg	brizIz;brizd	briz;brizd
 bru	0	reg	bruz;brud	bru;brud
 br2b	1	reg	br2bz;br2bd	br2b;br2bd
@@ -2004,7 +2004,7 @@ fED@bEd	0	reg	fED@bEdz;fED@bEdId	fED@bEd;fED@bEdId
 fED@R	0	reg	fED@z;fED@d	fED@R;fED@d
 fiJ@R	1	reg	fiJ@z;fiJ@d	fiJ@R;fiJ@d
 fEd@r1t	0	reg	fEd@r1ts;fEd@r1tId	fEd@r1t;fEd@r1tId
-fid	0	reg	fidz;fEd	fid;fEd
+fid	0	irreg	fidz;fEd	fid;fEd
 fi	0	reg	fiz;fid	fi;fid
 fil	87	irreg	filz;fElt	fil;fElt
 f1n	0	reg	f1nz;f1nd	f1n;f1nd
@@ -2071,7 +2071,7 @@ fl1	0	reg	fl1z;fl1d	fl1;fl1d
 flEk	0	reg	flEks;flEkt	flEk;flEkt
 flE_	0	reg	flE_Iz;flE_d	flE_;flE_d
 flis	0	reg	flisIz;flist	flis;flist
-fli	1	reg	fliz;flEd	fli;flEd
+fli	1	irreg	fliz;flEd	fli;flEd
 flit	0	reg	flits;flitId	flit;flitId
 flEks	0	reg	flEksIz;flEkst	flEks;flEkst
 flIk@R	0	reg	flIk@z;flIk@d	flIk@R;flIk@d
@@ -2128,7 +2128,7 @@ fQrI_	0	reg	fQrI_Iz;fQrI_d	fQrI_;fQrI_d
 fQr1	0	reg	fQr1z;fQr1d	fQr1;fQr1d
 f$b8R	0	irreg	f$b8z;f$b$R	f$b8R;f$b$R
 f@bId	1	irreg	f@bIdz;f@bId	f@bId;f@bId
-f$sfid	0	reg	f$sfidz;f$sfEd	f$sfid;f$sfEd
+f$sfid	0	irreg	f$sfidz;f$sfEd	f$sfid;f$sfEd
 f$s	9	reg	f$sIz;f$st	f$s;f$st
 f$d	0	reg	f$dz;f$dId	f$d;f$dId
 f$r#m	0	reg	f$r#mz;f$r#md	f$r#m;f$r#md
@@ -2897,7 +2897,7 @@ l1@R	0	reg	l1@z;l1@d	l1@R;l1@d
 l1	27	irreg	l1z;l1d	l1;l1d
 l1z	0	reg	l1zIz;l1zd	l1z;l1zd
 liJ	1	reg	liJIz;liJt	liJ;liJt
-lid	18	reg	lidz;lEd	lid;lEd
+lid	18	irreg	lidz;lEd	lid;lEd
 lif	0	reg	lifs;lift	lif;lift
 lig	0	reg	ligz;ligd	lig;ligd
 lik	0	reg	liks;likt	lik;likt
@@ -3154,7 +3154,7 @@ mIr@R	0	reg	mIr@z;mIr@d	mIr@R;mIr@d
 "mIsInt3prIt	0	reg	"mIsInt3prIts;"mIsInt3prItId	"mIsInt3prIt;"mIsInt3prItId
 "mIs_V_	0	reg	"mIs_V_Iz;"mIs_V_d	"mIs_V_;"mIs_V_d
 "mIsl1	0	irreg	"mIsl1z;"mIsl1d	"mIsl1;"mIsl1d
-"mIslid	0	reg	"mIslidz;"mIslEd	"mIslid;"mIslEd
+"mIslid	0	irreg	"mIslidz;"mIslEd	"mIslid;"mIslEd
 "mIsm{nI_	0	reg	"mIsm{nI_Iz;"mIsm{nI_d	"mIsm{nI_;"mIsm{nI_d
 "mIsm{J	0	reg	"mIsm{JIz;"mIsm{Jt	"mIsm{J;"mIsm{Jt
 "mIsn1m	0	reg	"mIsn1mz;"mIsn1md	"mIsn1m;"mIsn1md

@@ -144,7 +144,7 @@ def saveDataset(minfreq=-99):
     print("Saved to dutch_merged.txt")
     '''
 
-    with open('dutch_bylemma_orth.txt', 'w') as orthFile, open('dutch_bylemma_phon.txt', 'w') as phonFile:
+    with open('dutch_bylemma_orth.txt', 'w') as orthFile, open('dutch_bylemma_phon.txt', 'w') as phonFile, open('dutch_merged.txt', 'w') as mergedFile:
         # {
         #  'freq': 15
         #  'regular': False,
@@ -201,6 +201,32 @@ def saveDataset(minfreq=-99):
                     orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
                                sg1orth + sg2orth + sg3orth + plorth + '\n')
 
+                    # creating the old-fashioned Pinker language_merged.txt
+                    try: # 'SG1'
+                        mergedFile.write(lemmaDict[lemma]['PRS']['SG']['1'] + '\t' + lemmaDict[lemma]['PST']['SG']['1']
+                                         + '\t' + pron[lemmaDict[lemma]['PRS']['SG']['1']]  + '\t' + pron[lemmaDict[lemma]['PST']['SG']['1']]
+                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                    except KeyError:
+                        pass
+                    try: # 'SG2'
+                        mergedFile.write(lemmaDict[lemma]['PRS']['SG']['2'] + '\t' + lemmaDict[lemma]['PST']['SG']['2']
+                                         + '\t' + pron[lemmaDict[lemma]['PRS']['SG']['2']]  + '\t' + pron[lemmaDict[lemma]['PST']['SG']['2']]
+                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                    except KeyError:
+                        pass
+                    try: # 'SG3'
+                        mergedFile.write(lemmaDict[lemma]['PRS']['SG']['3'] + '\t' + lemmaDict[lemma]['PST']['SG']['3']
+                                         + '\t' + pron[lemmaDict[lemma]['PRS']['SG']['3']]  + '\t' + pron[lemmaDict[lemma]['PST']['SG']['3']]
+                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                    except KeyError:
+                        pass
+                    try: # 'PL'
+                        mergedFile.write(lemmaDict[lemma]['PRS']['PL'] + '\t' + lemmaDict[lemma]['PST']['PL']
+                                         + '\t' + pron[lemmaDict[lemma]['PRS']['PL']]  + '\t' + pron[lemmaDict[lemma]['PST']['PL']]
+                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                    except KeyError:
+                        pass
+
             except KeyError:
                 pass
             
@@ -238,7 +264,6 @@ def examples():
     print("\n'Merkt' belongs to the REGULAR verb 'merken', so orthoDict['merkt']['regular'] is", orthoDict['merkt']['regular']) # True
     print("'Slapen' belongs to the IRREGULAR verb 'slapen', so orthoDict['slapen']['regular'] is", orthoDict['slapen']['regular']) # False
     '''    
-
 
 
 if __name__ == "__main__":

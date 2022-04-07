@@ -448,7 +448,7 @@ blaze	0	reg	blazes;blazed	blaze;blazed
 blazon	0	reg	blazons;blazoned	blazon;blazoned
 bleach	0	reg	bleaches;bleached	bleach;bleached
 bleat	0	reg	bleats;bleated	bleat;bleated
-bleed	1	reg	bleeds;bled	bleed;bled
+bleed	1	irreg	bleeds;bled	bleed;bled
 bleep	0	reg	bleeps;bleeped	bleep;bleeped
 blemish	0	reg	blemishes;blemished	blemish;blemished
 blench	0	reg	blenches;blenched	blench;blenched
@@ -514,7 +514,7 @@ botanize	0	reg	botanizes;botanized	botanize;botanized
 botch	0	reg	botches;botched	botch;botched
 bother	7	reg	bothers;bothered	bother;bothered
 bottle	0	reg	bottles;bottled	bottle;bottled
-bottle-feed	0	reg	bottle-feeds;bottle-fed	bottle-feed;bottle-fed
+bottle-feed	0	irreg	bottle-feeds;bottle-fed	bottle-feed;bottle-fed
 bounce	1	reg	bounces;bounced	bounce;bounced
 bound	2	reg	bounds;bounded	bound;bounded
 bow	0	reg	bows;bowed	bow;bowed
@@ -542,10 +542,10 @@ breach	0	reg	breaches;breached	breach;breached
 break	20	irreg	breaks;broke	break;broke
 breakfast	1	reg	breakfasts;breakfasted	breakfast;breakfasted
 breast	0	reg	breasts;breasted	breast;breasted
-breastfeed	0	reg	breastfeeds;breastfed	breastfeed;breastfed
+breastfeed	0	irreg	breastfeeds;breastfed	breastfeed;breastfed
 breathalyse	0	reg	breathalyses;breathalysed	breathalyse;breathalysed
 breathe	4	reg	breathes;breathed	breathe;breathed
-breed	2	reg	breeds;bred	breed;bred
+breed	2	irreg	breeds;bred	breed;bred
 breeze	0	reg	breezes;breezed	breeze;breezed
 brew	0	reg	brews;brewed	brew;brewed
 bribe	1	reg	bribes;bribed	bribe;bribed
@@ -2004,7 +2004,7 @@ featherbed	0	reg	featherbeds;featherbedded	featherbed;featherbedded
 feather	0	reg	feathers;feathered	feather;feathered
 feature	1	reg	features;featured	feature;featured
 federate	0	reg	federates;federated	federate;federated
-feed	0	reg	feeds;fed	feed;fed
+feed	0	irreg	feeds;fed	feed;fed
 fee	0	reg	fees;feed	fee;feed
 feel	87	irreg	feels;felt	feel;felt
 feign	0	reg	feigns;feigned	feign;feigned
@@ -2071,7 +2071,7 @@ flay	0	reg	flays;flayed	flay;flayed
 fleck	0	reg	flecks;flecked	fleck;flecked
 fledge	0	reg	fledges;fledged	fledge;fledged
 fleece	0	reg	fleeces;fleeced	fleece;fleeced
-flee	1	reg	flees;fled	flee;fled
+flee	1	irreg	flees;fled	flee;fled
 fleet	0	reg	fleets;fleeted	fleet;fleeted
 flex	0	reg	flexes;flexed	flex;flexed
 flicker	0	reg	flickers;flickered	flicker;flickered
@@ -2128,7 +2128,7 @@ forage	0	reg	forages;foraged	forage;foraged
 foray	0	reg	forays;forayed	foray;forayed
 forbear	0	irreg	forbears;forbore	forbear;forbore
 forbid	1	irreg	forbids;forbid	forbid;forbid
-force-feed	0	reg	force-feeds;force-fed	force-feed;force-fed
+force-feed	0	irreg	force-feeds;force-fed	force-feed;force-fed
 force	9	reg	forces;forced	force;forced
 ford	0	reg	fords;forded	ford;forded
 forearm	0	reg	forearms;forearmed	forearm;forearmed
@@ -2897,7 +2897,7 @@ layer	0	reg	layers;layered	layer;layered
 lay	27	irreg	lays;laid	lay;laid
 laze	0	reg	lazes;lazed	laze;lazed
 leach	1	reg	leaches;leached	leach;leached
-lead	18	reg	leads;led	lead;led
+lead	18	irreg	leads;led	lead;led
 leaf	0	reg	leafs;leafed	leaf;leafed
 league	0	reg	leagues;leagued	league;leagued
 leak	0	reg	leaks;leaked	leak;leaked
@@ -3154,7 +3154,7 @@ misinform	0	reg	misinforms;misinformed	misinform;misinformed
 misinterpret	0	reg	misinterprets;misinterpreted	misinterpret;misinterpreted
 misjudge	0	reg	misjudges;misjudged	misjudge;misjudged
 mislay	0	irreg	mislays;mislaid	mislay;mislaid
-mislead	0	reg	misleads;misled	mislead;misled
+mislead	0	irreg	misleads;misled	mislead;misled
 mismanage	0	reg	mismanages;mismanaged	mismanage;mismanaged
 mismatch	0	reg	mismatches;mismatched	mismatch;mismatched
 misname	0	reg	misnames;misnamed	misname;misnamed
