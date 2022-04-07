@@ -106,7 +106,7 @@ beherrschen	17	reg	beherrsche;beherrschte	beherrschst;beherrschtest	beherrscht;b
 behindern	4	reg	behinderst;behindertest	behindert;behinderte	behindern;behinderten	behindert;behindertet
 beichten	0	reg	beichte;beichtete	beichtest;beichtetest	beichtet;beichtete	beichten;beichteten	beichtet;beichtetet
 beinhalten	3	reg	beinhalte;beinhaltete	beinhaltest;beinhaltetest	beinhaltet;beinhaltete	beinhalten;beinhalteten	beinhaltet;beinhaltetet
-beissen	5	irreg	beisse;biss	beisst;bisst	beisst;biss	beissen;bissen	beisst;bisst
+beissen	5	irreg	beisse;biss	beisst;bisst	beisst;biss	beissen;bissen
 bejagen	0	reg	bejage;bejagte	bejagst;bejagtest	bejagt;bejagte	bejagen;bejagten	bejagt;bejagtet
 bejahen	7	reg	bejahe;bejahte	bejahst;bejahtest	bejaht;bejahte	bejahen;bejahten	bejaht;bejahtet
 bejubeln	0	reg	bejuble;bejubelte	bejubelst;bejubeltest	bejubelt;bejubelte	bejubeln;bejubelten	bejubelt;bejubeltet
@@ -203,7 +203,7 @@ bevorzugen	3	reg	bevorzuge;bevorzugte	bevorzugst;bevorzugtest	bevorzugt;bevorzug
 bewaffnen	1	reg	bewaffne;bewaffnete	bewaffnest;bewaffnetest	bewaffnet;bewaffnete	bewaffnen;bewaffneten	bewaffnet;bewaffnetet
 bewahren	27	reg	bewahre;bewahrte	bewahrst;bewahrtest	bewahrt;bewahrte	bewahren;bewahrten	bewahrt;bewahrtet
 bewehren	0	reg	bewehre;bewehrte	bewehrst;bewehrtest	bewehrt;bewehrte	bewehren;bewehrten	bewehrt;bewehrtet
-beweisen	45	irreg	beweise;bewies	beweist;bewiest	beweist;bewies	beweisen;bewiesen	beweist;bewiest
+beweisen	45	irreg	beweise;bewies	beweist;bewiest	beweist;bewies	beweisen;bewiesen
 bewerben	9	irreg	bewerbe;bewarb	bewirbst;bewarbst	bewirbt;bewarb	bewerben;bewarben	bewerbt;bewarbt
 bewerkstelligen	1	reg	bewerkstellige;bewerkstelligte	bewerkstelligst;bewerkstelligtest	bewerkstelligt;bewerkstelligte	bewerkstelligen;bewerkstelligten	bewerkstelligt;bewerkstelligtet
 bewerten	7	reg	bewerte;bewertete	bewertest;bewertetest	bewertet;bewertete	bewerten;bewerteten	bewertet;bewertetet
@@ -442,7 +442,7 @@ erregen	6	reg	errege;erregte	erregst;erregtest	erregt;erregte	erregen;erregten	e
 errichten	20	reg	errichte;errichtete	errichtest;errichtetest	errichtet;errichtete	errichten;errichteten	errichtet;errichtetet
 erschaffen	2	irreg	erschaffe;erschuf	erschaffst;erschufst	erschafft;erschuf	erschaffen;erschufen	erschafft;erschuft
 erscheinen	59	irreg	erscheine;erschien	erscheinst;erschienst	erscheint;erschien	erscheinen;erschienen	erscheint;erschient
-erschiessen	6	irreg	erschiesse;erschoss	erschiesst;erschosst	erschiesst;erschoss	erschiessen;erschossen	erschiesst;erschosst
+erschiessen	6	irreg	erschiesse;erschoss	erschiesst;erschosst	erschiesst;erschoss	erschiessen;erschossen
 erschlagen	7	irreg	erschlage;erschlug	erschlagen;erschlugen	erschlagt;erschlugt
 ersetzen	20	reg	ersetze;ersetzte	ersetzt;ersetztest	ersetzt;ersetzte	ersetzen;ersetzten	ersetzt;ersetztet
 ersparen	7	reg	erspare;ersparte	ersparst;erspartest	erspart;ersparte	ersparen;ersparten	erspart;erspartet
@@ -462,7 +462,7 @@ ertrinken	1	irreg	ertrinke;ertrank	ertrinkst;ertrankst	ertrinkt;ertrank	ertrinke
 erwachen	2	reg	erwache;erwachte	erwachst;erwachtest	erwacht;erwachte	erwachen;erwachten	erwacht;erwachtet
 erwarten	101	reg	erwarte;erwartete	erwartest;erwartetest	erwartet;erwartete	erwarten;erwarteten	erwartet;erwartetet
 erwecken	0	reg	erwecke;erweckte	erweckst;erwecktest	erweckt;erweckte	erwecken;erweckten	erweckt;erwecktet
-erweisen	15	irreg	erweise;erwies	erweist;erwiest	erweist;erwies	erweisen;erwiesen	erweist;erwiest
+erweisen	15	irreg	erweise;erwies	erweist;erwiest	erweist;erwies	erweisen;erwiesen
 erweitern	18	reg	erweiterst;erweitertest	erweitert;erweiterte	erweitern;erweiterten	erweitert;erweitertet
 erwerben	19	irreg	erwerbe;erwarb	erwirbst;erwarbst	erwirbt;erwarb	erwerben;erwarben	erwerbt;erwarbt
 erwidern	4	reg	erwiderst;erwidertest	erwidert;erwiderte	erwidern;erwiderten	erwidert;erwidertet
@@ -581,9 +581,9 @@ gelten	65	irreg	gelte;galt	giltst;galtest	gilt;galt	gelten;galten	geltet;galtet
 genehmigen	4	reg	genehmige;genehmigte	genehmigst;genehmigtest	genehmigt;genehmigte	genehmigen;genehmigten	genehmigt;genehmigtet
 generalisieren	0	reg	generalisiere;generalisierte	generalisierst;generalisiertest	generalisiert;generalisierte	generalisieren;generalisierten	generalisiert;generalisiertet
 generieren	1	reg	generiere;generierte	generierst;generiertest	generiert;generierte	generieren;generierten	generiert;generiertet
-genesen	1	irreg	genese;genas	genest;genast	genest;genas	genesen;genasen	genest;genast
+genesen	1	irreg	genese;genas	genest;genast	genest;genas	genesen;genasen
 genieren	1	reg	geniere;genierte	genierst;geniertest	geniert;genierte	genieren;genierten	geniert;geniertet
-geniessen	17	irreg	geniesse;genoss	geniesst;genosst	geniesst;genoss	geniessen;genossen	geniesst;genosst
+geniessen	17	irreg	geniesse;genoss	geniesst;genosst	geniesst;genoss	geniessen;genossen
 gerben	0	reg	gerbe;gerbte	gerbst;gerbtest	gerbt;gerbte	gerben;gerbten	gerbt;gerbtet
 gerinnen	0	irreg	gerinne;gerann	gerinnst;gerannst	gerinnt;gerann	gerinnen;gerannen	gerinnt;gerannt
 geruhen	0	reg	geruhe;geruhte	geruhst;geruhtest	geruht;geruhte	geruhen;geruhten	geruht;geruhtet
@@ -1067,7 +1067,7 @@ postulieren	0	reg	postuliere;postulierte	postulierst;postuliertest	postuliert;po
 prahlen	1	reg	prahle;prahlte	prahlst;prahltest	prahlt;prahlte	prahlen;prahlten	prahlt;prahltet
 prangen	1	reg	prange;prangte	prangst;prangtest	prangt;prangte	prangen;prangten	prangt;prangtet
 predigen	4	reg	predige;predigte	predigst;predigtest	predigt;predigte	predigen;predigten	predigt;predigtet
-preisen	2	irreg	preise;pries	preist;priest	preist;pries	preisen;priesen	preist;priest
+preisen	2	irreg	preise;pries	preist;priest	preist;pries	preisen;priesen
 pressieren	0	reg	pressiere;pressierte	pressierst;pressiertest	pressiert;pressierte	pressieren;pressierten	pressiert;pressiertet
 prickeln	0	reg	prickle;prickelte	prickelst;prickeltest	prickelt;prickelte	prickeln;prickelten	prickelt;prickeltet
 privatisieren	0	reg	privatisiere;privatisierte	privatisierst;privatisiertest	privatisiert;privatisierte	privatisieren;privatisierten	privatisiert;privatisiertet
@@ -1230,7 +1230,7 @@ schichten	0	reg	schichte;schichtete	schichtest;schichtetest	schichtet;schichtete
 schieben	8	irreg	schiebe;schob	schiebst;schobst	schiebt;schob	schieben;schoben	schiebt;schobt
 schiefern	0	reg	schieferst;schiefertest	schiefert;schieferte	schiefern;schieferten	schiefert;schiefertet
 schielen	1	reg	schiele;schielte	schielst;schieltest	schielt;schielte	schielen;schielten	schielt;schieltet
-schiessen	22	irreg	schiesse;schoss	schiesst;schosst	schiesst;schoss	schiessen;schossen	schiesst;schosst
+schiessen	22	irreg	schiesse;schoss	schiesst;schosst	schiesst;schoss	schiessen;schossen
 schiffen	0	reg	schiffe;schiffte	schiffst;schifftest	schifft;schiffte	schiffen;schifften	schifft;schifftet
 schikanieren	0	reg	schikaniere;schikanierte	schikanierst;schikaniertest	schikaniert;schikanierte	schikanieren;schikanierten	schikaniert;schikaniertet
 schildern	8	reg	schilderst;schildertest	schildert;schilderte	schildern;schilderten	schildert;schildertet
@@ -1702,7 +1702,7 @@ verwehen	0	reg	verwehe;verwehte	verwehst;verwehtest	verweht;verwehte	verwehen;ve
 verwehren	3	reg	verwehre;verwehrte	verwehrst;verwehrtest	verwehrt;verwehrte	verwehren;verwehrten	verwehrt;verwehrtet
 verweigern	9	reg	verweigerst;verweigertest	verweigert;verweigerte	verweigern;verweigerten	verweigert;verweigertet
 verweilen	4	reg	verweile;verweilte	verweilst;verweiltest	verweilt;verweilte	verweilen;verweilten	verweilt;verweiltet
-verweisen	8	irreg	verweise;verwies	verweist;verwiest	verweist;verwies	verweisen;verwiesen	verweist;verwiest
+verweisen	8	irreg	verweise;verwies	verweist;verwiest	verweist;verwies	verweisen;verwiesen
 verwelken	1	reg	verwelke;verwelkte	verwelkst;verwelktest	verwelkt;verwelkte	verwelken;verwelkten	verwelkt;verwelktet
 verwerfen	3	irreg	verwerfe;verwarf	verwirfst;verwarfst	verwirft;verwarf	verwerfen;verwarfen	verwerft;verwarft
 verwerten	5	reg	verwerte;verwertete	verwertest;verwertetest	verwertet;verwertete	verwerten;verwerteten	verwertet;verwertetet

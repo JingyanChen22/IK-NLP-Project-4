@@ -106,7 +106,7 @@ b@hErS@n	17	reg	b@hErS@;b@hErSt@	b@hErSst;b@hErSt@st	b@hErSt;b@hErSt@	b@hErS@n;b
 b@hInd@rn	4	reg	b@hInd@rst;b@hInd@rt@st	b@hInd@rt;b@hInd@rt@	b@hInd@rn;b@hInd@rt@n	b@hInd@rt;b@hInd@rt@t
 bWxt@n	0	reg	bWxt@;bWxt@t@	bWxt@st;bWxt@t@st	bWxt@t;bWxt@t@	bWxt@n;bWxt@t@n	bWxt@t;bWxt@t@t
 b@Inh&lt@n	3	reg	b@Inh&lt@;b@Inh&lt@t@	b@Inh&lt@st;b@Inh&lt@t@st	b@Inh&lt@t;b@Inh&lt@t@	b@Inh&lt@n;b@Inh&lt@t@n	b@Inh&lt@t;b@Inh&lt@t@t
-bWs@n	5	irreg	bWs@;bIs	bWst;bIst	bWst;bIs	bWs@n;bIs@n	bWst;bIst
+bWs@n	5	irreg	bWs@;bIs	bWst;bIst	bWst;bIs	bWs@n;bIs@n
 b@jag@n	0	reg	b@jag@;b@jakt@	b@jakst;b@jakt@st	b@jakt;b@jakt@	b@jag@n;b@jakt@n	b@jakt;b@jakt@t
 b@ja@n	7	reg	b@ja@;b@jat@	b@jast;b@jat@st	b@jat;b@jat@	b@ja@n;b@jat@n	b@jat;b@jat@t
 b@jub@ln	0	reg	b@jubl@;b@jub@lt@	b@jub@lst;b@jub@lt@st	b@jub@lt;b@jub@lt@	b@jub@ln;b@jub@lt@n	b@jub@lt;b@jub@lt@t
@@ -203,7 +203,7 @@ b@for=ug@n	3	reg	b@for=ug@;b@for=ukt@	b@for=ukst;b@for=ukt@st	b@for=ukt;b@for=uk
 b@v&fn@n	1	reg	b@v&fn@;b@v&fn@t@	b@v&fn@st;b@v&fn@t@st	b@v&fn@t;b@v&fn@t@	b@v&fn@n;b@v&fn@t@n	b@v&fn@t;b@v&fn@t@t
 b@var@n	27	reg	b@var@;b@vart@	b@varst;b@vart@st	b@vart;b@vart@	b@var@n;b@vart@n	b@vart;b@vart@t
 b@ver@n	0	reg	b@ver@;b@vert@	b@verst;b@vert@st	b@vert;b@vert@	b@ver@n;b@vert@n	b@vert;b@vert@t
-b@vWz@n	45	irreg	b@vWz@;b@vis	b@vWst;b@vist	b@vWst;b@vis	b@vWz@n;b@viz@n	b@vWst;b@vist
+b@vWz@n	45	irreg	b@vWz@;b@vis	b@vWst;b@vist	b@vWst;b@vis	b@vWz@n;b@viz@n
 b@vErb@n	9	irreg	b@vErb@;b@v&rp	b@vIrpst;b@v&rpst	b@vIrpt;b@v&rp	b@vErb@n;b@v&rb@n	b@vErpt;b@v&rpt
 b@vErkStElIg@n	1	reg	b@vErkStElIg@;b@vErkStElIxt@	b@vErkStElIxst;b@vErkStElIxt@st	b@vErkStElIxt;b@vErkStElIxt@	b@vErkStElIg@n;b@vErkStElIxt@n	b@vErkStElIxt;b@vErkStElIxt@t
 b@vert@n	7	reg	b@vert@;b@vert@t@	b@vert@st;b@vert@t@st	b@vert@t;b@vert@t@	b@vert@n;b@vert@t@n	b@vert@t;b@vert@t@t
@@ -442,7 +442,7 @@ Erreg@n	6	reg	Erreg@;Errekt@	Errekst;Errekt@st	Errekt;Errekt@	Erreg@n;Errekt@n	E
 ErrIxt@n	20	reg	ErrIxt@;ErrIxt@t@	ErrIxt@st;ErrIxt@t@st	ErrIxt@t;ErrIxt@t@	ErrIxt@n;ErrIxt@t@n	ErrIxt@t;ErrIxt@t@t
 ErS&f@n	2	irreg	ErS&f@;ErSuf	ErS&fst;ErSufst	ErS&ft;ErSuf	ErS&f@n;ErSuf@n	ErS&ft;ErSuft
 ErSWn@n	59	irreg	ErSWn@;ErSin	ErSWnst;ErSinst	ErSWnt;ErSin	ErSWn@n;ErSin@n	ErSWnt;ErSint
-ErSis@n	6	irreg	ErSis@;ErSOs	ErSist;ErSOst	ErSist;ErSOs	ErSis@n;ErSOs@n	ErSist;ErSOst
+ErSis@n	6	irreg	ErSis@;ErSOs	ErSist;ErSOst	ErSist;ErSOs	ErSis@n;ErSOs@n
 ErSlag@n	7	irreg	ErSlag@;ErSluk	ErSlag@n;ErSlug@n	ErSlakt;ErSlukt
 ErzE=@n	20	reg	ErzE=@;ErzE=t@	ErzE=t;ErzE=t@st	ErzE=t;ErzE=t@	ErzE=@n;ErzE=t@n	ErzE=t;ErzE=t@t
 ErSpar@n	7	reg	ErSpar@;ErSpart@	ErSparst;ErSpart@st	ErSpart;ErSpart@	ErSpar@n;ErSpart@n	ErSpart;ErSpart@t
@@ -462,7 +462,7 @@ ErtrINk@n	1	irreg	ErtrINk@;Ertr&Nk	ErtrINkst;Ertr&Nkst	ErtrINkt;Ertr&Nk	ErtrINk@
 Erv&x@n	2	reg	Erv&x@;Erv&xt@	Erv&kst;Erv&xt@st	Erv&xt;Erv&xt@	Erv&x@n;Erv&xt@n	Erv&xt;Erv&xt@t
 Erv&rt@n	101	reg	Erv&rt@;Erv&rt@t@	Erv&rt@st;Erv&rt@t@st	Erv&rt@t;Erv&rt@t@	Erv&rt@n;Erv&rt@t@n	Erv&rt@t;Erv&rt@t@t
 ErvEk@n	0	reg	ErvEk@;ErvEkt@	ErvEkst;ErvEkt@st	ErvEkt;ErvEkt@	ErvEk@n;ErvEkt@n	ErvEkt;ErvEkt@t
-ErvWz@n	15	irreg	ErvWz@;Ervis	ErvWst;Ervist	ErvWst;Ervis	ErvWz@n;Erviz@n	ErvWst;Ervist
+ErvWz@n	15	irreg	ErvWz@;Ervis	ErvWst;Ervist	ErvWst;Ervis	ErvWz@n;Erviz@n
 ErvWt@rn	18	reg	ErvWt@rst;ErvWt@rt@st	ErvWt@rt;ErvWt@rt@	ErvWt@rn;ErvWt@rt@n	ErvWt@rt;ErvWt@rt@t
 ErvErb@n	19	irreg	ErvErb@;Erv&rp	ErvIrpst;Erv&rpst	ErvIrpt;Erv&rp	ErvErb@n;Erv&rb@n	ErvErpt;Erv&rpt
 Ervid@rn	4	reg	Ervid@rst;Ervid@rt@st	Ervid@rt;Ervid@rt@	Ervid@rn;Ervid@rt@n	Ervid@rt;Ervid@rt@t
@@ -581,9 +581,9 @@ gElt@n	65	irreg	gElt@;g&lt	gIl=t;g&lt@st	gIlt;g&lt	gElt@n;g&lt@n	gElt@t;g&lt@t
 g@nemIg@n	4	reg	g@nemIg@;g@nemIxt@	g@nemIxst;g@nemIxt@st	g@nemIxt;g@nemIxt@	g@nemIg@n;g@nemIxt@n	g@nemIxt;g@nemIxt@t
 gen@r&lizir@n	0	reg	gen@r&lizir@;gen@r&lizirt@	gen@r&lizirst;gen@r&lizirt@st	gen@r&lizirt;gen@r&lizirt@	gen@r&lizir@n;gen@r&lizirt@n	gen@r&lizirt;gen@r&lizirt@t
 gen@rir@n	1	reg	gen@rir@;gen@rirt@	gen@rirst;gen@rirt@st	gen@rirt;gen@rirt@	gen@rir@n;gen@rirt@n	gen@rirt;gen@rirt@t
-g@nez@n	1	irreg	g@nez@;g@nas	g@nest;g@nast	g@nest;g@nas	g@nez@n;g@naz@n	g@nest;g@nast
+g@nez@n	1	irreg	g@nez@;g@nas	g@nest;g@nast	g@nest;g@nas	g@nez@n;g@naz@n
 Zenir@n	1	reg	Zenir@;Zenirt@	Zenirst;Zenirt@st	Zenirt;Zenirt@	Zenir@n;Zenirt@n	Zenirt;Zenirt@t
-g@nis@n	17	irreg	g@nis@;g@nOs	g@nist;g@nOst	g@nist;g@nOs	g@nis@n;g@nOs@n	g@nist;g@nOst
+g@nis@n	17	irreg	g@nis@;g@nOs	g@nist;g@nOst	g@nist;g@nOs	g@nis@n;g@nOs@n
 gErb@n	0	reg	gErb@;gErpt@	gErpst;gErpt@st	gErpt;gErpt@	gErb@n;gErpt@n	gErpt;gErpt@t
 g@rIn@n	0	irreg	g@rIn@;g@r&n	g@rInst;g@r&nst	g@rInt;g@r&n	g@rIn@n;g@r&n@n	g@rInt;g@r&nt
 g@ru@n	0	reg	g@ru@;g@rut@	g@rust;g@rut@st	g@rut;g@rut@	g@ru@n;g@rut@n	g@rut;g@rut@t
@@ -1067,7 +1067,7 @@ pOstulir@n	0	reg	pOstulir@;pOstulirt@	pOstulirst;pOstulirt@st	pOstulirt;pOstulir
 pral@n	1	reg	pral@;pralt@	pralst;pralt@st	pralt;pralt@	pral@n;pralt@n	pralt;pralt@t
 pr&N@n	1	reg	pr&N@;pr&Nt@	pr&Nst;pr&Nt@st	pr&Nt;pr&Nt@	pr&N@n;pr&Nt@n	pr&Nt;pr&Nt@t
 predIg@n	4	reg	predIg@;predIxt@	predIxst;predIxt@st	predIxt;predIxt@	predIg@n;predIxt@n	predIxt;predIxt@t
-prWz@n	2	irreg	prWz@;pris	prWst;prist	prWst;pris	prWz@n;priz@n	prWst;prist
+prWz@n	2	irreg	prWz@;pris	prWst;prist	prWst;pris	prWz@n;priz@n
 prEsir@n	0	reg	prEsir@;prEsirt@	prEsirst;prEsirt@st	prEsirt;prEsirt@	prEsir@n;prEsirt@n	prEsirt;prEsirt@t
 prIk@ln	0	reg	prIkl@;prIk@lt@	prIk@lst;prIk@lt@st	prIk@lt;prIk@lt@	prIk@ln;prIk@lt@n	prIk@lt;prIk@lt@t
 privatizir@n	0	reg	privatizir@;privatizirt@	privatizirst;privatizirt@st	privatizirt;privatizirt@	privatizir@n;privatizirt@n	privatizirt;privatizirt@t
@@ -1230,7 +1230,7 @@ SIxt@n	0	reg	SIxt@;SIxt@t@	SIxt@st;SIxt@t@st	SIxt@t;SIxt@t@	SIxt@n;SIxt@t@n	SIxt
 Sib@n	8	irreg	Sib@;Sop	Sipst;Sopst	Sipt;Sop	Sib@n;Sob@n	Sipt;Sopt
 Sif@rn	0	reg	Sif@rst;Sif@rt@st	Sif@rt;Sif@rt@	Sif@rn;Sif@rt@n	Sif@rt;Sif@rt@t
 Sil@n	1	reg	Sil@;Silt@	Silst;Silt@st	Silt;Silt@	Sil@n;Silt@n	Silt;Silt@t
-Sis@n	22	irreg	Sis@;SOs	Sist;SOst	Sist;SOs	Sis@n;SOs@n	Sist;SOst
+Sis@n	22	irreg	Sis@;SOs	Sist;SOst	Sist;SOs	Sis@n;SOs@n
 SIf@n	0	reg	SIf@;SIft@	SIfst;SIft@st	SIft;SIft@	SIf@n;SIft@n	SIft;SIft@t
 Sik&nir@n	0	reg	Sik&nir@;Sik&nirt@	Sik&nirst;Sik&nirt@st	Sik&nirt;Sik&nirt@	Sik&nir@n;Sik&nirt@n	Sik&nirt;Sik&nirt@t
 SIld@rn	8	reg	SIld@rst;SIld@rt@st	SIld@rt;SIld@rt@	SIld@rn;SIld@rt@n	SIld@rt;SIld@rt@t
@@ -1702,7 +1702,7 @@ fErve@n	0	reg	fErve@;fErvet@	fErvest;fErvet@st	fErvet;fErvet@	fErve@n;fErvet@n	f
 fErver@n	3	reg	fErver@;fErvert@	fErverst;fErvert@st	fErvert;fErvert@	fErver@n;fErvert@n	fErvert;fErvert@t
 fErvWg@rn	9	reg	fErvWg@rst;fErvWg@rt@st	fErvWg@rt;fErvWg@rt@	fErvWg@rn;fErvWg@rt@n	fErvWg@rt;fErvWg@rt@t
 fErvWl@n	4	reg	fErvWl@;fErvWlt@	fErvWlst;fErvWlt@st	fErvWlt;fErvWlt@	fErvWl@n;fErvWlt@n	fErvWlt;fErvWlt@t
-fErvWz@n	8	irreg	fErvWz@;fErvis	fErvWst;fErvist	fErvWst;fErvis	fErvWz@n;fErviz@n	fErvWst;fErvist
+fErvWz@n	8	irreg	fErvWz@;fErvis	fErvWst;fErvist	fErvWst;fErvis	fErvWz@n;fErviz@n
 fErvElk@n	1	reg	fErvElk@;fErvElkt@	fErvElkst;fErvElkt@st	fErvElkt;fErvElkt@	fErvElk@n;fErvElkt@n	fErvElkt;fErvElkt@t
 fErvErf@n	3	irreg	fErvErf@;fErv&rf	fErvIrfst;fErv&rfst	fErvIrft;fErv&rf	fErvErf@n;fErv&rf@n	fErvErft;fErv&rft
 fErvert@n	5	reg	fErvert@;fErvert@t@	fErvert@st;fErvert@t@st	fErvert@t;fErvert@t@	fErvert@n;fErvert@t@n	fErvert@t;fErvert@t@t

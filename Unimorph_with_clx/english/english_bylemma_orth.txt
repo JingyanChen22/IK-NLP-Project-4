@@ -62,7 +62,7 @@ adduce	0	reg	adduces;adduced	adduce;adduced
 adhere	0	reg	adheres;adhered	adhere;adhered
 adjoin	0	reg	adjoins;adjoined	adjoin;adjoined
 adjourn	0	reg	adjourns;adjourned	adjourn;adjourned
-adjudge	0	reg	adjudges;adjudged	adjudge;adjudged
+adjudge	0	reg	adjudge;adjudged
 adjudicate	0	reg	adjudicates;adjudicated	adjudicate;adjudicated
 adjure	0	reg	adjures;adjured	adjure;adjured
 adjust	3	reg	adjusts;adjusted	adjust;adjusted
@@ -274,7 +274,7 @@ awake	0	irreg	awakes;awoke	awake;awoke
 awaken	1	irreg	awakens;awoke	awaken;awoke
 award	0	reg	awards;awarded	award;awarded
 awe	0	reg	awes;awed	awe;awed
-axe	0	reg	axes;axed	axe;axed
+axe	0	reg	axe;axed
 baa	0	reg	baas;baaed	baa;baaed
 babble	0	reg	babbles;babbled	babble;babbled
 baby	0	reg	babies;babied	baby;babied
@@ -575,7 +575,7 @@ buck	0	reg	bucks;bucked	buck;bucked
 bucket	0	reg	buckets;bucketed	bucket;bucketed
 buckle	0	reg	buckles;buckled	buckle;buckled
 bud	0	reg	buds;budded	bud;budded
-budge	1	reg	budges;budged	budge;budged
+budge	1	reg	budge;budged
 budget	0	reg	budgets;budgeted	budget;budgeted
 buff	0	reg	buffs;buffed	buff;buffed
 buffer	0	reg	buffers;buffered	buffer;buffered
@@ -625,7 +625,7 @@ button	0	reg	buttons;buttoned	button;buttoned
 buttonhole	0	reg	buttonholes;buttonholed	buttonhole;buttonholed
 buttress	0	reg	buttresses;buttressed	buttress;buttressed
 buy	31	irreg	buys;bought	buy;bought
-buzz	0	reg	buzzes;buzzed	buzz;buzzed
+buzz	0	reg	buzz;buzzed
 bypass	1	reg	bypasses;bypassed	bypass;bypassed
 cable	0	reg	cables;cabled	cable;cabled
 cache	0	reg	caches;cached	cache;cached
@@ -651,9 +651,9 @@ campaign	0	reg	campaigns;campaigned	campaign;campaigned
 camp	2	reg	camps;camped	camp;camped
 camphorate	0	reg	camphorates;camphorated	camphorate;camphorated
 canalize	0	reg	canalizes;canalized	canalize;canalized
-can	415	irreg	can;could	can;could
+can	415	irreg	can;could
 cancel	2	reg	cancels;cancelled	cancel;cancelled
-candy	0	reg	candy;candied	candy;candied
+candy	0	reg	candy;candied
 cane	0	reg	canes;caned	cane;caned
 canker	0	reg	cankers;cankered	canker;cankered
 cannibalize	0	reg	cannibalizes;cannibalized	cannibalize;cannibalized
@@ -1202,7 +1202,7 @@ dandify	0	reg	dandifies;dandified	dandify;dandified
 dandle	0	reg	dandles;dandled	dandle;dandled
 dangle	0	reg	dangles;dangled	dangle;dangled
 dapple	0	reg	dapples;dappled	dapple;dappled
-dare	7	reg	dare;dared	dare;dared
+dare	7	reg	dare;dared
 darken	0	reg	darkens;darkened	darken;darkened
 darn	0	reg	darns;darned	darn;darned
 dart	0	reg	darts;darted	dart;darted
@@ -1840,7 +1840,7 @@ envenom	0	reg	envenoms;envenomed	envenom;envenomed
 environ	0	reg	environs;environed	environ;environed
 envisage	1	reg	envisages;envisaged	envisage;envisaged
 envision	0	reg	envisions;envisioned	envision;envisioned
-envy	1	reg	envies;envied	envy;envied
+envy	1	reg	envy;envied
 enwrap	0	reg	enwraps;enwrapped	enwrap;enwrapped
 epitomize	0	reg	epitomizes;epitomized	epitomize;epitomized
 equal	1	reg	equals;equalled	equal;equalled
@@ -1907,7 +1907,7 @@ exculpate	0	reg	exculpates;exculpated	exculpate;exculpated
 excuse	3	reg	excuses;excused	excuse;excused
 execrate	0	reg	execrates;execrated	execrate;execrated
 execute	1	reg	executes;executed	execute;executed
-exemplify	0	reg	exemplifies;exemplified	exemplify;exemplified
+exemplify	0	reg	exemplify;exemplified
 exempt	0	reg	exempts;exempted	exempt;exempted
 exercise	4	reg	exercises;exercised	exercise;exercised
 exert	2	reg	exerts;exerted	exert;exerted
@@ -2050,7 +2050,7 @@ firm	0	reg	firms;firmed	firm;firmed
 fish	3	reg	fishes;fished	fish;fished
 fit	10	irreg	fits;fit	fit;fit
 fixate	0	reg	fixates;fixated	fixate;fixated
-fizz	0	reg	fizzes;fizzed	fizz;fizzed
+fizz	0	reg	fizz;fizzed
 fizzle	0	reg	fizzles;fizzled	fizzle;fizzled
 flabbergast	0	reg	flabbergasts;flabbergasted	flabbergast;flabbergasted
 flagellate	0	reg	flagellates;flagellated	flagellate;flagellated
@@ -2193,7 +2193,7 @@ fright	0	reg	frights;frighted	fright;frighted
 fringe	0	reg	fringes;fringed	fringe;fringed
 frisk	0	reg	frisks;frisked	frisk;frisked
 frivol	0	reg	frivols;frivolled	frivol;frivolled
-frizz	0	reg	frizzes;frizzed	frizz;frizzed
+frizz	0	reg	frizz;frizzed
 frizzle	0	reg	frizzles;frizzled	frizzle;frizzled
 frogmarch	0	reg	frogmarches;frogmarched	frogmarch;frogmarched
 frolic	0	reg	frolics;frolicked	frolic;frolicked
@@ -2399,7 +2399,7 @@ halloo	0	reg	halloos;hallooed	halloo;hallooed
 hallow	0	reg	hallows;hallowed	hallow;hallowed
 hallucinate	0	reg	hallucinates;hallucinated	hallucinate;hallucinated
 halt	1	reg	halts;halted	halt;halted
-halve	0	reg	halves;halved	halve;halved
+halve	0	reg	halve;halved
 ham	0	reg	hams;hammed	ham;hammed
 hammer	1	reg	hammers;hammered	hammer;hammered
 hamper	0	reg	hampers;hampered	hamper;hampered
@@ -3071,7 +3071,7 @@ mature	1	reg	matures;matured	mature;matured
 maul	0	reg	mauls;mauled	maul;mauled
 maunder	0	reg	maunders;maundered	maunder;maundered
 maximize	1	reg	maximizes;maximized	maximize;maximized
-may	203	irreg	may;might	may;might
+may	203	irreg	may;might
 meander	0	reg	meanders;meandered	meander;meandered
 mean	97	irreg	means;meant	mean;meant
 measure	2	reg	measures;measured	measure;measured
@@ -3192,7 +3192,7 @@ moil	0	reg	moils;moiled	moil;moiled
 moisten	0	reg	moistens;moistened	moisten;moistened
 moisturize	0	reg	moisturizes;moisturized	moisturize;moisturized
 molest	0	reg	molests;molested	molest;molested
-mollify	0	reg	mollifies;mollified	mollify;mollified
+mollify	0	reg	mollify;mollified
 mollycoddle	0	reg	mollycoddles;mollycoddled	mollycoddle;mollycoddled
 monetize	0	reg	monetizes;monetized	monetize;monetized
 monitor	1	reg	monitors;monitored	monitor;monitored
@@ -3776,7 +3776,7 @@ prefabricate	0	reg	prefabricates;prefabricated	prefabricate;prefabricated
 preface	0	reg	prefaces;prefaced	preface;prefaced
 prefer	10	reg	prefers;preferred	prefer;preferred
 prefigure	0	reg	prefigures;prefigured	prefigure;prefigured
-prefix	0	reg	prefixes;prefixed	prefix;prefixed
+prefix	0	reg	prefix;prefixed
 preheat	0	reg	preheats;preheated	preheat;preheated
 prejudge	0	reg	prejudges;prejudged	prejudge;prejudged
 prejudice	0	reg	prejudices;prejudiced	prejudice;prejudiced
@@ -4467,7 +4467,7 @@ scowl	0	reg	scowls;scowled	scowl;scowled
 scrabble	0	reg	scrabbles;scrabbled	scrabble;scrabbled
 scrag	0	reg	scrags;scragged	scrag;scragged
 scramble	1	reg	scrambles;scrambled	scramble;scrambled
-scram	0	reg	scram;scrammed	scram;scrammed
+scram	0	reg	scram;scrammed
 scrape	1	reg	scrapes;scraped	scrape;scraped
 scrap	0	reg	scraps;scrapped	scrap;scrapped
 scratch	1	reg	scratches;scratched	scratch;scratched
@@ -4553,7 +4553,7 @@ shaft	0	reg	shafts;shafted	shaft;shafted
 shag	0	reg	shags;shagged	shag;shagged
 shake	5	irreg	shakes;shook	shake;shook
 shallow	0	reg	shallows;shallowed	shallow;shallowed
-shall	46	irreg	shall;should	shall;should
+shall	46	irreg	shall;should
 shamble	0	reg	shambles;shambled	shamble;shambled
 shame	0	reg	shames;shamed	shame;shamed
 shampoo	0	reg	shampoos;shampooed	shampoo;shampooed
@@ -4623,7 +4623,7 @@ shush	0	reg	shushes;shushed	shush;shushed
 shut	7	irreg	shuts;shut	shut;shut
 shutter	0	reg	shutters;shuttered	shutter;shuttered
 shuttle	0	reg	shuttles;shuttled	shuttle;shuttled
-shy	0	reg	shies;shied	shy;shied
+shy	0	reg	shy;shied
 sibilate	0	reg	sibilates;sibilated	sibilate;sibilated
 sicken	0	reg	sickens;sickened	sicken;sickened
 side	0	reg	sides;sided	side;sided
@@ -5438,7 +5438,7 @@ undercharge	0	reg	undercharges;undercharged	undercharge;undercharged
 undercut	0	irreg	undercuts;undercut	undercut;undercut
 underestimate	1	reg	underestimates;underestimated	underestimate;underestimated
 underexpose	0	reg	underexposes;underexposed	underexpose;underexposed
-undergo	1	irreg	undergoes;underwent	undergo;underwent
+undergo	1	irreg	undergo;underwent
 underlie	0	irreg	underlies;underlay	underlie;underlay
 underline	1	reg	underlines;underlined	underline;underlined
 undermine	2	reg	undermines;undermined	undermine;undermined
@@ -5679,7 +5679,7 @@ widen	1	reg	widens;widened	widen;widened
 wield	1	reg	wields;wielded	wield;wielded
 wiggle	0	reg	wiggles;wiggled	wiggle;wiggled
 wig	0	reg	wigs;wigged	wig;wigged
-will	388	irreg	wills;would	will;would
+will	388	irreg	wills;would
 wilt	0	reg	wilts;wilted	wilt;wilted
 wince	0	reg	winces;winced	wince;winced
 winch	0	reg	winches;winched	winch;winched

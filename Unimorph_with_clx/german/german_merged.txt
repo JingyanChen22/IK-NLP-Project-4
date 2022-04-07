@@ -368,6 +368,8 @@ bedruckst	bedrucktest	b@drUkst	b@drUkt@st	reg
 bedruckt	bedruckte	b@drUkt	b@drUkt@	reg
 bedrucken	bedruckten	b@drUk@n	b@drUkt@n	reg
 bedruckt	bedrucktet	b@drUkt	b@drUkt@t	reg
+bedarf	bedurfte	b@d&rf	b@dUrft@	reg
+bedarfst	bedurftest	b@d&rfst	b@dUrft@st	reg
 beeile	beeilte	b@Wl@	b@Wlt@	reg
 beeilst	beeiltest	b@Wlst	b@Wlt@st	reg
 beeilt	beeilte	b@Wlt	b@Wlt@	reg
@@ -529,7 +531,6 @@ beisse	biss	bWs@	bIs	irreg
 beisst	bisst	bWst	bIst	irreg
 beisst	biss	bWst	bIs	irreg
 beissen	bissen	bWs@n	bIs@n	irreg
-beisst	bisst	bWst	bIst	irreg
 bejage	bejagte	b@jag@	b@jakt@	reg
 bejagst	bejagtest	b@jakst	b@jakt@st	reg
 bejagt	bejagte	b@jakt	b@jakt@	reg
@@ -1001,7 +1002,6 @@ beweise	bewies	b@vWz@	b@vis	irreg
 beweist	bewiest	b@vWst	b@vist	irreg
 beweist	bewies	b@vWst	b@vis	irreg
 beweisen	bewiesen	b@vWz@n	b@viz@n	irreg
-beweist	bewiest	b@vWst	b@vist	irreg
 bewerbe	bewarb	b@vErb@	b@v&rp	irreg
 bewirbst	bewarbst	b@vIrpst	b@v&rpst	irreg
 bewirbt	bewarb	b@vIrpt	b@v&rp	irreg
@@ -1546,6 +1546,8 @@ durchwanderst	durchwandertest	dUrxv&nd@rst	dUrxv&nd@rt@st	reg
 durchwandert	durchwanderte	dUrxv&nd@rt	dUrxv&nd@rt@	reg
 durchwandern	durchwanderten	dUrxv&nd@rn	dUrxv&nd@rt@n	reg
 durchwandert	durchwandertet	dUrxv&nd@rt	dUrxv&nd@rt@t	reg
+darf	durfte	d&rf	dUrft@	reg
+darfst	durftest	d&rfst	dUrft@st	reg
 duze	duzte	du=@	du=t@	reg
 duzt	duztest	du=t	du=t@st	reg
 duzt	duzte	du=t	du=t@	reg
@@ -2096,6 +2098,8 @@ erliegst	erlagst	Erlikst	Erlakst	irreg
 erliegt	erlag	Erlikt	Erlak	irreg
 erliegen	erlagen	Erlig@n	Erlag@n	irreg
 erliegt	erlagt	Erlikt	Erlakt	irreg
+erlischst	erloschst	ErlISst	ErlOSst	irreg
+erlischt	erlosch	ErlISt	ErlOS	irreg
 ermittle	ermittelte	ErmItl@	ErmIt@lt@	reg
 ermittelst	ermitteltest	ErmIt@lst	ErmIt@lt@st	reg
 ermittelt	ermittelte	ErmIt@lt	ErmIt@lt@	reg
@@ -2173,7 +2177,6 @@ erschiesse	erschoss	ErSis@	ErSOs	irreg
 erschiesst	erschosst	ErSist	ErSOst	irreg
 erschiesst	erschoss	ErSist	ErSOs	irreg
 erschiessen	erschossen	ErSis@n	ErSOs@n	irreg
-erschiesst	erschosst	ErSist	ErSOst	irreg
 erschlage	erschlug	ErSlag@	ErSluk	irreg
 erschlagen	erschlugen	ErSlag@n	ErSlug@n	irreg
 erschlagt	erschlugt	ErSlakt	ErSlukt	irreg
@@ -2267,7 +2270,6 @@ erweise	erwies	ErvWz@	Ervis	irreg
 erweist	erwiest	ErvWst	Ervist	irreg
 erweist	erwies	ErvWst	Ervis	irreg
 erweisen	erwiesen	ErvWz@n	Erviz@n	irreg
-erweist	erwiest	ErvWst	Ervist	irreg
 erweiterst	erweitertest	ErvWt@rst	ErvWt@rt@st	reg
 erweitert	erweiterte	ErvWt@rt	ErvWt@rt@	reg
 erweitern	erweiterten	ErvWt@rn	ErvWt@rt@n	reg
@@ -2845,7 +2847,6 @@ genese	genas	g@nez@	g@nas	irreg
 genest	genast	g@nest	g@nast	irreg
 genest	genas	g@nest	g@nas	irreg
 genesen	genasen	g@nez@n	g@naz@n	irreg
-genest	genast	g@nest	g@nast	irreg
 geniere	genierte	Zenir@	Zenirt@	reg
 genierst	geniertest	Zenirst	Zenirt@st	reg
 geniert	genierte	Zenirt	Zenirt@	reg
@@ -2855,7 +2856,6 @@ geniesse	genoss	g@nis@	g@nOs	irreg
 geniesst	genosst	g@nist	g@nOst	irreg
 geniesst	genoss	g@nist	g@nOs	irreg
 geniessen	genossen	g@nis@n	g@nOs@n	irreg
-geniesst	genosst	g@nist	g@nOst	irreg
 gerbe	gerbte	gErb@	gErpt@	reg
 gerbst	gerbtest	gErpst	gErpt@st	reg
 gerbt	gerbte	gErpt	gErpt@	reg
@@ -5223,7 +5223,6 @@ preise	pries	prWz@	pris	irreg
 preist	priest	prWst	prist	irreg
 preist	pries	prWst	pris	irreg
 preisen	priesen	prWz@n	priz@n	irreg
-preist	priest	prWst	prist	irreg
 pressiere	pressierte	prEsir@	prEsirt@	reg
 pressierst	pressiertest	prEsirst	prEsirt@st	reg
 pressiert	pressierte	prEsirt	prEsirt@	reg
@@ -6026,7 +6025,6 @@ schiesse	schoss	Sis@	SOs	irreg
 schiesst	schosst	Sist	SOst	irreg
 schiesst	schoss	Sist	SOs	irreg
 schiessen	schossen	Sis@n	SOs@n	irreg
-schiesst	schosst	Sist	SOst	irreg
 schiffe	schiffte	SIf@	SIft@	reg
 schiffst	schifftest	SIfst	SIft@st	reg
 schifft	schiffte	SIft	SIft@	reg
@@ -7901,6 +7899,8 @@ vermittelst	vermitteltest	fErmIt@lst	fErmIt@lt@st	reg
 vermittelt	vermittelte	fErmIt@lt	fErmIt@lt@	reg
 vermitteln	vermittelten	fErmIt@ln	fErmIt@lt@n	reg
 vermittelt	vermitteltet	fErmIt@lt	fErmIt@lt@t	reg
+vermag	vermochte	fErmak	fErmOxt@	reg
+vermagst	vermochtest	fErmakst	fErmOxt@st	reg
 vermute	vermutete	fErmut@	fErmut@t@	reg
 vermutest	vermutetest	fErmut@st	fErmut@t@st	reg
 vermutet	vermutete	fErmut@t	fErmut@t@	reg
@@ -8324,7 +8324,6 @@ verweise	verwies	fErvWz@	fErvis	irreg
 verweist	verwiest	fErvWst	fErvist	irreg
 verweist	verwies	fErvWst	fErvis	irreg
 verweisen	verwiesen	fErvWz@n	fErviz@n	irreg
-verweist	verwiest	fErvWst	fErvist	irreg
 verwelke	verwelkte	fErvElk@	fErvElkt@	reg
 verwelkst	verwelktest	fErvElkst	fErvElkt@st	reg
 verwelkt	verwelkte	fErvElkt	fErvElkt@	reg

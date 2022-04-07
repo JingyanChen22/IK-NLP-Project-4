@@ -10,7 +10,7 @@ abstraheren	0	reg	abstraheer;abstraheerde	abstraheert;abstraheerde	abstraheren;a
 accelereren	0	reg	accelereer;accelereerde	accelereert;accelereerde	accelereren;accelereerden
 accentueren	1	reg	accentueer;accentueerde	accentueert;accentueerde	accentueren;accentueerden
 accepteren	11	reg	accepteer;accepteerde	accepteert;accepteerde	accepteren;accepteerden
-achten	8	reg	acht;achtte	acht;achtte	achten;achtten
+achten	8	reg	acht;achtte	achten;achtten
 achterhalen	4	reg	achterhaal;achterhaalde	achterhaalt;achterhaalde	achterhalen;achterhaalden
 achtervolgen	2	reg	achtervolg;achtervolgde	achtervolgt;achtervolgde	achtervolgen;achtervolgden
 activeren	1	reg	activeer;activeerde	activeert;activeerde	activeren;activeerden
@@ -53,7 +53,7 @@ baseren	2	reg	baseer;baseerde	baseert;baseerde	baseren;baseerden
 bazelen	0	reg	bazel;bazelde	bazelt;bazelde	bazelen;bazelden
 beangstigen	0	reg	beangstig;beangstigde	beangstigt;beangstigde	beangstigen;beangstigden
 beantwoorden	12	reg	beantwoord;beantwoordde	beantwoordt;beantwoordde	beantwoorden;beantwoordden
-beboeten	0	reg	beboet;beboette	beboet;beboette	beboeten;beboetten
+beboeten	0	reg	beboet;beboette	beboeten;beboetten
 bebossen	0	reg	bebos;beboste	bebost;beboste	bebossen;bebosten
 bebouwen	0	reg	bebouw;bebouwde	bebouwt;bebouwde	bebouwen;bebouwden
 bebroeden	0	reg	bebroed;bebroedde	bebroedt;bebroedde	bebroeden;bebroedden
@@ -68,7 +68,7 @@ bedienen	5	reg	bedien;bediende	bedient;bediende	bedienen;bedienden
 bedingen	1	irreg	beding;bedong	bedingt;bedong	bedingen;bedongen
 bedoelen	6	reg	bedoel;bedoelde	bedoelt;bedoelde	bedoelen;bedoelden
 bedonderen	0	reg	bedonder;bedonderde	bedondert;bedonderde	bedonderen;bedonderden
-bedotten	0	reg	bedot;bedotte	bedot;bedotte	bedotten;bedotten
+bedotten	0	reg	bedot;bedotte	bedotten;bedotten
 bedreigen	3	reg	bedreig;bedreigde	bedreigt;bedreigde	bedreigen;bedreigden
 bedroeven	0	reg	bedroef;bedroefde	bedroeft;bedroefde	bedroeven;bedroefden
 bedruipen	0	irreg	bedruip;bedroop	bedruipt;bedroop	bedruipen;bedropen
@@ -84,8 +84,8 @@ beginnen	77	irreg	begin;begon	begint;begon	beginnen;begonnen
 begrenzen	0	reg	begrens;begrensde	begrenst;begrensde	begrenzen;begrensden
 begrijpen	62	irreg	begrijp;begreep	begrijpt;begreep	begrijpen;begrepen
 begroeien	0	reg	begroei;begroeide	begroeit;begroeide	begroeien;begroeiden
-begroeten	3	reg	begroet;begroette	begroet;begroette	begroeten;begroetten
-begroten	0	reg	begroot;begrootte	begroot;begrootte	begroten;begrootten
+begroeten	3	reg	begroet;begroette	begroeten;begroetten
+begroten	0	reg	begroot;begrootte	begroten;begrootten
 begunstigen	0	reg	begunstig;begunstigde	begunstigt;begunstigde	begunstigen;begunstigden
 behagen	1	reg	behaag;behaagde	behaagt;behaagde	behagen;behaagden
 behalen	3	reg	behaal;behaalde	behaalt;behaalde	behalen;behaalden
@@ -111,14 +111,14 @@ beknibbelen	0	reg	beknibbel;beknibbelde	beknibbelt;beknibbelde	beknibbelen;bekni
 bekokstoven	0	reg	bekokstoof;bekokstoofde	bekokstooft;bekokstoofde	bekokstoven;bekokstoofden
 bekommeren	3	reg	bekommer;bekommerde	bekommert;bekommerde	bekommeren;bekommerden
 bekopen	1	irreg	bekoop;bekocht	bekoopt;bekocht	bekopen;bekochten
-bekorten	1	reg	bekort;bekortte	bekort;bekortte	bekorten;bekortten
+bekorten	1	reg	bekort;bekortte	bekorten;bekortten
 bekostigen	1	reg	bekostig;bekostigde	bekostigt;bekostigde	bekostigen;bekostigden
 bekrachtigen	0	reg	bekrachtig;bekrachtigde	bekrachtigt;bekrachtigde	bekrachtigen;bekrachtigden
 bekritiseren	1	reg	bekritiseer;bekritiseerde	bekritiseert;bekritiseerde	bekritiseren;bekritiseerden
 bekronen	0	reg	bekroon;bekroonde	bekroont;bekroonde	bekronen;bekroonden
 bekruipen	0	irreg	bekruip;bekroop	bekruipt;bekroop	bekruipen;bekropen
 belanden	3	reg	beland;belandde	belandt;belandde	belanden;belandden
-belasten	2	reg	belast;belastte	belast;belastte	belasten;belastten
+belasten	2	reg	belast;belastte	belasten;belastten
 belasteren	0	reg	belaster;belasterde	belastert;belasterde	belasteren;belasterden
 belazeren	0	reg	belazer;belazerde	belazert;belazerde	belazeren;belazerden
 beledigen	2	reg	beledig;beledigde	beledigt;beledigde	beledigen;beledigden
@@ -126,10 +126,10 @@ belegeren	0	reg	beleger;belegerde	belegert;belegerde	belegeren;belegerden
 beleggen	1	reg	beleg;belegde	belegt;belegde	beleggen;belegden
 belemmeren	2	reg	belemmer;belemmerde	belemmert;belemmerde	belemmeren;belemmerden
 belenen	0	reg	beleen;beleende	beleent;beleende	belenen;beleenden
-beletten	4	reg	belet;belette	belet;belette	beletten;beletten
+beletten	4	reg	belet;belette	beletten;beletten
 beleven	15	reg	beleef;beleefde	beleeft;beleefde	beleven;beleefden
 belichamen	0	reg	belichaam;belichaamde	belichaamt;belichaamde	belichamen;belichaamden
-belichten	1	reg	belicht;belichtte	belicht;belichtte	belichten;belichtten
+belichten	1	reg	belicht;belichtte	belichten;belichtten
 believen	1	reg	belief;beliefde	belieft;beliefde	believen;beliefden
 belijden	2	irreg	belijd;beleed	belijdt;beleed	belijden;beleden
 belonen	2	reg	beloon;beloonde	beloont;beloonde	belonen;beloonden
@@ -149,7 +149,7 @@ benauwen	0	reg	benauw;benauwde	benauwt;benauwde	benauwen;benauwden
 benemen	0	irreg	beneem;benam	beneemt;benam	benemen;benamen
 benieuwen	0	reg	benieuw;benieuwde	benieuwt;benieuwde	benieuwen;benieuwden
 benoemen	4	reg	benoem;benoemde	benoemt;benoemde	benoemen;benoemden
-benutten	2	reg	benut;benutte	benut;benutte	benutten;benutten
+benutten	2	reg	benut;benutte	benutten;benutten
 beoefenen	3	reg	beoefen;beoefende	beoefent;beoefende	beoefenen;beoefenden
 beogen	1	reg	beoog;beoogde	beoogt;beoogde	beogen;beoogden
 beoordelen	12	reg	beoordeel;beoordeelde	beoordeelt;beoordeelde	beoordelen;beoordeelden
@@ -157,11 +157,11 @@ bepalen	28	reg	bepaal;bepaalde	bepaalt;bepaalde	bepalen;bepaalden
 bepeinzen	0	reg	bepeins;bepeinsde	bepeinst;bepeinsde	bepeinzen;bepeinsden
 beperken	14	reg	beperk;beperkte	beperkt;beperkte	beperken;beperkten
 beplakken	0	reg	beplak;beplakte	beplakt;beplakte	beplakken;beplakten
-bepleiten	2	reg	bepleit;bepleitte	bepleit;bepleitte	bepleiten;bepleitten
-bepraten	1	reg	bepraat;bepraatte	bepraat;bepraatte	bepraten;bepraatten
+bepleiten	2	reg	bepleit;bepleitte	bepleiten;bepleitten
+bepraten	1	reg	bepraat;bepraatte	bepraten;bepraatten
 beraadslagen	1	reg	beraadslaag;beraadslaagde	beraadslaagt;beraadslaagde	beraadslagen;beraadslaagden
 beramen	1	reg	beraam;beraamde	beraamt;beraamde	beramen;beraamden
-berechten	0	reg	berecht;berechtte	berecht;berechtte	berechten;berechtten
+berechten	0	reg	berecht;berechtte	berechten;berechtten
 beredeneren	1	reg	beredeneer;beredeneerde	beredeneert;beredeneerde	beredeneren;beredeneerden
 bereiden	7	reg	bereid;bereidde	bereidt;bereidde	bereiden;bereidden
 berekenen	3	reg	bereken;berekende	berekent;berekende	berekenen;berekenden
@@ -170,12 +170,12 @@ beroeren	1	reg	beroer;beroerde	beroert;beroerde	beroeren;beroerden
 berokkenen	1	reg	berokken;berokkende	berokkent;berokkende	berokkenen;berokkenden
 berouwen	0	reg	berouw;berouwde	berouwt;berouwde	berouwen;berouwden
 beroven	2	reg	beroof;beroofde	berooft;beroofde	beroven;beroofden
-bersten	0	reg	berst;berstte	berst;berstte	bersten;berstten
-berusten	6	reg	berust;berustte	berust;berustte	berusten;berustten
+bersten	0	reg	berst;berstte	bersten;berstten
+berusten	6	reg	berust;berustte	berusten;berustten
 beschadigen	1	reg	beschadig;beschadigde	beschadigt;beschadigde	beschadigen;beschadigden
 beschaven	0	reg	beschaaf;beschaafde	beschaaft;beschaafde	beschaven;beschaafden
 beschermen	15	reg	bescherm;beschermde	beschermt;beschermde	beschermen;beschermden
-beschieten	0	irreg	beschiet;beschoot	beschiet;beschoot	beschieten;beschoten
+beschieten	0	irreg	beschiet;beschoot	beschieten;beschoten
 beschijnen	0	irreg	beschijn;bescheen	beschijnt;bescheen	beschijnen;beschenen
 beschikken	16	reg	beschik;beschikte	beschikt;beschikte	beschikken;beschikten
 beschilderen	1	reg	beschilder;beschilderde	beschildert;beschilderde	beschilderen;beschilderden
@@ -184,20 +184,20 @@ beschimpen	0	reg	beschimp;beschimpte	beschimpt;beschimpte	beschimpen;beschimpten
 beschouwen	25	reg	beschouw;beschouwde	beschouwt;beschouwde	beschouwen;beschouwden
 beschrijven	16	irreg	beschrijf;beschreef	beschrijft;beschreef	beschrijven;beschreven
 beschuldigen	2	reg	beschuldig;beschuldigde	beschuldigt;beschuldigde	beschuldigen;beschuldigden
-beschutten	0	reg	beschut;beschutte	beschut;beschutte
+beschutten	0	reg	beschut;beschutte
 beslaan	1	irreg	besla;besloeg	beslaat;besloeg	beslaan;besloegen
-beslechten	0	reg	beslecht;beslechtte	beslecht;beslechtte	beslechten;beslechtten
+beslechten	0	reg	beslecht;beslechtte	beslechten;beslechtten
 beslissen	11	reg	beslis;besliste	beslist;besliste	beslissen;beslisten
 besluipen	0	irreg	besluip;besloop	besluipt;besloop	besluipen;beslopen
 besmeren	0	reg	besmeer;besmeerde	besmeert;besmeerde	besmeren;besmeerden
-besmetten	0	reg	besmet;besmette	besmet;besmette	besmetten;besmetten
+besmetten	0	reg	besmet;besmette	besmetten;besmetten
 besmeuren	0	reg	besmeur;besmeurde	besmeurt;besmeurde	besmeuren;besmeurden
 besnijden	0	irreg	besnijdt;besneed	besnijden;besneden
 besparen	4	reg	bespaar;bespaarde	bespaart;bespaarde	besparen;bespaarden
 bespelen	1	reg	bespeel;bespeelde	bespeelt;bespeelde	bespelen;bespeelden
 bespeuren	5	reg	bespeur;bespeurde	bespeurt;bespeurde	bespeuren;bespeurden
 bespioneren	0	reg	bespioneer;bespioneerde	bespioneert;bespioneerde	bespioneren;bespioneerden
-bespotten	0	reg	bespot;bespotte	bespot;bespotte	bespotten;bespotten
+bespotten	0	reg	bespot;bespotte	bespotten;bespotten
 bespreken	13	irreg	bespreek;besprak	bespreekt;besprak	bespreken;bespraken
 bespringen	1	irreg	bespring;besprong	bespringt;besprong	bespringen;besprongen
 besteden	11	reg	besteed;besteedde	besteedt;besteedde	besteden;besteedden
@@ -217,14 +217,14 @@ bestuderen	12	reg	bestudeer;bestudeerde	bestudeert;bestudeerde	bestuderen;bestud
 besturen	1	reg	bestuur;bestuurde	bestuurt;bestuurde	besturen;bestuurden
 betalen	35	reg	betaal;betaalde	betaalt;betaalde	betalen;betaalden
 betamen	0	reg	betaam;betaamde	betaamt;betaamde	betamen;betaamden
-betasten	2	reg	betast;betastte	betast;betastte	betasten;betastten
+betasten	2	reg	betast;betastte	betasten;betastten
 betegelen	0	reg	betegel;betegelde	betegelt;betegelde	betegelen;betegelden
 betekenen	25	reg	beteken;betekende	betekent;betekende	betekenen;betekenden
 beteugelen	1	reg	beteugel;beteugelde	beteugelt;beteugelde	beteugelen;beteugelden
-betichten	0	reg	beticht;betichtte	beticht;betichtte	betichten;betichtten
+betichten	0	reg	beticht;betichtte	betichten;betichtten
 betitelen	1	reg	betitel;betitelde	betitelt;betitelde	betitelen;betitelden
 betoveren	0	reg	betover;betoverde	betovert;betoverde	betoveren;betoverden
-betrachten	1	reg	betracht;betrachtte	betracht;betrachtte	betrachten;betrachtten
+betrachten	1	reg	betracht;betrachtte	betrachten;betrachtten
 betrappen	2	reg	betrap;betrapte	betrapt;betrapte	betrappen;betrapten
 betreffen	5	irreg	betreft;betrof	betreffen;betroffen
 betrekken	9	irreg	betrek;betrok	betrekt;betrok	betrekken;betrokken
@@ -232,9 +232,9 @@ betreuren	3	reg	betreur;betreurde	betreurt;betreurde	betreuren;betreurden
 betrouwen	0	reg	betrouw;betrouwde	betrouwt;betrouwde	betrouwen;betrouwden
 betuigen	1	reg	betuig;betuigde	betuigt;betuigde	betuigen;betuigden
 betwijfelen	2	reg	betwijfel;betwijfelde	betwijfelt;betwijfelde	betwijfelen;betwijfelden
-betwisten	1	reg	betwist;betwistte	betwist;betwistte	betwisten;betwistten
-bevatten	12	reg	bevat;bevatte	bevat;bevatte	bevatten;bevatten
-bevechten	1	irreg	bevecht;bevocht	bevecht;bevocht	bevechten;bevochten
+betwisten	1	reg	betwist;betwistte	betwisten;betwistten
+bevatten	12	reg	bevat;bevatte	bevatten;bevatten
+bevechten	1	irreg	bevecht;bevocht	bevechten;bevochten
 beveiligen	1	reg	beveilig;beveiligde	beveiligt;beveiligde	beveiligen;beveiligden
 beven	4	reg	beef;beefde	beeft;beefde	beven;beefden
 bevestigen	8	reg	bevestig;bevestigde	bevestigt;bevestigde	bevestigen;bevestigden
@@ -244,7 +244,7 @@ bevochtigen	0	reg	bevochtig;bevochtigde	bevochtigt;bevochtigde	bevochtigen;bevoc
 bevolken	1	reg	bevolk;bevolkte	bevolkt;bevolkte	bevolken;bevolkten
 bevoordelen	0	reg	bevoordeel;bevoordeelde	bevoordeelt;bevoordeelde	bevoordelen;bevoordeelden
 bevoorraden	0	reg	bevoorraad;bevoorraadde	bevoorraadt;bevoorraadde	bevoorraden;bevoorraadden
-bevoorrechten	1	reg	bevoorrecht;bevoorrechtte	bevoorrecht;bevoorrechtte	bevoorrechten;bevoorrechtten
+bevoorrechten	1	reg	bevoorrecht;bevoorrechtte	bevoorrechten;bevoorrechtten
 bevorderen	14	reg	bevorder;bevorderde	bevordert;bevorderde	bevorderen;bevorderden
 bevredigen	5	reg	bevredig;bevredigde	bevredigt;bevredigde	bevredigen;bevredigden
 bevreemden	0	reg	bevreemd;bevreemdde	bevreemdt;bevreemdde	bevreemden;bevreemdden
@@ -263,11 +263,11 @@ bewonderen	5	reg	bewonder;bewonderde	bewondert;bewonderde	bewonderen;bewonderden
 bewonen	1	reg	bewoon;bewoonde	bewoont;bewoonde	bewonen;bewoonden
 bezaaien	0	reg	bezaai;bezaaide	bezaait;bezaaide	bezaaien;bezaaiden
 bezeren	1	reg	bezeer;bezeerde	bezeert;bezeerde	bezeren;bezeerden
-bezetten	2	reg	bezet;bezette	bezet;bezette	bezetten;bezetten
+bezetten	2	reg	bezet;bezette	bezetten;bezetten
 bezichtigen	2	reg	bezichtig;bezichtigde	bezichtigt;bezichtigde	bezichtigen;bezichtigden
 bezielen	0	reg	beziel;bezielde	bezielt;bezielde	bezielen;bezielden
 bezinnen	1	irreg	bezin;bezon	bezint;bezon	bezinnen;bezonnen
-bezitten	21	irreg	bezit;bezat	bezit;bezat	bezitten;bezaten
+bezitten	21	irreg	bezit;bezat	bezitten;bezaten
 bezoedelen	0	reg	bezoedel;bezoedelde	bezoedelt;bezoedelde	bezoedelen;bezoedelden
 bezoeken	11	irreg	bezoek;bezocht	bezoekt;bezocht	bezoeken;bezochten
 bezoldigen	0	reg	bezoldig;bezoldigde	bezoldigt;bezoldigde	bezoldigen;bezoldigden
@@ -279,7 +279,7 @@ bezweren	2	irreg	bezweer;bezwoer	bezweert;bezwoer	bezweren;bezwoeren
 bezwijken	2	irreg	bezwijk;bezweek	bezwijkt;bezweek	bezwijken;bezweken
 bezwijmen	0	reg	bezwijm;bezwijmde	bezwijmt;bezwijmde	bezwijmen;bezwijmden
 bibberen	1	reg	bibber;bibberde	bibbert;bibberde	bibberen;bibberden
-biechten	2	reg	biecht;biechtte	biecht;biechtte	biechten;biechtten
+biechten	2	reg	biecht;biechtte	biechten;biechtten
 bikken	0	reg	bik;bikte	bikt;bikte	bikken;bikten
 biologeren	0	reg	biologeer;biologeerde	biologeert;biologeerde	biologeren;biologeerden
 bitteren	0	reg	bitter;bitterde	bittert;bitterde	bitteren;bitterden
@@ -300,7 +300,7 @@ blussen	1	reg	blus;bluste	blust;bluste	blussen;blusten
 boegseren	0	reg	boegseer;boegseerde	boegseert;boegseerde	boegseren;boegseerden
 boeken	0	reg	boek;boekte	boekt;boekte	boeken;boekten
 boeren	0	reg	boer;boerde	boert;boerde	boeren;boerden
-boeten	2	reg	boet;boette	boet;boette	boeten;boetten
+boeten	2	reg	boet;boette	boeten;boetten
 boetseren	0	reg	boetseer;boetseerde	boetseert;boetseerde	boetseren;boetseerden
 boffen	0	reg	bof;bofte	boft;bofte	boffen;boften
 bogen	3	reg	boog;boogde	boogt;boogde	bogen;boogden
@@ -311,7 +311,7 @@ boren	2	reg	boor;boorde	boort;boorde	boren;boorden
 borgen	0	reg	borg;borgde	borgt;borgde	borgen;borgden
 borstelen	1	reg	borstel;borstelde	borstelt;borstelde	borstelen;borstelden
 botsen	2	reg	bots;botste	botst;botste	botsen;botsten
-boycotten	0	reg	boycot;boycotte	boycot;boycotte	boycotten;boycotten
+boycotten	0	reg	boycot;boycotte	boycotten;boycotten
 braden	1	reg	braad;braadde	braadt;braadde	braden;braadden
 braken	8	reg	braak;braakte	braakt;braakte	braken;braakten
 brandschilderen	0	reg	brandschilder;brandschilderde	brandschildert;brandschilderde	brandschilderen;brandschilderden
@@ -433,7 +433,7 @@ dooien	0	reg	dooi;dooide	dooit;dooide	dooien;dooiden
 doorgronden	3	reg	doorgrond;doorgrondde	doorgrondt;doorgrondde	doorgronden;doorgrondden
 doppen	0	reg	dop;dopte	dopt;dopte	doppen;dopten
 dorsen	0	reg	dors;dorste	dorst;dorste	dorsen;dorsten
-dorsten	0	reg	dorst;dorstte	dorst;dorstte	dorsten;dorstten
+dorsten	0	reg	dorst;dorstte	dorsten;dorstten
 doseren	0	reg	doseer;doseerde	doseert;doseerde	doseren;doseerden
 douchen	1	reg	douch;douchte	doucht;douchte	douchen;douchten
 douwen	0	reg	douw;douwde	douwt;douwde	douwen;douwden
@@ -462,7 +462,7 @@ dumpen	0	reg	dump;dumpte	dumpt;dumpte	dumpen;dumpten
 dunnen	0	reg	dun;dunde	dunt;dunde	dunnen;dunden
 dupliceren	0	reg	dupliceer;dupliceerde	dupliceert;dupliceerde	dupliceren;dupliceerden
 duren	21	reg	duur;duurde	duurt;duurde	duren;duurden
-dutten	0	reg	dut;dutte	dut;dutte	dutten;dutten
+dutten	0	reg	dut;dutte	dutten;dutten
 duwen	6	reg	duw;duwde	duwt;duwde	duwen;duwden
 dwalen	4	reg	dwaal;dwaalde	dwaalt;dwaalde	dwalen;dwaalden
 dwarrelen	1	reg	dwarrel;dwarrelde	dwarrelt;dwarrelde	dwarrelen;dwarrelden
@@ -481,7 +481,7 @@ emmeren	0	reg	emmer;emmerde	emmert;emmerde	emmeren;emmerden
 emulgeren	0	reg	emulgeer;emulgeerde	emulgeert;emulgeerde	emulgeren;emulgeerden
 engageren	0	reg	engageer;engageerde	engageert;engageerde	engageren;engageerden
 ensceneren	0	reg	ensceneer;ensceneerde	ensceneert;ensceneerde	ensceneren;ensceneerden
-enten	0	reg	ent;entte	ent;entte	enten;entten
+enten	0	reg	ent;entte	enten;entten
 equiperen	0	reg	equipeer;equipeerde	equipeert;equipeerde	equiperen;equipeerden
 erbarmen	0	reg	erbarm;erbarmde	erbarmt;erbarmde	erbarmen;erbarmden
 ergeren	2	reg	erger;ergerde	ergert;ergerde	ergeren;ergerden
@@ -510,7 +510,7 @@ fantaseren	2	reg	fantaseer;fantaseerde	fantaseert;fantaseerde	fantaseren;fantase
 faseren	0	reg	faseer;faseerde	faseert;faseerde	faseren;faseerden
 faxen	0	reg	fax;faxte	faxt;faxte	faxen;faxten
 federaliseren	0	reg	federaliseer;federaliseerde	federaliseert;federaliseerde	federaliseren;federaliseerden
-feesten	0	reg	feest;feestte	feest;feestte	feesten;feestten
+feesten	0	reg	feest;feestte	feesten;feestten
 feliciteren	1	reg	feliciteer;feliciteerde	feliciteert;feliciteerde	feliciteren;feliciteerden
 fietsen	5	reg	fiets;fietste	fietst;fietste	fietsen;fietsten
 fikken	0	reg	fik;fikte	fikt;fikte	fikken;fikten
@@ -525,11 +525,11 @@ flikflooien	0	reg	flikflooi;flikflooide	flikflooit;flikflooide	flikflooien;flikf
 flikken	0	reg	flik;flikte	flikt;flikte	flikken;flikten
 flikkeren	1	reg	flikker;flikkerde	flikkert;flikkerde	flikkeren;flikkerden
 flippen	0	reg	flip;flipte	flipt;flipte	flippen;flipten
-flirten	1	reg	flirt;flirtte	flirt;flirtte	flirten;flirtten
+flirten	1	reg	flirt;flirtte	flirten;flirtten
 flitsen	2	reg	flits;flitste	flitst;flitste	flitsen;flitsten
 floppen	0	reg	flop;flopte	flopt;flopte	floppen;flopten
 fluisteren	4	reg	fluister;fluisterde	fluistert;fluisterde	fluisteren;fluisterden
-fluiten	4	irreg	fluit;floot	fluit;floot	fluiten;floten
+fluiten	4	irreg	fluit;floot	fluiten;floten
 foerageren	0	reg	foerageer;foerageerde	foerageert;foerageerde	foerageren;foerageerden
 foeteren	0	reg	foeter;foeterde	foetert;foeterde	foeteren;foeterden
 fokken	2	reg	fok;fokte	fokt;fokte	fokken;fokten
@@ -570,7 +570,7 @@ gelieven	0	reg	gelief;geliefde	gelieft;geliefde	gelieven;geliefden
 gelijken	1	irreg	gelijk;geleek	gelijkt;geleek	gelijken;geleken
 generaliseren	1	reg	generaliseer;generaliseerde	generaliseert;generaliseerde	generaliseren;generaliseerden
 genereren	0	reg	genereer;genereerde	genereert;genereerde	genereren;genereerden
-genieten	19	irreg	geniet;genoot	geniet;genoot	genieten;genoten
+genieten	19	irreg	geniet;genoot	genieten;genoten
 geraken	7	reg	geraak;geraakte	geraakt;geraakte	geraken;geraakten
 geschieden	8	reg	geschied;geschiedde	geschiedt;geschiedde	geschieden;geschiedden
 geselen	0	reg	gesel;geselde	geselt;geselde	geselen;geselden
@@ -584,7 +584,7 @@ gewennen	0	reg	gewen;gewende	gewent;gewende	gewennen;gewenden
 giechelen	2	reg	giechel;giechelde	giechelt;giechelde	giechelen;giechelden
 gieren	1	reg	gier;gierde	giert;gierde	gieren;gierden
 gijzelen	0	reg	gijzel;gijzelde	gijzelt;gijzelde	gijzelen;gijzelden
-gisten	0	reg	gist;gistte	gist;gistte	gisten;gistten
+gisten	0	reg	gist;gistte	gisten;gistten
 glaceren	0	reg	glaceer;glaceerde	glaceert;glaceerde	glaceren;glaceerden
 glanzen	2	reg	glans;glansde	glanst;glansde	glanzen;glansden
 glijden	13	irreg	glijd;gleed	glijdt;gleed	glijden;gleden
@@ -616,7 +616,7 @@ groeven	1	reg	groef;groefde	groeft;groefde	groeven;groefden
 grommen	1	reg	grom;gromde	gromt;gromde	grommen;gromden
 gunnen	4	reg	gun;gunde	gunt;gunde	gunnen;gunden
 gutsen	0	reg	guts;gutste	gutst;gutste	gutsen;gutsten
-haasten	3	reg	haast;haastte	haast;haastte	haasten;haastten
+haasten	3	reg	haast;haastte	haasten;haastten
 hagelen	0	reg	hagel;hagelde	hagelt;hagelde	hagelen;hagelden
 halen	79	reg	haal;haalde	haalt;haalde	halen;haalden
 hallucineren	0	reg	hallucineer;hallucineerde	hallucineert;hallucineerde	hallucineren;hallucineerden
@@ -631,9 +631,9 @@ happen	1	reg	hap;hapte	hapt;hapte	happen;hapten
 harden	1	reg	hard;hardde	hardt;hardde	harden;hardden
 harken	0	reg	hark;harkte	harkt;harkte	harken;harkten
 harmoniseren	0	reg	harmoniseer;harmoniseerde	harmoniseert;harmoniseerde	harmoniseren;harmoniseerden
-haten	4	reg	haat;haatte	haat;haatte	haten;haatten
+haten	4	reg	haat;haatte	haten;haatten
 hebben	1054	irreg	heb;had	hebt;had	heeft;had	hebben;hadden
-hechten	5	reg	hecht;hechtte	hecht;hechtte	hechten;hechtten
+hechten	5	reg	hecht;hechtte	hechten;hechtten
 heersen	4	reg	heers;heerste	heerst;heerste	heersen;heersten
 heffen	5	irreg	hef;hief	heft;hief	heffen;hieven
 heiligen	2	reg	heilig;heiligde	heiligt;heiligde	heiligen;heiligden
@@ -659,7 +659,7 @@ heroveren	1	reg	herover;heroverde	herovert;heroverde	heroveren;heroverden
 hersenspoelen	0	reg	hersenspoel;hersenspoelde	hersenspoelt;hersenspoelde	hersenspoelen;hersenspoelden
 herstellen	10	reg	herstel;herstelde	herstelt;herstelde	herstellen;herstelden
 hertrouwen	1	reg	hertrouw;hertrouwde	hertrouwt;hertrouwde	hertrouwen;hertrouwden
-hervatten	1	reg	hervat;hervatte	hervat;hervatte	hervatten;hervatten
+hervatten	1	reg	hervat;hervatte	hervatten;hervatten
 hervormen	1	reg	hervorm;hervormde	hervormt;hervormde	hervormen;hervormden
 herwinnen	1	irreg	herwin;herwon	herwint;herwon	herwinnen;herwonnen
 heugen	0	reg	heug;heugde	heugt;heugde	heugen;heugden
@@ -669,7 +669,7 @@ hijsen	2	irreg	hijs;hees	hijst;hees	hijsen;hesen
 hinderen	2	reg	hinder;hinderde	hindert;hinderde	hinderen;hinderden
 hinken	1	reg	hink;hinkte	hinkt;hinkte	hinken;hinkten
 hinniken	0	reg	hinnik;hinnikte	hinnikt;hinnikte	hinniken;hinnikten
-hinten	0	reg	hint;hintte	hint;hintte	hinten;hintten
+hinten	0	reg	hint;hintte	hinten;hintten
 hokken	0	reg	hok;hokte	hokt;hokte	hokken;hokten
 hongeren	0	reg	honger;hongerde	hongert;hongerde	hongeren;hongerden
 hopen	14	reg	hoop;hoopte	hoopt;hoopte	hopen;hoopten
@@ -678,7 +678,7 @@ hossen	0	reg	hos;hoste	host;hoste	hossen;hosten
 huichelen	0	reg	huichel;huichelde	huichelt;huichelde	huichelen;huichelden
 huilebalken	0	reg	huilebalk;huilebalkte	huilebalkt;huilebalkte	huilebalken;huilebalkten
 huilen	25	reg	huil;huilde	huilt;huilde	huilen;huilden
-huisvesten	1	reg	huisvest;huisvestte	huisvest;huisvestte	huisvesten;huisvestten
+huisvesten	1	reg	huisvest;huisvestte	huisvesten;huisvestten
 huiveren	2	reg	huiver;huiverde	huivert;huiverde	huiveren;huiverden
 huizen	0	reg	huis;huisde	huist;huisde	huizen;huisden
 huldigen	1	reg	huldig;huldigde	huldigt;huldigde	huldigen;huldigden
@@ -721,11 +721,11 @@ introduceren	2	reg	introduceer;introduceerde	introduceert;introduceerde	introduc
 inunderen	0	reg	inundeer;inundeerde	inundeert;inundeerde	inunderen;inundeerden
 investeren	2	reg	investeer;investeerde	investeert;investeerde	investeren;investeerden
 isoleren	2	reg	isoleer;isoleerde	isoleert;isoleerde	isoleren;isoleerden
-jachten	0	reg	jacht;jachtte	jacht;jachtte	jachten;jachtten
+jachten	0	reg	jacht;jachtte	jachten;jachtten
 jammeren	1	reg	jammer;jammerde	jammert;jammerde	jammeren;jammerden
 janken	3	reg	jank;jankte	jankt;jankte	janken;jankten
 jassen	0	reg	jas;jaste	jast;jaste	jassen;jasten
-jatten	0	reg	jat;jatte	jat;jatte	jatten;jatten
+jatten	0	reg	jat;jatte	jatten;jatten
 jeuken	1	reg	jeuk;jeukte	jeukt;jeukte	jeuken;jeukten
 jijen	0	reg	jij;jijde	jijt;jijde	jijen;jijden
 jodelen	0	reg	jodel;jodelde	jodelt;jodelde	jodelen;jodelden
@@ -735,7 +735,7 @@ jouen	0	reg	jou;joude	jout;joude	jouen;jouden
 jubelen	0	reg	jubel;jubelde	jubelt;jubelde	jubelen;jubelden
 juichen	2	reg	juich;juichte	juicht;juichte	juichen;juichten
 kaarden	0	reg	kaard;kaardde	kaardt;kaardde	kaarden;kaardden
-kaarten	2	reg	kaart;kaartte	kaart;kaartte	kaarten;kaartten
+kaarten	2	reg	kaart;kaartte	kaarten;kaartten
 kaatsen	0	reg	kaats;kaatste	kaatst;kaatste	kaatsen;kaatsten
 kabbelen	0	reg	kabbel;kabbelde	kabbelt;kabbelde	kabbelen;kabbelden
 kakken	0	reg	kak;kakte	kakt;kakte	kakken;kakten
@@ -752,7 +752,7 @@ kankeren	1	reg	kanker;kankerde	kankert;kankerde	kankeren;kankerden
 kapseizen	0	reg	kapseis;kapseisde	kapseist;kapseisde	kapseizen;kapseisden
 karnen	0	reg	karn;karnde	karnt;karnde	karnen;karnden
 kastijden	0	reg	kastijd;kastijdde	kastijdt;kastijdde	kastijden;kastijdden
-katten	0	reg	kat;katte	kat;katte	katten;katten
+katten	0	reg	kat;katte	katten;katten
 kelderen	0	reg	kelder;kelderde	keldert;kelderde	kelderen;kelderden
 kenmerken	3	reg	kenmerk;kenmerkte	kenmerkt;kenmerkte	kenmerken;kenmerkten
 kermen	1	reg	kerm;kermde	kermt;kermde	kermen;kermden
@@ -766,7 +766,7 @@ kietelen	1	reg	kietel;kietelde	kietelt;kietelde	kietelen;kietelden
 kijken	149	irreg	kijk;keek	kijkt;keek	kijken;keken
 kirren	0	reg	kir;kirde	kirt;kirde	kirren;kirden
 kissebissen	0	reg	kissebis;kissebiste	kissebist;kissebiste	kissebissen;kissebisten
-kisten	0	reg	kist;kistte	kist;kistte	kisten;kistten
+kisten	0	reg	kist;kistte	kisten;kistten
 kladden	0	reg	klad;kladde	kladt;kladde	kladden;kladden
 klagen	7	reg	klaag;klaagde	klaagt;klaagde	klagen;klaagden
 klateren	0	reg	klater;klaterde	klatert;klaterde	klateren;klaterden
@@ -790,7 +790,7 @@ knagen	2	reg	knaag;knaagde	knaagt;knaagde	knagen;knaagden
 knallen	1	reg	knal;knalde	knalt;knalde	knallen;knalden
 knappen	2	reg	knap;knapte	knapt;knapte	knappen;knapten
 knarsen	1	reg	knars;knarste	knarst;knarste	knarsen;knarsten
-knechten	0	reg	knecht;knechtte	knecht;knechtte	knechten;knechtten
+knechten	0	reg	knecht;knechtte	knechten;knechtten
 kneden	2	reg	kneed;kneedde	kneedt;kneedde	kneden;kneedden
 knellen	0	reg	knel;knelde	knelt;knelde	knellen;knelden
 knetteren	1	reg	knetter;knetterde	knettert;knetterde	knetteren;knetterden
@@ -815,8 +815,8 @@ kolken	0	reg	kolk;kolkte	kolkt;kolkte	kolken;kolkten
 koloniseren	0	reg	koloniseer;koloniseerde	koloniseert;koloniseerde	koloniseren;koloniseerden
 koppelen	2	reg	koppel;koppelde	koppelt;koppelde	koppelen;koppelden
 koppen	0	reg	kop;kopte	kopt;kopte	koppen;kopten
-korten	1	reg	kort;kortte	kort;kortte	korten;kortten
-kosten	7	reg	kost;kostte	kost;kostte	kosten;kostten
+korten	1	reg	kort;kortte	korten;kortten
+kosten	7	reg	kost;kostte	kosten;kostten
 kotsen	1	reg	kots;kotste	kotst;kotste	kotsen;kotsten
 kraaien	1	reg	kraai;kraaide	kraait;kraaide	kraaien;kraaiden
 krabbelen	1	reg	krabbel;krabbelde	krabbelt;krabbelde	krabbelen;krabbelden
@@ -841,11 +841,11 @@ krukken	0	reg	kruk;krukte	krukt;krukte	krukken;krukten
 kuchen	0	reg	kuch;kuchte	kucht;kuchte	kuchen;kuchten
 kuipen	0	reg	kuip;kuipte	kuipt;kuipte	kuipen;kuipten
 kwaken	0	reg	kwaak;kwaakte	kwaakt;kwaakte	kwaken;kwaakten
-kwartetten	0	reg	kwartet;kwartette	kwartet;kwartette	kwartetten;kwartetten
+kwartetten	0	reg	kwartet;kwartette	kwartetten;kwartetten
 kwetsen	3	reg	kwets;kwetste	kwetst;kwetste	kwetsen;kwetsten
 kwijlen	1	reg	kwijl;kwijlde	kwijlt;kwijlde	kwijlen;kwijlden
 kwijnen	0	reg	kwijn;kwijnde	kwijnt;kwijnde	kwijnen;kwijnden
-kwijten	0	irreg	kwijt;kweet	kwijt;kweet	kwijten;kweten
+kwijten	0	irreg	kwijt;kweet	kwijten;kweten
 kwispelen	0	reg	kwispel;kwispelde	kwispelt;kwispelde	kwispelen;kwispelden
 laaien	0	reg	laai;laaide	laait;laaide	laaien;laaiden
 lachen	50	reg	lach;lachte	lacht;lachte	lachen;lachten
@@ -865,13 +865,13 @@ leiden	47	reg	leid;leidde	leidt;leidde	leiden;leidden
 lekken	1	reg	lek;lekte	lekt;lekte	lekken;lekten
 lenen	6	reg	leen;leende	leent;leende	lenen;leenden
 lengen	0	reg	leng;lengde	lengt;lengde	lengen;lengden
-letten	8	reg	let;lette	let;lette	letten;letten
+letten	8	reg	let;lette	letten;letten
 leunen	2	reg	leun;leunde	leunt;leunde	leunen;leunden
 leveren	24	reg	lever;leverde	levert;leverde	leveren;leverden
 lezen	75	irreg	lees;las	leest;las	lezen;lazen
-lichten	10	reg	licht;lichtte	licht;lichtte	lichten;lichtten
+lichten	10	reg	licht;lichtte	lichten;lichtten
 liegen	6	irreg	lieg;loog	liegt;loog	liegen;logen
-liften	1	reg	lift;liftte	lift;liftte	liften;liftten
+liften	1	reg	lift;liftte	liften;liftten
 lijden	16	irreg	lijd;leed	lijdt;leed	lijden;leden
 lijnen	0	reg	lijn;lijnde	lijnt;lijnde	lijnen;lijnden
 likken	2	reg	lik;likte	likt;likte	likken;likten
@@ -885,13 +885,13 @@ looien	0	reg	looi;looide	looit;looide	looien;looiden
 lossen	5	reg	los;loste	lost;loste	lossen;losten
 louteren	0	reg	louter;louterde	loutert;louterde	louteren;louterden
 lozen	1	reg	loos;loosde	loost;loosde	lozen;loosden
-luchten	2	reg	lucht;luchtte	lucht;luchtte	luchten;luchtten
+luchten	2	reg	lucht;luchtte	luchten;luchtten
 luiden	0	reg	luid;luidde	luidt;luidde	luiden;luidden
 luieren	1	reg	luier;luierde	luiert;luierde	luieren;luierden
 luiken	0	irreg	luik;look	luikt;look	luiken;loken
 lukken	6	reg	luk;lukte	lukt;lukte	lukken;lukten
 lummelen	0	reg	lummel;lummelde	lummelt;lummelde	lummelen;lummelden
-lusten	1	reg	lust;lustte	lust;lustte	lusten;lustten
+lusten	1	reg	lust;lustte	lusten;lustten
 machtigen	1	reg	machtig;machtigde	machtigt;machtigde	machtigen;machtigden
 maffen	0	reg	maf;mafte	maft;mafte	maffen;maften
 mailen	0	reg	mail;mailde	mailt;mailde	mailen;mailden
@@ -929,7 +929,7 @@ miezeren	0	reg	miezer;miezerde	miezert;miezerde	miezeren;miezerden
 mijden	1	irreg	mijd;meed	mijdt;meed	mijden;meden
 mijmeren	1	reg	mijmer;mijmerde	mijmert;mijmerde	mijmeren;mijmerden
 mikken	1	reg	mik;mikte	mikt;mikte	mikken;mikten
-minachten	1	reg	minacht;minachtte	minacht;minachtte	minachten;minachtten
+minachten	1	reg	minacht;minachtte	minachten;minachtten
 minimaliseren	0	reg	minimaliseer;minimaliseerde	minimaliseert;minimaliseerde	minimaliseren;minimaliseerden
 misbruiken	1	reg	misbruik;misbruikte	misbruikt;misbruikte	misbruiken;misbruikten
 mishandelen	1	reg	mishandel;mishandelde	mishandelt;mishandelde	mishandelen;mishandelden
@@ -941,8 +941,8 @@ missen	18	reg	mis;miste	mist;miste	missen;misten
 mobiliseren	1	reg	mobiliseer;mobiliseerde	mobiliseert;mobiliseerde	mobiliseren;mobiliseerden
 moderniseren	1	reg	moderniseer;moderniseerde	moderniseert;moderniseerde	moderniseren;moderniseerden
 modificeren	0	reg	modificeer;modificeerde	modificeert;modificeerde	modificeren;modificeerden
-moeten	233	irreg	moet;moest	moet;moest	moeten;moesten
-mogen	79	irreg	mag;mocht	mag;mocht	mogen;mochten
+moeten	233	irreg	moet;moest	moeten;moesten
+mogen	79	irreg	mag;mocht	mogen;mochten
 mokken	1	reg	mok;mokte	mokt;mokte	mokken;mokten
 mompelen	3	reg	mompel;mompelde	mompelt;mompelde	mompelen;mompelden
 monsteren	0	reg	monster;monsterde	monstert;monsterde	monsteren;monsterden
@@ -955,9 +955,9 @@ morsen	1	reg	mors;morste	morst;morste	morsen;morsten
 motiveren	1	reg	motiveer;motiveerde	motiveert;motiveerde	motiveren;motiveerden
 motregenen	0	reg	motregen;motregende	motregent;motregende	motregenen;motregenden
 muilkorven	0	reg	muilkorf;muilkorfde	muilkorft;muilkorfde	muilkorven;muilkorfden
-muiten	0	reg	muit;muitte	muit;muitte	muiten;muitten
+muiten	0	reg	muit;muitte	muiten;muitten
 muteren	0	reg	muteer;muteerde	muteert;muteerde	muteren;muteerden
-naasten	0	reg	naast;naastte	naast;naastte	naasten;naastten
+naasten	0	reg	naast;naastte	naasten;naastten
 naderen	7	reg	nader;naderde	nadert;naderde	naderen;naderden
 naken	0	reg	naak;naakte	naakt;naakte	naken;naakten
 navigeren	0	reg	navigeer;navigeerde	navigeert;navigeerde	navigeren;navigeerden
@@ -967,7 +967,7 @@ nekken	0	reg	nek;nekte	nekt;nekte	nekken;nekten
 nemen	193	irreg	neem;nam	neemt;nam	nemen;namen
 nestelen	1	reg	nestel;nestelde	nestelt;nestelde	nestelen;nestelden
 neuken	5	reg	neuk;neukte	neukt;neukte	neuken;neukten
-nieten	0	reg	niet;niette	niet;niette	nieten;nietten
+nieten	0	reg	niet;niette	nieten;nietten
 nijgen	0	irreg	nijg;neeg	nijgt;neeg	nijgen;negen
 nippen	0	reg	nip;nipte	nipt;nipte	nippen;nipten
 noemen	71	reg	noem;noemde	noemt;noemde	noemen;noemden
@@ -987,8 +987,8 @@ omklemmen	0	reg	omklem;omklemde	omklemt;omklemde	omklemmen;omklemden
 ommuren	0	reg	ommuur;ommuurde	ommuurt;ommuurde	ommuren;ommuurden
 omringen	1	reg	omring;omringde	omringt;omringde	omringen;omringden
 omsingelen	1	reg	omsingel;omsingelde	omsingelt;omsingelde	omsingelen;omsingelden
-omsluiten	0	irreg	omsluit;omsloot	omsluit;omsloot	omsluiten;omsloten
-omvatten	3	reg	omvat;omvatte	omvat;omvatte	omvatten;omvatten
+omsluiten	0	irreg	omsluit;omsloot	omsluiten;omsloten
+omvatten	3	reg	omvat;omvatte	omvatten;omvatten
 omwikkelen	0	reg	omwikkel;omwikkelde	omwikkelt;omwikkelde	omwikkelen;omwikkelden
 omzeilen	1	reg	omzeil;omzeilde	omzeilt;omzeilde	omzeilen;omzeilden
 omzwerven	0	irreg	omzwerf;omzwierf	omzwerft;omzwierf	omzwerven;omzwierven
@@ -1009,9 +1009,9 @@ onderwijzen	2	irreg	onderwijs;onderwees	onderwijst;onderwees	onderwijzen;onderwe
 onderzoeken	20	irreg	onderzoek;onderzocht	onderzoekt;onderzocht	onderzoeken;onderzochten
 ontaarden	1	reg	ontaard;ontaardde	ontaardt;ontaardde	ontaarden;ontaardden
 ontbieden	0	irreg	ontbied;ontbood	ontbiedt;ontbood	ontbieden;ontboden
-ontbijten	2	irreg	ontbijt;ontbeet	ontbijt;ontbeet	ontbijten;ontbeten
+ontbijten	2	irreg	ontbijt;ontbeet	ontbijten;ontbeten
 ontbinden	1	irreg	ontbind;ontbond	ontbindt;ontbond	ontbinden;ontbonden
-ontbloten	0	reg	ontbloot;ontblootte	ontbloot;ontblootte	ontbloten;ontblootten
+ontbloten	0	reg	ontbloot;ontblootte	ontbloten;ontblootten
 ontbranden	1	reg	ontbrand;ontbrandde	ontbrandt;ontbrandde	ontbranden;ontbrandden
 ontbreken	17	irreg	ontbreek;ontbrak	ontbreekt;ontbrak	ontbreken;ontbraken
 ontcijferen	2	reg	ontcijfer;ontcijferde	ontcijfert;ontcijferde	ontcijferen;ontcijferden
@@ -1039,9 +1039,9 @@ ontketenen	1	reg	ontketen;ontketende	ontketent;ontketende	ontketenen;ontketenden
 ontkiemen	1	reg	ontkiem;ontkiemde	ontkiemt;ontkiemde	ontkiemen;ontkiemden
 ontkleden	0	reg	ontkleed;ontkleedde	ontkleedt;ontkleedde
 ontkoppelen	0	reg	ontkoppel;ontkoppelde	ontkoppelt;ontkoppelde	ontkoppelen;ontkoppelden
-ontkrachten	0	reg	ontkracht;ontkrachtte	ontkracht;ontkrachtte	ontkrachten;ontkrachtten
+ontkrachten	0	reg	ontkracht;ontkrachtte	ontkrachten;ontkrachtten
 ontkurken	0	reg	ontkurk;ontkurkte	ontkurkt;ontkurkte	ontkurken;ontkurkten
-ontlasten	1	reg	ontlast;ontlastte	ontlast;ontlastte	ontlasten;ontlastten
+ontlasten	1	reg	ontlast;ontlastte	ontlasten;ontlastten
 ontleden	1	reg	ontleed;ontleedde	ontleedt;ontleedde	ontleden;ontleedden
 ontlenen	4	reg	ontleen;ontleende	ontleent;ontleende	ontlenen;ontleenden
 ontlokken	1	reg	ontlok;ontlokte	ontlokt;ontlokte	ontlokken;ontlokten
@@ -1049,7 +1049,7 @@ ontluiken	0	irreg	ontluik;ontlook	ontluikt;ontlook	ontluiken;ontloken
 ontmaagden	0	reg	ontmaagd;ontmaagdde	ontmaagdt;ontmaagdde	ontmaagden;ontmaagdden
 ontmaskeren	1	reg	ontmasker;ontmaskerde	ontmaskert;ontmaskerde	ontmaskeren;ontmaskerden
 ontmoedigen	1	reg	ontmoedig;ontmoedigde	ontmoedigt;ontmoedigde	ontmoedigen;ontmoedigden
-ontmoeten	19	reg	ontmoet;ontmoette	ontmoet;ontmoette	ontmoeten;ontmoetten
+ontmoeten	19	reg	ontmoet;ontmoette	ontmoeten;ontmoetten
 ontnemen	3	irreg	ontneem;ontnam	ontneemt;ontnam	ontnemen;ontnamen
 ontnuchteren	0	reg	ontnuchter;ontnuchterde	ontnuchtert;ontnuchterde	ontnuchteren;ontnuchterden
 ontploffen	2	reg	ontplof;ontplofte	ontploft;ontplofte	ontploffen;ontploften
@@ -1062,16 +1062,16 @@ ontruimen	1	reg	ontruim;ontruimde	ontruimt;ontruimde	ontruimen;ontruimden
 ontsieren	0	reg	ontsier;ontsierde	ontsiert;ontsierde	ontsieren;ontsierden
 ontslaan	2	irreg	ontsla;ontsloeg	ontslaat;ontsloeg	ontslaan;ontsloegen
 ontsluieren	0	reg	ontsluier;ontsluierde	ontsluiert;ontsluierde	ontsluieren;ontsluierden
-ontsluiten	0	irreg	ontsluit;ontsloot	ontsluit;ontsloot	ontsluiten;ontsloten
+ontsluiten	0	irreg	ontsluit;ontsloot	ontsluiten;ontsloten
 ontsnappen	11	reg	ontsnap;ontsnapte	ontsnapt;ontsnapte	ontsnappen;ontsnapten
 ontsporen	0	reg	ontspoor;ontspoorde	ontspoort;ontspoorde	ontsporen;ontspoorden
 ontspringen	1	irreg	ontspring;ontsprong	ontspringt;ontsprong	ontspringen;ontsprongen
-ontspruiten	0	irreg	ontspruit;ontsproot	ontspruit;ontsproot	ontspruiten;ontsproten
+ontspruiten	0	irreg	ontspruit;ontsproot	ontspruiten;ontsproten
 ontsteken	1	irreg	ontsteek;ontstak	ontsteekt;ontstak	ontsteken;ontstaken
 ontstellen	0	reg	ontstel;ontstelde	ontstelt;ontstelde	ontstellen;ontstelden
 ontstemmen	0	reg	ontstem;ontstemde	ontstemt;ontstemde	ontstemmen;ontstemden
 onttrekken	7	irreg	onttrek;onttrok	onttrekt;onttrok	onttrekken;onttrokken
-ontvluchten	3	reg	ontvlucht;ontvluchtte	ontvlucht;ontvluchtte	ontvluchten;ontvluchtten
+ontvluchten	3	reg	ontvlucht;ontvluchtte	ontvluchten;ontvluchtten
 ontvoeren	0	reg	ontvoer;ontvoerde	ontvoert;ontvoerde	ontvoeren;ontvoerden
 ontvolken	0	reg	ontvolk;ontvolkte	ontvolkt;ontvolkte	ontvolken;ontvolkten
 ontvreemden	0	reg	ontvreemd;ontvreemdde	ontvreemdt;ontvreemdde	ontvreemden;ontvreemdden
@@ -1083,10 +1083,10 @@ ontwerpen	8	irreg	ontwerp;ontwierp	ontwerpt;ontwierp	ontwerpen;ontwierpen
 ontwijken	4	irreg	ontwijk;ontweek	ontwijkt;ontweek	ontwijken;ontweken
 ontwikkelen	28	reg	ontwikkel;ontwikkelde	ontwikkelt;ontwikkelde	ontwikkelen;ontwikkelden
 ontworstelen	0	reg	ontworstel;ontworstelde	ontworstelt;ontworstelde	ontworstelen;ontworstelden
-ontwrichten	0	reg	ontwricht;ontwrichtte	ontwricht;ontwrichtte	ontwrichten;ontwrichtten
+ontwrichten	0	reg	ontwricht;ontwrichtte	ontwrichten;ontwrichtten
 ontzeggen	2	irreg	ontzeg;ontzei	ontzegt;ontzei	ontzeggen;ontzeiden
-ontzilten	0	reg	ontzilt;ontziltte	ontzilt;ontziltte	ontzilten;ontziltten
-oogsten	2	reg	oogst;oogstte	oogst;oogstte	oogsten;oogstten
+ontzilten	0	reg	ontzilt;ontziltte	ontzilten;ontziltten
+oogsten	2	reg	oogst;oogstte	oogsten;oogstten
 oordelen	5	reg	oordeel;oordeelde	oordeelt;oordeelde	oordelen;oordeelden
 openbaren	3	reg	openbaar;openbaarde	openbaart;openbaarde	openbaren;openbaarden
 openen	12	reg	open;opende	opent;opende	openen;openden
@@ -1097,17 +1097,17 @@ ordenen	4	reg	orden;ordende	ordent;ordende	ordenen;ordenden
 organiseren	9	reg	organiseer;organiseerde	organiseert;organiseerde	organiseren;organiseerden
 orgelen	0	reg	orgel;orgelde	orgelt;orgelde	orgelen;orgelden
 oscilleren	0	reg	oscilleer;oscilleerde	oscilleert;oscilleerde	oscilleren;oscilleerden
-overbelasten	0	reg	overbelast;overbelastte	overbelast;overbelastte	overbelasten;overbelastten
+overbelasten	0	reg	overbelast;overbelastte	overbelasten;overbelastten
 overdekken	0	reg	overdek;overdekte	overdekt;overdekte	overdekken;overdekten
 overdenken	1	irreg	overdenk;overdacht	overdenkt;overdacht	overdenken;overdachten
-overeten	0	irreg	overeet;overat	overeet;overat	overeten;overaten
+overeten	0	irreg	overeet;overat	overeten;overaten
 overhandigen	2	reg	overhandig;overhandigde	overhandigt;overhandigde	overhandigen;overhandigden
 overheersen	3	reg	overheers;overheerste	overheerst;overheerste	overheersen;overheersten
 overkoepelen	0	reg	overkoepel;overkoepelde	overkoepelt;overkoepelde	overkoepelen;overkoepelden
 overleven	8	reg	overleef;overleefde	overleeft;overleefde	overleven;overleefden
 overlijden	4	irreg	overlijd;overleed	overlijdt;overleed	overlijden;overleden
 overmeesteren	1	reg	overmeester;overmeesterde	overmeestert;overmeesterde	overmeesteren;overmeesterden
-overnachten	2	reg	overnacht;overnachtte	overnacht;overnachtte	overnachten;overnachtten
+overnachten	2	reg	overnacht;overnachtte	overnachten;overnachtten
 overrulen	0	reg	overrule;overrulede	overrulet;overrulede	overrulen;overruleden
 overschrijden	2	irreg	overschrijd;overschreed	overschrijdt;overschreed	overschrijden;overschreden
 overslaan	2	irreg	oversla;oversloeg	overslaat;oversloeg	overslaan;oversloegen
@@ -1121,7 +1121,7 @@ overweldigen	1	reg	overweldig;overweldigde	overweldigt;overweldigde	overweldigen
 overwelven	0	reg	overwelf;overwelfde	overwelft;overwelfde	overwelven;overwelfden
 overwinnen	0	irreg	overwin;overwon	overwint;overwon	overwinnen;overwonnen
 oxyderen	0	reg	oxydeer;oxydeerde	oxydeert;oxydeerde	oxyderen;oxydeerden
-pachten	0	reg	pacht;pachtte	pacht;pachtte	pachten;pachtten
+pachten	0	reg	pacht;pachtte	pachten;pachtten
 pandoeren	0	reg	pandoer;pandoerde	pandoert;pandoerde	pandoeren;pandoerden
 paren	3	reg	paar;paarde	paart;paarde	paren;paarden
 participeren	1	reg	participeer;participeerde	participeert;participeerde	participeren;participeerden
@@ -1137,7 +1137,7 @@ penetreren	0	reg	penetreer;penetreerde	penetreert;penetreerde	penetreren;penetre
 pensioneren	0	reg	pensioneer;pensioneerde	pensioneert;pensioneerde	pensioneren;pensioneerden
 perfectioneren	0	reg	perfectioneer;perfectioneerde	perfectioneert;perfectioneerde	perfectioneren;perfectioneerden
 persisteren	0	reg	persisteer;persisteerde	persisteert;persisteerde	persisteren;persisteerden
-pesten	2	reg	pest;pestte	pest;pestte	pesten;pestten
+pesten	2	reg	pest;pestte	pesten;pestten
 peuteren	1	reg	peuter;peuterde	peutert;peuterde	peuteren;peuterden
 peuzelen	0	reg	peuzel;peuzelde	peuzelt;peuzelde	peuzelen;peuzelden
 pezen	0	reg	pees;peesde	peest;peesde	pezen;peesden
@@ -1151,7 +1151,7 @@ pipetteren	0	reg	pipetteer;pipetteerde	pipetteert;pipetteerde	pipetteren;pipette
 pissen	1	reg	pis;piste	pist;piste	pissen;pisten
 plaatsen	16	reg	plaats;plaatste	plaatst;plaatste	plaatsen;plaatsten
 plagen	2	reg	plaag;plaagde	plaagt;plaagde	plagen;plaagden
-planten	4	reg	plant;plantte	plant;plantte	planten;plantten
+planten	4	reg	plant;plantte	planten;plantten
 plassen	3	reg	plas;plaste	plast;plaste	plassen;plasten
 plaveien	0	reg	plavei;plaveide	plaveit;plaveide	plaveien;plaveiden
 plenzen	0	reg	plens;plensde	plenst;plensde	plenzen;plensden
@@ -1160,7 +1160,7 @@ ploegen	1	reg	ploeg;ploegde	ploegt;ploegde	ploegen;ploegden
 ploeteren	1	reg	ploeter;ploeterde	ploetert;ploeterde	ploeteren;ploeterden
 ploffen	1	reg	plof;plofte	ploft;plofte	ploffen;ploften
 plooien	1	reg	plooi;plooide	plooit;plooide	plooien;plooiden
-plotten	0	reg	plot;plotte	plot;plotte	plotten;plotten
+plotten	0	reg	plot;plotte	plotten;plotten
 pluimen	0	reg	pluim;pluimde	pluimt;pluimde	pluimen;pluimden
 plukken	4	reg	pluk;plukte	plukt;plukte	plukken;plukten
 plunderen	1	reg	plunder;plunderde	plundert;plunderde	plunderen;plunderden
@@ -1169,17 +1169,17 @@ poetsen	4	reg	poets;poetste	poetst;poetste	poetsen;poetsten
 pogen	3	reg	poog;poogde	poogt;poogde	pogen;poogden
 pokeren	0	reg	poker;pokerde	pokert;pokerde	pokeren;pokerden
 polariseren	0	reg	polariseer;polariseerde	polariseert;polariseerde	polariseren;polariseerden
-polijsten	0	reg	polijst;polijstte	polijst;polijstte	polijsten;polijstten
+polijsten	0	reg	polijst;polijstte	polijsten;polijstten
 pompen	1	reg	pomp;pompte	pompt;pompte	pompen;pompten
 popelen	0	reg	popel;popelde	popelt;popelde	popelen;popelden
 porren	0	reg	por;porde	port;porde	porren;porden
 portretteren	0	reg	portretteer;portretteerde	portretteert;portretteerde	portretteren;portretteerden
 poseren	1	reg	poseer;poseerde	poseert;poseerde	poseren;poseerden
-posten	0	reg	post;postte	post;postte	posten;postten
+posten	0	reg	post;postte	posten;postten
 postuleren	0	reg	postuleer;postuleerde	postuleert;postuleerde	postuleren;postuleerden
-poten	0	reg	poot;pootte	poot;pootte	poten;pootten
-potten	0	reg	pot;potte	pot;potte	potten;potten
-praten	108	reg	praat;praatte	praat;praatte	praten;praatten
+poten	0	reg	poot;pootte	poten;pootten
+potten	0	reg	pot;potte	potten;potten
+praten	108	reg	praat;praatte	praten;praatten
 prediken	1	reg	predik;predikte	predikt;predikte	prediken;predikten
 preken	2	reg	preek;preekte	preekt;preekte	preken;preekten
 prepareren	0	reg	prepareer;prepareerde	prepareert;prepareerde	prepareren;prepareerden
@@ -1188,10 +1188,10 @@ presteren	2	reg	presteer;presteerde	presteert;presteerde	presteren;presteerden
 priegelen	0	reg	priegel;priegelde	priegelt;priegelde	priegelen;priegelden
 prikkelen	2	reg	prikkel;prikkelde	prikkelt;prikkelde	prikkelen;prikkelden
 prikken	2	reg	prik;prikte	prikt;prikte	prikken;prikten
-printen	0	reg	print;printte	print;printte	printen;printten
+printen	0	reg	print;printte	printen;printten
 procederen	0	reg	procedeer;procedeerde	procedeert;procedeerde	procederen;procedeerden
 proclameren	0	reg	proclameer;proclameerde	proclameert;proclameerde	proclameren;proclameerden
-proesten	0	reg	proest;proestte	proest;proestte	proesten;proestten
+proesten	0	reg	proest;proestte	proesten;proestten
 profeteren	0	reg	profeteer;profeteerde	profeteert;profeteerde	profeteren;profeteerden
 profiteren	5	reg	profiteer;profiteerde	profiteert;profiteerde	profiteren;profiteerden
 programmeren	1	reg	programmeer;programmeerde	programmeert;programmeerde	programmeren;programmeerden
@@ -1209,7 +1209,7 @@ publiceren	4	reg	publiceer;publiceerde	publiceert;publiceerde	publiceren;publice
 puffen	0	reg	puf;pufte	puft;pufte	puffen;puften
 pulsen	0	reg	puls;pulste	pulst;pulste	pulsen;pulsten
 puncteren	0	reg	puncteer;puncteerde	puncteert;puncteerde	puncteren;puncteerden
-putten	2	reg	put;putte	put;putte	putten;putten
+putten	2	reg	put;putte	putten;putten
 raadplegen	4	reg	raadpleeg;raadpleegde	raadpleegt;raadpleegde	raadplegen;raadpleegden
 raaskallen	0	reg	raaskal;raaskalde	raaskalt;raaskalde	raaskallen;raaskalden
 racen	0	reg	race;racete	racet;racete	racen;raceten
@@ -1225,7 +1225,7 @@ ratelen	1	reg	ratel;ratelde	ratelt;ratelde	ratelen;ratelden
 razen	1	reg	raas;raasde	raast;raasde	razen;raasden
 reageren	18	reg	reageer;reageerde	reageert;reageerde	reageren;reageerden
 realiseren	13	reg	realiseer;realiseerde	realiseert;realiseerde	realiseren;realiseerden
-rechten	0	reg	recht;rechtte	recht;rechtte	rechten;rechtten
+rechten	0	reg	recht;rechtte	rechten;rechtten
 rechtvaardigen	3	reg	rechtvaardig;rechtvaardigde	rechtvaardigt;rechtvaardigde	rechtvaardigen;rechtvaardigden
 reciteren	0	reg	reciteer;reciteerde	reciteert;reciteerde	reciteren;reciteerden
 reconstrueren	2	reg	reconstrueer;reconstrueerde	reconstrueert;reconstrueerde	reconstrueren;reconstrueerden
@@ -1233,7 +1233,7 @@ rectificeren	0	reg	rectificeer;rectificeerde	rectificeert;rectificeerde	rectific
 redden	14	reg	red;redde	redt;redde	redden;redden
 redeneren	4	reg	redeneer;redeneerde	redeneert;redeneerde	redeneren;redeneerden
 reden	20	reg	reed;reedde	reedt;reedde	reden;reedden
-redetwisten	1	reg	redetwist;redetwistte	redetwist;redetwistte	redetwisten;redetwistten
+redetwisten	1	reg	redetwist;redetwistte	redetwisten;redetwistten
 reduceren	2	reg	reduceer;reduceerde	reduceert;reduceerde	reduceren;reduceerden
 refereren	0	reg	refereer;refereerde	refereert;refereerde	refereren;refereerden
 reflecteren	0	reg	reflecteer;reflecteerde	reflecteert;reflecteerde	reflecteren;reflecteerden
@@ -1265,21 +1265,21 @@ retarderen	0	reg	retardeer;retardeerde	retardeert;retardeerde	retarderen;retarde
 retoucheren	0	reg	retoucheer;retoucheerde	retoucheert;retoucheerde	retoucheren;retoucheerden
 reviseren	0	reg	reviseer;reviseerde	reviseert;reviseerde	reviseren;reviseerden
 revolteren	0	reg	revolteer;revolteerde	revolteert;revolteerde	revolteren;revolteerden
-richten	24	reg	richt;richtte	richt;richtte	richten;richtten
+richten	24	reg	richt;richtte	richten;richtten
 ridderen	0	reg	ridder;ridderde	riddert;ridderde	ridderen;ridderden
 rieken	0	irreg	riek;rook	riekt;rook	rieken;roken
 rijen	0	reg	rij;rijde	rijt;rijde	rijen;rijden
 rijgen	1	irreg	rijg;reeg	rijgt;reeg	rijgen;regen
 rijpen	5	reg	rijp;rijpte	rijpt;rijpte	rijpen;rijpten
-rijten	0	irreg	rijt;reet	rijt;reet	rijten;reten
+rijten	0	irreg	rijt;reet	rijten;reten
 rijzen	4	irreg	rijs;rees	rijst;rees	rijzen;rezen
 rillen	1	reg	ril;rilde	rilt;rilde	rillen;rilden
 rioleren	0	reg	rioleer;rioleerde	rioleert;rioleerde	rioleren;rioleerden
 riskeren	2	reg	riskeer;riskeerde	riskeert;riskeerde	riskeren;riskeerden
-ritten	0	reg	rit;ritte	rit;ritte	ritten;ritten
+ritten	0	reg	rit;ritte	ritten;ritten
 roddelen	1	reg	roddel;roddelde	roddelt;roddelde	roddelen;roddelden
 roemen	0	reg	roem;roemde	roemt;roemde	roemen;roemden
-roesten	0	reg	roest;roestte	roest;roestte	roesten;roestten
+roesten	0	reg	roest;roestte	roesten;roestten
 roken	1	reg	rook;rookte	rookt;rookte	roken;rookten
 rokeren	0	reg	rokeer;rokeerde	rokeert;rokeerde	rokeren;rokeerden
 rollebollen	0	reg	rollebol;rollebolde	rollebolt;rollebolde	rollebollen;rollebolden
@@ -1304,7 +1304,7 @@ scanderen	0	reg	scandeer;scandeerde	scandeert;scandeerde	scanderen;scandeerden
 schaatsen	1	reg	schaats;schaatste	schaatst;schaatste	schaatsen;schaatsten
 schaduwen	1	reg	schaduw;schaduwde	schaduwt;schaduwde	schaduwen;schaduwden
 schaffen	3	reg	schaf;schafte	schaft;schafte	schaffen;schaften
-schaften	1	reg	schaft;schaftte	schaft;schaftte	schaften;schaftten
+schaften	1	reg	schaft;schaftte	schaften;schaftten
 schakelen	4	reg	schakel;schakelde	schakelt;schakelde	schakelen;schakelden
 schallen	0	reg	schal;schalde	schalt;schalde	schallen;schalden
 schamen	4	reg	schaam;schaamde	schaamt;schaamde	schamen;schaamden
@@ -1317,9 +1317,9 @@ schelden	0	irreg	scheld;schold	scheldt;schold	schelden;scholden
 schelen	8	reg	scheel;scheelde	scheelt;scheelde	schelen;scheelden
 scherpen	1	reg	scherp;scherpte	scherpt;scherpte	scherpen;scherpten
 schertsen	0	reg	scherts;schertste	schertst;schertste	schertsen;schertsten
-schiften	0	reg	schift;schiftte	schift;schiftte	schiften;schiftten
+schiften	0	reg	schift;schiftte	schiften;schiftten
 schijnen	14	irreg	schijn;scheen	schijnt;scheen	schijnen;schenen
-schijten	1	irreg	schijt;scheet	schijt;scheet	schijten;scheten
+schijten	1	irreg	schijt;scheet	schijten;scheten
 schilderen	9	reg	schilder;schilderde	schildert;schilderde	schilderen;schilderden
 schillen	3	reg	schil;schilde	schilt;schilde	schillen;schilden
 schitteren	2	reg	schitter;schitterde	schittert;schitterde	schitteren;schitterden
@@ -1357,14 +1357,14 @@ sjorren	0	reg	sjor;sjorde	sjort;sjorde	sjorren;sjorden
 sjouwen	2	reg	sjouw;sjouwde	sjouwt;sjouwde	sjouwen;sjouwden
 slaapwandelen	0	reg	slaapwandel;slaapwandelde	slaapwandelt;slaapwandelde	slaapwandelen;slaapwandelden
 slabakken	0	reg	slabak;slabakte	slabakt;slabakte	slabakken;slabakten
-slachten	2	reg	slacht;slachtte	slacht;slachtte	slachten;slachtten
+slachten	2	reg	slacht;slachtte	slachten;slachtten
 slagen	12	reg	slaag;slaagde	slaagt;slaagde	slagen;slaagden
 slapen	53	irreg	slaap;sliep	slaapt;sliep	slapen;sliepen
 slenteren	1	reg	slenter;slenterde	slentert;slenterde	slenteren;slenterden
 slepen	0	reg	sleep;sleepte	sleept;sleepte	slepen;sleepten
 sleutelen	0	reg	sleutel;sleutelde	sleutelt;sleutelde	sleutelen;sleutelden
 slijpen	1	irreg	slijp;sleep	slijpt;sleep	slijpen;slepen
-slijten	2	irreg	slijt;sleet	slijt;sleet	slijten;sleten
+slijten	2	irreg	slijt;sleet	slijten;sleten
 slikken	10	reg	slik;slikte	slikt;slikte	slikken;slikten
 slingeren	2	reg	slinger;slingerde	slingert;slingerde	slingeren;slingerden
 slinken	1	irreg	slink;slonk	slinkt;slonk	slinken;slonken
@@ -1373,17 +1373,17 @@ slokken	0	reg	slok;slokte	slokt;slokte	slokken;slokten
 slopen	2	reg	sloop;sloopte	sloopt;sloopte	slopen;sloopten
 sluimeren	1	reg	sluimer;sluimerde	sluimert;sluimerde	sluimeren;sluimerden
 sluipen	2	irreg	sluip;sloop	sluipt;sloop	sluipen;slopen
-sluiten	27	irreg	sluit;sloot	sluit;sloot	sluiten;sloten
+sluiten	27	irreg	sluit;sloot	sluiten;sloten
 sluizen	0	reg	sluis;sluisde	sluist;sluisde	sluizen;sluisden
-smachten	0	reg	smacht;smachtte	smacht;smachtte	smachten;smachtten
+smachten	0	reg	smacht;smachtte	smachten;smachtten
 smaden	0	reg	smaad;smaadde	smaadt;smaadde	smaden;smaadden
 smaken	4	reg	smaak;smaakte	smaakt;smaakte	smaken;smaakten
 smakken	1	reg	smak;smakte	smakt;smakte	smakken;smakten
 smeden	1	reg	smeed;smeedde	smeedt;smeedde	smeden;smeedden
 smeken	3	reg	smeek;smeekte	smeekt;smeekte	smeken;smeekten
-smelten	4	irreg	smelt;smolt	smelt;smolt	smelten;smolten
+smelten	4	irreg	smelt;smolt	smelten;smolten
 smeulen	0	reg	smeul;smeulde	smeult;smeulde	smeulen;smeulden
-smijten	2	irreg	smijt;smeet	smijt;smeet	smijten;smeten
+smijten	2	irreg	smijt;smeet	smijten;smeten
 smikkelen	0	reg	smikkel;smikkelde	smikkelt;smikkelde	smikkelen;smikkelden
 smoezen	0	reg	smoes;smoesde	smoest;smoesde	smoezen;smoesden
 smokkelen	2	reg	smokkel;smokkelde	smokkelt;smokkelde	smokkelen;smokkelden
@@ -1402,14 +1402,14 @@ snoeren	1	reg	snoer;snoerde	snoert;snoerde	snoeren;snoerden
 snorren	1	reg	snor;snorde	snort;snorde	snorren;snorden
 snuffelen	2	reg	snuffel;snuffelde	snuffelt;snuffelde	snuffelen;snuffelden
 snuffen	0	reg	snuf;snufte	snuft;snufte	snuffen;snuften
-snuiten	1	irreg	snuit;snoot	snuit;snoot	snuiten;snoten
+snuiten	1	irreg	snuit;snoot	snuiten;snoten
 snuiven	1	irreg	snuif;snoof	snuift;snoof	snuiven;snoven
 snurken	1	reg	snurk;snurkte	snurkt;snurkte	snurken;snurkten
 sommeren	0	reg	sommeer;sommeerde	sommeert;sommeerde	sommeren;sommeerden
 sorteren	2	reg	sorteer;sorteerde	sorteert;sorteerde	sorteren;sorteerden
 spannen	4	reg	span;spande	spant;spande	spannen;spanden
 sparen	5	reg	spaar;spaarde	spaart;spaarde	sparen;spaarden
-spatten	2	reg	spat;spatte	spat;spatte	spatten;spatten
+spatten	2	reg	spat;spatte	spatten;spatten
 specialiseren	1	reg	specialiseer;specialiseerde	specialiseert;specialiseerde	specialiseren;specialiseerden
 specificeren	1	reg	specificeer;specificeerde	specificeert;specificeerde	specificeren;specificeerden
 spekken	0	reg	spek;spekte	spekt;spekte	spekken;spekten
@@ -1420,38 +1420,38 @@ speuren	1	reg	speur;speurde	speurt;speurde	speuren;speurden
 spietsen	0	reg	spiets;spietste	spietst;spietste	spietsen;spietsten
 spijbelen	0	reg	spijbel;spijbelde	spijbelt;spijbelde	spijbelen;spijbelden
 spijkeren	0	reg	spijker;spijkerde	spijkert;spijkerde	spijkeren;spijkerden
-spijten	1	irreg	spijt;speet	spijt;speet	spijten;speten
+spijten	1	irreg	spijt;speet	spijten;speten
 spioneren	0	reg	spioneer;spioneerde	spioneert;spioneerde	spioneren;spioneerden
-splijten	1	irreg	splijt;spleet	splijt;spleet	splijten;spleten
+splijten	1	irreg	splijt;spleet	splijten;spleten
 splitsen	2	reg	splits;splitste	splitst;splitste	splitsen;splitsten
 spoken	1	reg	spook;spookte	spookt;spookte	spoken;spookten
 sponsoren	0	reg	sponsor;sponsorde	sponsort;sponsorde	sponsoren;sponsorden
-sporten	0	reg	sport;sportte	sport;sportte	sporten;sportten
+sporten	0	reg	sport;sportte	sporten;sportten
 spouwen	0	reg	spouw;spouwde	spouwt;spouwde	spouwen;spouwden
 spreiden	2	reg	spreid;spreidde	spreidt;spreidde	spreiden;spreidden
 spreken	99	irreg	spreek;sprak	spreekt;sprak	spreken;spraken
 springen	17	irreg	spring;sprong	springt;sprong	springen;sprongen
 sproeien	1	reg	sproei;sproeide	sproeit;sproeide	sproeien;sproeiden
 sprokkelen	0	reg	sprokkel;sprokkelde	sprokkelt;sprokkelde	sprokkelen;sprokkelden
-spruiten	0	irreg	spruit;sproot	spruit;sproot	spruiten;sproten
+spruiten	0	irreg	spruit;sproot	spruiten;sproten
 spugen	1	reg	spuug;spuugde	spuugt;spuugde	spugen;spuugden
 spuien	1	reg	spui;spuide	spuit;spuide	spuien;spuiden
-spuiten	3	irreg	spuit;spoot	spuit;spoot	spuiten;spoten
+spuiten	3	irreg	spuit;spoot	spuiten;spoten
 spuwen	1	reg	spuw;spuwde	spuwt;spuwde	spuwen;spuwden
 stabiliseren	1	reg	stabiliseer;stabiliseerde	stabiliseert;stabiliseerde	stabiliseren;stabiliseerden
 stagneren	0	reg	stagneer;stagneerde	stagneert;stagneerde	stagneren;stagneerden
 staken	11	reg	staak;staakte	staakt;staakte	staken;staakten
 stallen	1	reg	stal;stalde	stalt;stalde	stallen;stalden
 stampen	2	reg	stamp;stampte	stampt;stampte	stampen;stampten
-stampvoeten	0	reg	stampvoet;stampvoette	stampvoet;stampvoette	stampvoeten;stampvoetten
+stampvoeten	0	reg	stampvoet;stampvoette	stampvoeten;stampvoetten
 stangen	0	reg	stang;stangde	stangt;stangde	stangen;stangden
 stapelen	1	reg	stapel;stapelde	stapelt;stapelde	stapelen;stapelden
 stappen	11	reg	stap;stapte	stapt;stapte	stappen;stapten
 staren	12	reg	staar;staarde	staart;staarde	staren;staarden
-starten	3	reg	start;startte	start;startte	starten;startten
+starten	3	reg	start;startte	starten;startten
 steigeren	1	reg	steiger;steigerde	steigert;steigerde	steigeren;steigerden
 sterken	1	reg	sterk;sterkte	sterkt;sterkte	sterken;sterkten
-stichten	4	reg	sticht;stichtte	sticht;stichtte	stichten;stichtten
+stichten	4	reg	sticht;stichtte	stichten;stichtten
 stimuleren	6	reg	stimuleer;stimuleerde	stimuleert;stimuleerde	stimuleren;stimuleerden
 stinken	2	irreg	stink;stonk	stinkt;stonk	stinken;stonken
 stoeien	1	reg	stoei;stoeide	stoeit;stoeide	stoeien;stoeiden
@@ -1462,7 +1462,7 @@ stoken	1	reg	stook;stookte	stookt;stookte	stoken;stookten
 stollen	1	reg	stol;stolde	stolt;stolde	stollen;stolden
 stompen	0	reg	stomp;stompte	stompt;stompte	stompen;stompten
 storen	4	reg	stoor;stoorde	stoort;stoorde	storen;stoorden
-storten	7	reg	stort;stortte	stort;stortte	storten;stortten
+storten	7	reg	stort;stortte	storten;stortten
 stotteren	1	reg	stotter;stotterde	stottert;stotterde	stotteren;stotterden
 stranden	0	reg	strand;strandde	strandt;strandde	stranden;strandden
 strekken	5	reg	strek;strekte	strekt;strekte	strekken;strekten
@@ -1476,10 +1476,10 @@ stromen	5	reg	stroom;stroomde	stroomt;stroomde	stromen;stroomden
 stroomlijnen	0	reg	stroomlijn;stroomlijnde	stroomlijnt;stroomlijnde	stroomlijnen;stroomlijnden
 struinen	0	reg	struin;struinde	struint;struinde	struinen;struinden
 studeren	10	reg	studeer;studeerde	studeert;studeerde	studeren;studeerden
-stuiten	4	reg	stuit;stuitte	stuit;stuitte	stuiten;stuitten
+stuiten	4	reg	stuit;stuitte	stuiten;stuitten
 stuiteren	0	reg	stuiter;stuiterde	stuitert;stuiterde	stuiteren;stuiterden
 stuiven	1	irreg	stuif;stoof	stuift;stoof	stuiven;stoven
-stunten	0	reg	stunt;stuntte	stunt;stuntte	stunten;stuntten
+stunten	0	reg	stunt;stuntte	stunten;stuntten
 stuwen	1	reg	stuw;stuwde	stuwt;stuwde	stuwen;stuwden
 sudderen	1	reg	sudder;sudderde	suddert;sudderde	sudderen;sudderden
 suggereren	4	reg	suggereer;suggereerde	suggereert;suggereerde	suggereren;suggereerden
@@ -1491,18 +1491,18 @@ synchroniseren	0	reg	synchroniseer;synchroniseerde	synchroniseert;synchroniseerd
 systematiseren	0	reg	systematiseer;systematiseerde	systematiseert;systematiseerde	systematiseren;systematiseerden
 tafelen	0	reg	tafel;tafelde	tafelt;tafelde	tafelen;tafelden
 tanken	0	reg	tank;tankte	tankt;tankte	tanken;tankten
-tarten	1	reg	tart;tartte	tart;tartte	tarten;tartten
-tasten	0	reg	tast;tastte	tast;tastte	tasten;tastten
+tarten	1	reg	tart;tartte	tarten;tartten
+tasten	0	reg	tast;tastte	tasten;tastten
 taxeren	1	reg	taxeer;taxeerde	taxeert;taxeerde	taxeren;taxeerden
 teisteren	0	reg	teister;teisterde	teistert;teisterde	teisteren;teisterden
 telefoneren	2	reg	telefoneer;telefoneerde	telefoneert;telefoneerde	telefoneren;telefoneerden
 telen	0	reg	teel;teelde	teelt;teelde	telen;teelden
 temen	0	reg	teem;teemde	teemt;teemde	temen;teemden
 tennissen	1	reg	tennis;tenniste	tennist;tenniste	tennissen;tennisten
-testen	4	reg	test;testte	test;testte	testen;testten
+testen	4	reg	test;testte	testen;testten
 tieren	1	reg	tier;tierde	tiert;tierde	tieren;tierden
 tillen	4	reg	til;tilde	tilt;tilde	tillen;tilden
-tinten	0	reg	tint;tintte	tint;tintte	tinten;tintten
+tinten	0	reg	tint;tintte	tinten;tintten
 tippelen	0	reg	tippel;tippelde	tippelt;tippelde	tippelen;tippelden
 tippen	1	reg	tip;tipte	tipt;tipte	tippen;tipten
 titreren	0	reg	titreer;titreerde	titreert;titreerde	titreren;titreerden
@@ -1510,11 +1510,11 @@ toeteren	0	reg	toeter;toeterde	toetert;toeterde	toeteren;toeterden
 toetsen	6	reg	toets;toetste	toetst;toetste	toetsen;toetsten
 tolereren	1	reg	tolereer;tolereerde	tolereert;tolereerde	tolereren;tolereerden
 tolken	0	reg	tolk;tolkte	tolkt;tolkte	tolken;tolkten
-toosten	0	reg	toost;toostte	toost;toostte	toosten;toostten
+toosten	0	reg	toost;toostte	toosten;toostten
 toucheren	0	reg	toucheer;toucheerde	toucheert;toucheerde	toucheren;toucheerden
 toveren	2	reg	tover;toverde	tovert;toverde	toveren;toverden
 traceren	0	reg	traceer;traceerde	traceert;traceerde	traceren;traceerden
-trachten	17	reg	tracht;trachtte	tracht;trachtte	trachten;trachtten
+trachten	17	reg	tracht;trachtte	trachten;trachtten
 trakteren	1	reg	trakteer;trakteerde	trakteert;trakteerde	trakteren;trakteerden
 tranen	0	reg	traan;traande	traant;traande	tranen;traanden
 transfigureren	0	reg	transfigureer;transfigureerde	transfigureert;transfigureerde	transfigureren;transfigureerden
@@ -1528,29 +1528,29 @@ trimmen	0	reg	trim;trimde	trimt;trimde	trimmen;trimden
 triomferen	0	reg	triomfeer;triomfeerde	triomfeert;triomfeerde	triomferen;triomfeerden
 trommelen	2	reg	trommel;trommelde	trommelt;trommelde	trommelen;trommelden
 tronen	0	reg	troon;troonde	troont;troonde	tronen;troonden
-troosten	6	reg	troost;troostte	troost;troostte	troosten;troostten
+troosten	6	reg	troost;troostte	troosten;troostten
 trotseren	1	reg	trotseer;trotseerde	trotseert;trotseerde	trotseren;trotseerden
 tuchtigen	0	reg	tuchtig;tuchtigde	tuchtigt;tuchtigde	tuchtigen;tuchtigden
 tuinieren	1	reg	tuinier;tuinierde	tuiniert;tuinierde	tuinieren;tuinierden
-tuiten	0	reg	tuit;tuitte	tuit;tuitte	tuiten;tuitten
+tuiten	0	reg	tuit;tuitte	tuiten;tuitten
 turen	2	reg	tuur;tuurde	tuurt;tuurde	turen;tuurden
 turven	0	reg	turf;turfde	turft;turfde	turven;turfden
 tutoyeren	1	reg	tutoyeer;tutoyeerde	tutoyeert;tutoyeerde	tutoyeren;tutoyeerden
 twijfelen	8	reg	twijfel;twijfelde	twijfelt;twijfelde	twijfelen;twijfelden
 twinkelen	0	reg	twinkel;twinkelde	twinkelt;twinkelde	twinkelen;twinkelden
 typeren	1	reg	typeer;typeerde	typeert;typeerde	typeren;typeerden
-uiten	8	reg	uit;uitte	uit;uitte	uiten;uitten
+uiten	8	reg	uit;uitte	uiten;uitten
 urineren	1	reg	urineer;urineerde	urineert;urineerde	urineren;urineerden
 vagen	1	reg	vaag;vaagde	vaagt;vaagde	vagen;vaagden
 vangen	16	irreg	vang;ving	vangt;ving	vangen;vingen
-vatten	7	reg	vat;vatte	vat;vatte	vatten;vatten
-vechten	16	irreg	vecht;vocht	vecht;vocht	vechten;vochten
+vatten	7	reg	vat;vatte	vatten;vatten
+vechten	16	irreg	vecht;vocht	vechten;vochten
 vegen	4	reg	veeg;veegde	veegt;veegde	vegen;veegden
 veilen	0	reg	veil;veilde	veilt;veilde	veilen;veilden
 velen	0	reg	veel;veelde	veelt;veelde	velen;veelden
 vellen	2	reg	vel;velde	velt;velde	vellen;velden
-venten	0	reg	vent;ventte	vent;ventte	venten;ventten
-verachten	1	reg	veracht;verachtte	veracht;verachtte	verachten;verachtten
+venten	0	reg	vent;ventte	venten;ventten
+verachten	1	reg	veracht;verachtte	verachten;verachtten
 verademen	0	reg	veradem;verademde	verademt;verademde	verademen;verademden
 verafgoden	0	reg	verafgood;verafgoodde	verafgoodt;verafgoodde	verafgoden;verafgoodden
 verafschuwen	0	reg	verafschuw;verafschuwde	verafschuwt;verafschuwde	verafschuwen;verafschuwden
@@ -1584,7 +1584,7 @@ verdampen	1	reg	verdamp;verdampte	verdampt;verdampte	verdampen;verdampten
 verdelen	7	reg	verdeel;verdeelde	verdeelt;verdeelde	verdelen;verdeelden
 verdelgen	1	reg	verdelg;verdelgde	verdelgt;verdelgde	verdelgen;verdelgden
 verdenken	1	irreg	verdenk;verdacht	verdenkt;verdacht	verdenken;verdachten
-verdichten	0	reg	verdicht;verdichtte	verdicht;verdichtte	verdichten;verdichtten
+verdichten	0	reg	verdicht;verdichtte	verdichten;verdichtten
 verdienen	19	reg	verdien;verdiende	verdient;verdiende	verdienen;verdienden
 verdiepen	4	reg	verdiep;verdiepte	verdiept;verdiepte	verdiepen;verdiepten
 verdikken	0	reg	verdik;verdikte	verdikt;verdikte	verdikken;verdikten
@@ -1629,7 +1629,7 @@ vergelijken	15	irreg	vergelijk;vergeleek	vergelijkt;vergeleek	vergelijken;vergel
 vergemakkelijken	2	reg	vergemakkelijk;vergemakkelijkte	vergemakkelijkt;vergemakkelijkte	vergemakkelijken;vergemakkelijkten
 vergen	4	reg	verg;vergde	vergt;vergde	vergen;vergden
 vergezellen	3	reg	vergezel;vergezelde	vergezelt;vergezelde	vergezellen;vergezelden
-vergieten	0	irreg	vergiet;vergoot	vergiet;vergoot	vergieten;vergoten
+vergieten	0	irreg	vergiet;vergoot	vergieten;vergoten
 vergiftigen	1	reg	vergiftig;vergiftigde	vergiftigt;vergiftigde	vergiftigen;vergiftigden
 verglijden	0	irreg	verglijd;vergleed	verglijdt;vergleed	verglijden;vergleden
 vergoeden	1	reg	vergoed;vergoedde	vergoedt;vergoedde	vergoeden;vergoedden
@@ -1638,7 +1638,7 @@ vergrendelen	0	reg	vergrendel;vergrendelde	vergrendelt;vergrendelde	vergrendelen
 vergrijpen	0	irreg	vergrijp;vergreep	vergrijpt;vergreep	vergrijpen;vergrepen
 vergrijzen	0	reg	vergrijs;vergrijsde	vergrijst;vergrijsde	vergrijzen;vergrijsden
 vergroeien	0	reg	vergroei;vergroeide	vergroeit;vergroeide	vergroeien;vergroeiden
-vergroten	8	reg	vergroot;vergrootte	vergroot;vergrootte	vergroten;vergrootten
+vergroten	8	reg	vergroot;vergrootte	vergroten;vergrootten
 verguizen	0	reg	verguis;verguisde	verguist;verguisde	verguizen;verguisden
 vergunnen	0	reg	vergun;vergunde	vergunt;vergunde	vergunnen;vergunden
 verhalen	1	reg	verhaal;verhaalde	verhaalt;verhaalde	verhalen;verhaalden
@@ -1652,7 +1652,7 @@ verheffen	3	irreg	verhef;verhief	verheft;verhief	verheffen;verhieven
 verhelpen	2	irreg	verhelp;verhielp	verhelpt;verhielp	verhelpen;verhielpen
 verheugen	2	reg	verheug;verheugde	verheugt;verheugde	verheugen;verheugden
 verhinderen	8	reg	verhinder;verhinderde	verhindert;verhinderde	verhinderen;verhinderden
-verhitten	0	reg	verhit;verhitte	verhit;verhitte	verhitten;verhitten
+verhitten	0	reg	verhit;verhitte	verhitten;verhitten
 verhogen	6	reg	verhoog;verhoogde	verhoogt;verhoogde	verhogen;verhoogden
 verhongeren	1	reg	verhonger;verhongerde	verhongert;verhongerde	verhongeren;verhongerden
 verhoren	1	reg	verhoor;verhoorde	verhoort;verhoorde	verhoren;verhoorden
@@ -1671,7 +1671,7 @@ verklaren	26	reg	verklaar;verklaarde	verklaart;verklaarde	verklaren;verklaarden
 verkleden	2	reg	verkleed;verkleedde	verkleedt;verkleedde	verkleden;verkleedden
 verkleinen	1	reg	verklein;verkleinde	verkleint;verkleinde	verkleinen;verkleinden
 verkleuren	1	reg	verkleur;verkleurde	verkleurt;verkleurde	verkleuren;verkleurden
-verkloten	0	reg	verkloot;verklootte	verkloot;verklootte	verkloten;verklootten
+verkloten	0	reg	verkloot;verklootte	verkloten;verklootten
 verkneukelen	0	reg	verkneukel;verkneukelde	verkneukelt;verkneukelde	verkneukelen;verkneukelden
 verknoeien	1	reg	verknoei;verknoeide	verknoeit;verknoeide	verknoeien;verknoeiden
 verkoelen	0	reg	verkoel;verkoelde	verkoelt;verkoelde	verkoelen;verkoelden
@@ -1679,19 +1679,19 @@ verkolen	0	reg	verkool;verkoolde	verkoolt;verkoolde	verkolen;verkoolden
 verkommeren	0	reg	verkommer;verkommerde	verkommert;verkommerde	verkommeren;verkommerden
 verkopen	19	irreg	verkoop;verkocht	verkoopt;verkocht	verkopen;verkochten
 verkoperen	0	reg	verkoper;verkoperde	verkopert;verkoperde	verkoperen;verkoperden
-verkorten	1	reg	verkort;verkortte	verkort;verkortte	verkorten;verkortten
-verkrachten	1	reg	verkracht;verkrachtte	verkracht;verkrachtte	verkrachten;verkrachtten
+verkorten	1	reg	verkort;verkortte	verkorten;verkortten
+verkrachten	1	reg	verkracht;verkrachtte	verkrachten;verkrachtten
 verkreukelen	0	reg	verkreukel;verkreukelde	verkreukelt;verkreukelde	verkreukelen;verkreukelden
 verkrijgen	14	irreg	verkrijg;verkreeg	verkrijgt;verkreeg	verkrijgen;verkregen
 verkwikken	0	reg	verkwik;verkwikte	verkwikt;verkwikte	verkwikken;verkwikten
-verkwisten	0	reg	verkwist;verkwistte	verkwist;verkwistte	verkwisten;verkwistten
+verkwisten	0	reg	verkwist;verkwistte	verkwisten;verkwistten
 verlagen	0	reg	verlaag;verlaagde	verlaagt;verlaagde	verlagen;verlaagden
 verlangen	19	reg	verlang;verlangde	verlangt;verlangde	verlangen;verlangden
 verlangzamen	0	reg	verlangzaam;verlangzaamde	verlangzaamt;verlangzaamde	verlangzamen;verlangzaamden
 verleiden	0	reg	verleid;verleidde	verleidt;verleidde	verleiden;verleidden
 verlenen	12	reg	verleen;verleende	verleent;verleende	verlenen;verleenden
 verlengen	2	reg	verleng;verlengde	verlengt;verlengde	verlengen;verlengden
-verlichten	3	reg	verlicht;verlichtte	verlicht;verlichtte	verlichten;verlichtten
+verlichten	3	reg	verlicht;verlichtte	verlichten;verlichtten
 verlieven	0	reg	verlief;verliefde	verlieft;verliefde	verlieven;verliefden
 verliezen	27	irreg	verlies;verloor	verliest;verloor	verliezen;verloren
 verlijden	0	irreg	verlijd;verleed	verlijdt;verleed	verlijden;verleden
@@ -1728,7 +1728,7 @@ vernoemen	0	reg	vernoem;vernoemde	vernoemt;vernoemde	vernoemen;vernoemden
 veronderstellen	7	reg	veronderstel;veronderstelde	veronderstelt;veronderstelde	veronderstellen;veronderstelden
 verongelukken	0	reg	verongeluk;verongelukte	verongelukt;verongelukte	verongelukken;verongelukten
 verontreinigen	0	reg	verontreinig;verontreinigde	verontreinigt;verontreinigde	verontreinigen;verontreinigden
-verontrusten	1	reg	verontrust;verontrustte	verontrust;verontrustte	verontrusten;verontrustten
+verontrusten	1	reg	verontrust;verontrustte	verontrusten;verontrustten
 verontschuldigen	3	reg	verontschuldig;verontschuldigde	verontschuldigt;verontschuldigde	verontschuldigen;verontschuldigden
 verontwaardigen	0	reg	verontwaardig;verontwaardigde	verontwaardigt;verontwaardigde	verontwaardigen;verontwaardigden
 veroordelen	3	reg	veroordeel;veroordeelde	veroordeelt;veroordeelde	veroordelen;veroordeelden
@@ -1740,31 +1740,31 @@ verordonneren	0	reg	verordonneer;verordonneerde	verordonneert;verordonneerde	ver
 verouderen	0	reg	verouder;verouderde	veroudert;verouderde	verouderen;verouderden
 veroveren	7	reg	verover;veroverde	verovert;veroverde	veroveren;veroverden
 verpanden	0	reg	verpand;verpandde	verpandt;verpandde	verpanden;verpandden
-verpesten	1	reg	verpest;verpestte	verpest;verpestte	verpesten;verpestten
+verpesten	1	reg	verpest;verpestte	verpesten;verpestten
 verpieteren	0	reg	verpieter;verpieterde	verpietert;verpieterde	verpieteren;verpieterden
 verplaatsen	6	reg	verplaats;verplaatste	verplaatst;verplaatste	verplaatsen;verplaatsten
-verplanten	0	reg	verplant;verplantte	verplant;verplantte	verplanten;verplantten
+verplanten	0	reg	verplant;verplantte	verplanten;verplantten
 verplegen	1	reg	verpleeg;verpleegde	verpleegt;verpleegde	verplegen;verpleegden
 verpletteren	1	reg	verpletter;verpletterde	verplettert;verpletterde	verpletteren;verpletterden
-verplichten	2	reg	verplicht;verplichtte	verplicht;verplichtte	verplichten;verplichtten
-verpotten	1	reg	verpot;verpotte	verpot;verpotte	verpotten;verpotten
+verplichten	2	reg	verplicht;verplichtte	verplichten;verplichtten
+verpotten	1	reg	verpot;verpotte	verpotten;verpotten
 verprutsen	0	reg	verpruts;verprutste	verprutst;verprutste	verprutsen;verprutsten
 verrassen	2	reg	verras;verraste	verrast;verraste	verrassen;verrasten
 verrekenen	0	reg	verreken;verrekende	verrekent;verrekende	verrekenen;verrekenden
 verrekken	1	reg	verrek;verrekte	verrekt;verrekte	verrekken;verrekten
-verrichten	18	reg	verricht;verrichtte	verricht;verrichtte	verrichten;verrichtten
+verrichten	18	reg	verricht;verrichtte	verrichten;verrichtten
 verrijken	2	reg	verrijk;verrijkte	verrijkt;verrijkte	verrijken;verrijkten
 verrijzen	1	irreg	verrijs;verrees	verrijst;verrees	verrijzen;verrezen
 verroeren	1	reg	verroer;verroerde	verroert;verroerde	verroeren;verroerden
-verroesten	0	reg	verroest;verroestte	verroest;verroestte	verroesten;verroestten
-verrotten	0	reg	verrot;verrotte	verrot;verrotte	verrotten;verrotten
+verroesten	0	reg	verroest;verroestte	verroesten;verroestten
+verrotten	0	reg	verrot;verrotte	verrotten;verrotten
 verrukken	0	reg	verruk;verrukte	verrukt;verrukte	verrukken;verrukten
 verschaffen	11	reg	verschaf;verschafte	verschaft;verschafte	verschaffen;verschaften
 verschalken	1	reg	verschalk;verschalkte	verschalkt;verschalkte	verschalken;verschalkten
 verschansen	0	reg	verschans;verschanste	verschanst;verschanste	verschansen;verschansten
 verschepen	0	reg	verscheep;verscheepte	verscheept;verscheepte	verschepen;verscheepten
 verscheuren	2	reg	verscheur;verscheurde	verscheurt;verscheurde	verscheuren;verscheurden
-verschieten	0	irreg	verschiet;verschoot	verschiet;verschoot	verschieten;verschoten
+verschieten	0	irreg	verschiet;verschoot	verschieten;verschoten
 verschijnen	22	irreg	verschijn;verscheen	verschijnt;verscheen	verschijnen;verschenen
 verschillen	8	reg	verschil;verschilde	verschilt;verschilde	verschillen;verschilden
 verschonen	1	reg	verschoon;verschoonde	verschoont;verschoonde	verschonen;verschoonden
@@ -1778,11 +1778,11 @@ versimpelen	0	reg	versimpel;versimpelde	versimpelt;versimpelde	versimpelen;versi
 versjteren	0	reg	versjteer;versjteerde	versjteert;versjteerde	versjteren;versjteerden
 verslaan	2	irreg	versla;versloeg	verslaat;versloeg	verslaan;versloegen
 verslechteren	0	reg	verslechter;verslechterde	verslechtert;verslechterde	verslechteren;verslechterden
-verslijten	1	irreg	verslijt;versleet	verslijt;versleet	verslijten;versleten
+verslijten	1	irreg	verslijt;versleet	verslijten;versleten
 verslikken	0	reg	verslik;verslikte	verslikt;verslikte	verslikken;verslikten
 verslinden	1	irreg	verslind;verslond	verslindt;verslond	verslinden;verslonden
 versmallen	0	reg	versmal;versmalde	versmalt;versmalde	versmallen;versmalden
-versmelten	1	irreg	versmelt;versmolt	versmelt;versmolt	versmelten;versmolten
+versmelten	1	irreg	versmelt;versmolt	versmelten;versmolten
 versnellen	2	reg	versnel;versnelde	versnelt;versnelde	versnellen;versnelden
 versnipperen	0	reg	versnipper;versnipperde	versnippert;versnipperde	versnipperen;versnipperden
 versoepelen	0	reg	versoepel;versoepelde	versoepelt;versoepelde	versoepelen;versoepelden
@@ -1812,7 +1812,7 @@ vertoeven	1	reg	vertoef;vertoefde	vertoeft;vertoefde	vertoeven;vertoefden
 vertonen	19	reg	vertoon;vertoonde	vertoont;vertoonde	vertonen;vertoonden
 vertragen	2	reg	vertraag;vertraagde	vertraagt;vertraagde	vertragen;vertraagden
 vertrekken	19	irreg	vertrek;vertrok	vertrekt;vertrok	vertrekken;vertrokken
-vertroosten	0	reg	vertroost;vertroostte	vertroost;vertroostte	vertroosten;vertroostten
+vertroosten	0	reg	vertroost;vertroostte	vertroosten;vertroostten
 vertrouwen	22	reg	vertrouw;vertrouwde	vertrouwt;vertrouwde	vertrouwen;vertrouwden
 vervaardigen	4	reg	vervaardig;vervaardigde	vervaardigt;vervaardigde	vervaardigen;vervaardigden
 vervagen	2	reg	vervaag;vervaagde	vervaagt;vervaagde	vervagen;vervaagden
@@ -1831,7 +1831,7 @@ vervroegen	0	reg	vervroeg;vervroegde	vervroegt;vervroegde	vervroegen;vervroegden
 vervuilen	0	reg	vervuil;vervuilde	vervuilt;vervuilde	vervuilen;vervuilden
 vervullen	14	reg	vervul;vervulde	vervult;vervulde	vervullen;vervulden
 verwaarlozen	3	reg	verwaarloos;verwaarloosde	verwaarloost;verwaarloosde	verwaarlozen;verwaarloosden
-verwachten	35	reg	verwacht;verwachtte	verwacht;verwachtte	verwachten;verwachtten
+verwachten	35	reg	verwacht;verwachtte	verwachten;verwachtten
 verwarmen	2	reg	verwarm;verwarmde	verwarmt;verwarmde	verwarmen;verwarmden
 verwarren	2	reg	verwar;verwarde	verwart;verwarde	verwarren;verwarden
 verwekken	2	reg	verwek;verwekte	verwekt;verwekte	verwekken;verwekten
@@ -1844,19 +1844,19 @@ verwerven	10	irreg	verwerf;verwierf	verwerft;verwierf	verwerven;verwierven
 verwezenlijken	6	reg	verwezenlijk;verwezenlijkte	verwezenlijkt;verwezenlijkte	verwezenlijken;verwezenlijkten
 verwijden	0	reg	verwijd;verwijdde	verwijdt;verwijdde	verwijden;verwijdden
 verwijderen	10	reg	verwijder;verwijderde	verwijdert;verwijderde	verwijderen;verwijderden
-verwijten	4	irreg	verwijt;verweet	verwijt;verweet	verwijten;verweten
+verwijten	4	irreg	verwijt;verweet	verwijten;verweten
 verwijven	0	reg	verwijf;verwijfde	verwijft;verwijfde	verwijven;verwijfden
 verwijzen	7	irreg	verwijs;verwees	verwijst;verwees	verwijzen;verwezen
 verwikkelen	0	reg	verwikkel;verwikkelde	verwikkelt;verwikkelde	verwikkelen;verwikkelden
 verwilderen	0	reg	verwilder;verwilderde	verwildert;verwilderde	verwilderen;verwilderden
 verwisselen	2	reg	verwissel;verwisselde	verwisselt;verwisselde	verwisselen;verwisselden
 verwittigen	1	reg	verwittig;verwittigde	verwittigt;verwittigde	verwittigen;verwittigden
-verwoesten	1	reg	verwoest;verwoestte	verwoest;verwoestte	verwoesten;verwoestten
+verwoesten	1	reg	verwoest;verwoestte	verwoesten;verwoestten
 verwonden	0	reg	verwond;verwondde	verwondt;verwondde	verwonden;verwondden
 verwonderen	3	reg	verwonder;verwonderde	verwondert;verwonderde	verwonderen;verwonderden
 verwoorden	1	reg	verwoord;verwoordde	verwoordt;verwoordde	verwoorden;verwoordden
 verwringen	0	irreg	verwring;verwrong	verwringt;verwrong	verwringen;verwrongen
-verzachten	2	reg	verzacht;verzachtte	verzacht;verzachtte	verzachten;verzachtten
+verzachten	2	reg	verzacht;verzachtte	verzachten;verzachtten
 verzadigen	0	reg	verzadig;verzadigde	verzadigt;verzadigde	verzadigen;verzadigden
 verzaken	1	reg	verzaak;verzaakte	verzaakt;verzaakte	verzaken;verzaakten
 verzamelen	11	reg	verzamel;verzamelde	verzamelt;verzamelde	verzamelen;verzamelden
@@ -1864,7 +1864,7 @@ verzegelen	0	reg	verzegel;verzegelde	verzegelt;verzegelde	verzegelen;verzegelden
 verzekeren	6	reg	verzeker;verzekerde	verzekert;verzekerde	verzekeren;verzekerden
 verzenden	1	irreg	verzend;verzond	verzendt;verzond	verzenden;verzonden
 verzengen	0	reg	verzeng;verzengde	verzengt;verzengde	verzengen;verzengden
-verzetten	6	reg	verzet;verzette	verzet;verzette	verzetten;verzetten
+verzetten	6	reg	verzet;verzette	verzetten;verzetten
 verzieken	0	reg	verziek;verziekte	verziekt;verziekte	verzieken;verziekten
 verzinnen	6	irreg	verzin;verzon	verzint;verzon	verzinnen;verzonnen
 verzoeken	4	irreg	verzoek;verzocht	verzoekt;verzocht	verzoeken;verzochten
@@ -1890,13 +1890,13 @@ vinken	0	reg	vink;vinkte	vinkt;vinkte	vinken;vinkten
 viseren	0	reg	viseer;viseerde	viseert;viseerde	viseren;viseerden
 vissen	5	reg	vis;viste	vist;viste	vissen;visten
 vlammen	0	reg	vlam;vlamde	vlamt;vlamde	vlammen;vlamden
-vlechten	1	irreg	vlecht;vlocht	vlecht;vlocht	vlechten;vlochten
-vlieten	0	irreg	vliet;vloot	vliet;vloot	vlieten;vloten
+vlechten	1	irreg	vlecht;vlocht	vlechten;vlochten
+vlieten	0	irreg	vliet;vloot	vlieten;vloten
 vlinderen	0	reg	vlinder;vlinderde	vlindert;vlinderde	vlinderen;vlinderden
 vloeien	4	reg	vloei;vloeide	vloeit;vloeide	vloeien;vloeiden
 vloeren	0	reg	vloer;vloerde	vloert;vloerde	vloeren;vloerden
-vlotten	0	reg	vlot;vlotte	vlot;vlotte	vlotten;vlotten
-vluchten	6	reg	vlucht;vluchtte	vlucht;vluchtte	vluchten;vluchtten
+vlotten	0	reg	vlot;vlotte	vlotten;vlotten
+vluchten	6	reg	vlucht;vluchtte	vluchten;vluchtten
 voeden	8	reg	voed;voedde	voedt;voedde	voeden;voedden
 voederen	0	reg	voeder;voederde	voedert;voederde	voederen;voederden
 voelen	62	reg	voel;voelde	voelt;voelde	voelen;voelden
@@ -1949,7 +1949,7 @@ wensen	9	reg	wens;wenste	wenst;wenste	wensen;wensten
 wentelen	1	reg	wentel;wentelde	wentelt;wentelde	wentelen;wentelden
 werpen	11	irreg	werp;wierp	werpt;wierp	werpen;wierpen
 wervelen	0	reg	wervel;wervelde	wervelt;wervelde	wervelen;wervelden
-wetten	0	reg	wet;wette	wet;wette	wetten;wetten
+wetten	0	reg	wet;wette	wetten;wetten
 weven	1	reg	weef;weefde	weeft;weefde	weven;weefden
 wichelen	0	reg	wichel;wichelde	wichelt;wichelde	wichelen;wichelden
 wiebelen	1	reg	wiebel;wiebelde	wiebelt;wiebelde	wiebelen;wiebelden
@@ -1957,13 +1957,13 @@ wiegen	1	reg	wieg;wiegde	wiegt;wiegde	wiegen;wiegden
 wijden	6	reg	wijd;wijdde	wijdt;wijdde	wijden;wijdden
 wijzigen	6	reg	wijzig;wijzigde	wijzigt;wijzigde	wijzigen;wijzigden
 wikkelen	1	reg	wikkel;wikkelde	wikkelt;wikkelde	wikkelen;wikkelden
-willen	206	reg	wil;wilde	wilt;wilde	wil;wilde	willen;wilden
+willen	206	reg	wil;wilde	wilt;wilde	willen;wilden
 winkelen	2	reg	winkel;winkelde	winkelt;winkelde	winkelen;winkelden
 winnen	19	irreg	win;won	wint;won	winnen;wonnen
 wippen	2	reg	wip;wipte	wipt;wipte	wippen;wipten
 wisselen	7	reg	wissel;wisselde	wisselt;wisselde	wisselen;wisselden
 wissen	2	reg	wis;wiste	wist;wiste	wissen;wisten
-witten	1	reg	wit;witte	wit;witte	witten;witten
+witten	1	reg	wit;witte	witten;witten
 woeden	0	reg	woed;woedde	woedt;woedde	woeden;woedden
 woekeren	1	reg	woeker;woekerde	woekert;woekerde	woekeren;woekerden
 woelen	2	reg	woel;woelde	woelt;woelde	woelen;woelden
@@ -1975,9 +1975,9 @@ wreken	3	reg	wreek;wreekte	wreekt;wreekte	wreken;wreekten
 wrijven	5	irreg	wrijf;wreef	wrijft;wreef	wrijven;wreven
 wrikken	1	reg	wrik;wrikte	wrikt;wrikte	wrikken;wrikten
 wringen	2	irreg	wring;wrong	wringt;wrong	wringen;wrongen
-wrochten	0	reg	wrocht;wrochtte	wrocht;wrochtte	wrochten;wrochtten
+wrochten	0	reg	wrocht;wrochtte	wrochten;wrochtten
 wroegen	0	reg	wroeg;wroegde	wroegt;wroegde	wroegen;wroegden
-wroeten	1	reg	wroet;wroette	wroet;wroette	wroeten;wroetten
+wroeten	1	reg	wroet;wroette	wroeten;wroetten
 wurgen	1	reg	wurg;wurgde	wurgt;wurgde	wurgen;wurgden
 wurmen	0	reg	wurm;wurmde	wurmt;wurmde	wurmen;wurmden
 zagen	104	reg	zaag;zaagde	zaagt;zaagde	zagen;zaagden
@@ -1989,25 +1989,25 @@ zenden	6	irreg	zend;zond	zendt;zond	zenden;zonden
 zengen	0	reg	zeng;zengde	zengt;zengde	zengen;zengden
 zeuren	3	reg	zeur;zeurde	zeurt;zeurde	zeuren;zeurden
 zien	415	irreg	zie;zag	ziet;zag	zien;zagen
-ziften	0	reg	zift;ziftte	zift;ziftte	ziften;ziftten
+ziften	0	reg	zift;ziftte	ziften;ziftten
 zingen	19	irreg	zing;zong	zingt;zong	zingen;zongen
 zoeken	75	irreg	zoek;zocht	zoekt;zocht	zoeken;zochten
 zoemen	2	reg	zoem;zoemde	zoemt;zoemde	zoemen;zoemden
 zoenen	3	reg	zoen;zoende	zoent;zoende	zoenen;zoenden
-zoeten	0	reg	zoet;zoette	zoet;zoette	zoeten;zoetten
+zoeten	0	reg	zoet;zoette	zoeten;zoetten
 zogen	1	reg	zoog;zoogde	zoogt;zoogde	zogen;zoogden
 zolen	0	reg	zool;zoolde	zoolt;zoolde	zolen;zoolden
 zomen	0	reg	zoom;zoomde	zoomt;zoomde	zomen;zoomden
 zomeren	0	reg	zomer;zomerde	zomert;zomerde	zomeren;zomerden
 zonnebaden	0	reg	zonnebaad;zonnebaadde	zonnebaadt;zonnebaadde	zonnebaden;zonnebaadden
-zoomen	0	reg	zoom;zoomde	zoomt;zoomde	zoomen;zoomden
+zoomen	0	reg	zoomen;zoomden
 zorgen	51	reg	zorg;zorgde	zorgt;zorgde	zorgen;zorgden
-zouten	0	reg	zout;zoutte	zout;zoutte	zouten;zoutten
-zuchten	2	reg	zucht;zuchtte	zucht;zuchtte	zuchten;zuchtten
+zouten	0	reg	zout;zoutte	zouten;zoutten
+zuchten	2	reg	zucht;zuchtte	zuchten;zuchtten
 zuigen	5	irreg	zuig;zoog	zuigt;zoog	zuigen;zogen
 zuipen	1	irreg	zuip;zoop	zuipt;zoop	zuipen;zopen
 zuiveren	2	reg	zuiver;zuiverde	zuivert;zuiverde	zuiveren;zuiverden
-zullen	242	irreg	zal;zou	zult;zou	zal;zou	zullen;zouden
+zullen	242	irreg	zal;zou	zult;zou	zullen;zouden
 zwaaien	5	reg	zwaai;zwaaide	zwaait;zwaaide	zwaaien;zwaaiden
 zwabberen	0	reg	zwabber;zwabberde	zwabbert;zwabberde	zwabberen;zwabberden
 zweefvliegen	0	reg	zweefvlieg;zweefvliegde	zweefvliegt;zweefvliegde	zweefvliegen;zweefvliegden
@@ -2016,9 +2016,9 @@ zwemmen	11	irreg	zwem;zwom	zwemt;zwom	zwemmen;zwommen
 zwendelen	0	reg	zwendel;zwendelde	zwendelt;zwendelde	zwendelen;zwendelden
 zwepen	0	reg	zweep;zweepte	zweept;zweepte	zwepen;zweepten
 zwerven	2	irreg	zwerf;zwierf	zwerft;zwierf	zwerven;zwierven
-zweten	3	reg	zweet;zweette	zweet;zweette	zweten;zweetten
+zweten	3	reg	zweet;zweette	zweten;zweetten
 zwetsen	0	reg	zwets;zwetste	zwetst;zwetste	zwetsen;zwetsten
-zwichten	1	reg	zwicht;zwichtte	zwicht;zwichtte	zwichten;zwichtten
+zwichten	1	reg	zwicht;zwichtte	zwichten;zwichtten
 zwiepen	1	reg	zwiep;zwiepte	zwiept;zwiepte	zwiepen;zwiepten
 zwijgen	12	irreg	zwijg;zweeg	zwijgt;zweeg	zwijgen;zwegen
 zwoegen	1	reg	zwoeg;zwoegde	zwoegt;zwoegde	zwoegen;zwoegden

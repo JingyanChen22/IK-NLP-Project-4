@@ -1304,10 +1304,8 @@ camphorate	camphorated	k{mf@r1t	k{mf@r1tId	reg
 canalizes	canalized	k{n@l2zIz	k{n@l2zd	reg
 canalize	canalized	k{n@l2z	k{n@l2zd	reg
 can	could	k{n	kUd	irreg
-can	could	k{n	kUd	irreg
 cancels	cancelled	k{nsPz	k{nsPd	reg
 cancel	cancelled	k{nsP	k{nsPd	reg
-candy	candied	k{ndI	k{ndId	reg
 candy	candied	k{ndI	k{ndId	reg
 canes	caned	k1nz	k1nd	reg
 cane	caned	k1n	k1nd	reg
@@ -2364,6 +2362,7 @@ curtails	curtailed	k3t1lz	k3t1ld	reg
 curtail	curtailed	k3t1l	k3t1ld	reg
 curtains	curtained	k3tHz	k3tHd	reg
 curtain	curtained	k3tH	k3tHd	reg
+curtsies	curtsied	k3tsIz	k3tsId	reg
 curves	curved	k3vz	k3vd	reg
 curve	curved	k3v	k3vd	reg
 cushions	cushioned	kUSHz	kUSHd	reg
@@ -2404,7 +2403,6 @@ dangles	dangled	d{NgPz	d{NgPd	reg
 dangle	dangled	d{NgP	d{NgPd	reg
 dapples	dappled	d{pPz	d{pPd	reg
 dapple	dappled	d{pP	d{pPd	reg
-dare	dared	d8R	d8d	reg
 dare	dared	d8R	d8d	reg
 darkens	darkened	d#k@nz	d#k@nd	reg
 darken	darkened	d#k@n	d#k@nd	reg
@@ -3673,13 +3671,13 @@ envelops	enveloped	InvEl@ps	InvEl@pt	reg
 envelop	enveloped	InvEl@p	InvEl@pt	reg
 envenoms	envenomed	InvEn@mz	InvEn@md	reg
 envenom	envenomed	InvEn@m	InvEn@md	reg
+envies	envied	EnvIz	EnvId	reg
 environs	environed	Inv2@r@nz	Inv2@r@nd	reg
 environ	environed	Inv2@r@n	Inv2@r@nd	reg
 envisages	envisaged	InvIzI_Iz	InvIzI_d	reg
 envisage	envisaged	InvIzI_	InvIzI_d	reg
 envisions	envisioned	InvIZHz	InvIZHd	reg
 envision	envisioned	InvIZH	InvIZHd	reg
-envies	envied	EnvIz	EnvId	reg
 envy	envied	EnvI	EnvId	reg
 enwraps	enwrapped	Inr{ps	Inr{pt	reg
 enwrap	enwrapped	Inr{p	Inr{pt	reg
@@ -4786,6 +4784,7 @@ haggles	haggled	h{gPz	h{gPd	reg
 haggle	haggled	h{gP	h{gPd	reg
 hails	hailed	h1lz	h1ld	reg
 hail	hailed	h1l	h1ld	reg
+halves	halved	h#vz	h#vd	reg
 hallmarks	hallmarked	h$lm#ks	h$lm#kt	reg
 hallmark	hallmarked	h$lm#k	h$lm#kt	reg
 halloos	hallooed	h@luz	h@lud	reg
@@ -4796,7 +4795,6 @@ hallucinates	hallucinated	h@lusIn1ts	h@lusIn1tId	reg
 hallucinate	hallucinated	h@lusIn1t	h@lusIn1tId	reg
 halts	halted	h$lts	h$ltId	reg
 halt	halted	h$lt	h$ltId	reg
-halves	halved	h#vz	h#vd	reg
 halve	halved	h#v	h#vd	reg
 hams	hammed	h{mz	h{md	reg
 ham	hammed	h{m	h{md	reg
@@ -6139,7 +6137,6 @@ maunders	maundered	m$nd@z	m$nd@d	reg
 maunder	maundered	m$nd@R	m$nd@d	reg
 maximizes	maximized	m{ksIm2zIz	m{ksIm2zd	reg
 maximize	maximized	m{ksIm2z	m{ksIm2zd	reg
-may	might	m1	m2t	irreg
 may	might	m1	m2t	irreg
 meanders	meandered	mI{nd@z	mI{nd@d	reg
 meander	meandered	mI{nd@R	mI{nd@d	reg
@@ -8283,6 +8280,7 @@ relates	related	rIl1ts	rIl1tId	reg
 relate	related	rIl1t	rIl1tId	reg
 relaxes	relaxed	rIl{ksIz	rIl{kst	reg
 relax	relaxed	rIl{ks	rIl{kst	reg
+relays	relaid	ril1z	"ril1d	irreg
 relays	relayed	ril1z	ril1d	reg
 relay	relayed	ril1	ril1d	reg
 releases	released	rIlisIz	rIlist	reg
@@ -8932,7 +8930,6 @@ scrag	scragged	skr{g	skr{gd	reg
 scrambles	scrambled	skr{mbPz	skr{mbPd	reg
 scramble	scrambled	skr{mbP	skr{mbPd	reg
 scram	scrammed	skr{m	skr{md	reg
-scram	scrammed	skr{m	skr{md	reg
 scrapes	scraped	skr1ps	skr1pt	reg
 scrape	scraped	skr1p	skr1pt	reg
 scraps	scrapped	skr{ps	skr{pt	reg
@@ -9104,7 +9101,6 @@ shake	shook	S1k	SUk	irreg
 shallows	shallowed	S{l5z	S{l5d	reg
 shallow	shallowed	S{l5	S{l5d	reg
 shall	should	S{l	SUd	irreg
-shall	should	S{l	SUd	irreg
 shambles	shambled	S{mbPz	S{mbPd	reg
 shamble	shambled	S{mbP	S{mbPd	reg
 shames	shamed	S1mz	S1md	reg
@@ -9145,6 +9141,7 @@ shews	shewed	S5z	S5d	reg
 shew	shewed	S5	S5d	reg
 shields	shielded	Sildz	SildId	reg
 shield	shielded	Sild	SildId	reg
+shies	shied	S2z	S2d	reg
 shifts	shifted	SIfts	SIftId	reg
 shift	shifted	SIft	SIftId	reg
 shilly-shallies	shilly-shallied	SIlI"S{lIz	SIlI"S{lId	reg
@@ -9243,7 +9240,6 @@ shutters	shuttered	SVt@z	SVt@d	reg
 shutter	shuttered	SVt@R	SVt@d	reg
 shuttles	shuttled	SVtPz	SVtPd	reg
 shuttle	shuttled	SVtP	SVtPd	reg
-shies	shied	S2z	S2d	reg
 shy	shied	S2	S2d	reg
 sibilates	sibilated	sIbIl1ts	sIbIl1tId	reg
 sibilate	sibilated	sIbIl1t	sIbIl1tId	reg
@@ -11351,8 +11347,8 @@ wiggles	wiggled	wIgPz	wIgPd	reg
 wiggle	wiggled	wIgP	wIgPd	reg
 wigs	wigged	wIgz	wIgd	reg
 wig	wigged	wIg	wIgd	reg
-wills	would	wIlz	wUd	irreg
 will	would	wIl	wUd	irreg
+wills	would	wIlz	wUd	irreg
 wilts	wilted	wIlts	wIltId	reg
 wilt	wilted	wIlt	wIltId	reg
 winces	winced	wInsIz	wInst	reg

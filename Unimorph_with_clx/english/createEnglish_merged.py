@@ -116,17 +116,29 @@ with open('unimorph-wordforms.txt') as reader:
                     update(orthoDict, newOrthoEntry)
                 except KeyError: # some words may not be in the pronounciation dictionairy
                     pass
- 
-def saveDataset(minfreq=-99):
-    '''
-    with open('english_merged.txt', 'w') as file:
-        for k in orthoDict:
-            if orthoDict[k]['freq'] >= int(minfreq):
-                # the format of english_merged.txt of the original experiment:
-                file.write(k + '\t' + orthoDict[k]['past']['ortho'] + '\t' + orthoDict[k]['pron'] + '\t' + orthoDict[k]['past']['pron'] + '\t' + orthoDict[k]['regular'] + '\n')
 
-    print("Saved to english_merged.txt")
-    '''
+allLines = []
+def getWriteLine(mergedFile, lemma, nfinORprs):
+    try:
+        phon = '\t' + pron[lemmaDict[lemma][nfinORprs]] + ';' + pron[lemmaDict[lemma]['PST']]
+        orth = '\t' + lemmaDict[lemma][nfinORprs] + ';' + lemmaDict[lemma]['PST']
+        if orth in allLines:
+            phon = ''
+            orth = ''
+        else:
+            allLines.append(orth)
+            
+            # creating the old-fashioned Pinker language_merged.txt
+            mergedFile.write(lemmaDict[lemma][nfinORprs] + '\t' + lemmaDict[lemma]['PST']
+                             + '\t' + pron[lemmaDict[lemma][nfinORprs]]  + '\t' + pron[lemmaDict[lemma]['PST']]
+                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
+    except KeyError:
+        phon = ''
+        orth = ''
+    return (phon, orth)
+
+
+def saveDataset():
     with open('english_bylemma_orth.txt', 'w') as orthFile, open('english_bylemma_phon.txt', 'w') as phonFile, open('english_merged.txt', 'w') as mergedFile:
         # example of lemmaDict, key 'have':
         # {
@@ -137,57 +149,22 @@ def saveDataset(minfreq=-99):
         #  'NFIN': 'have'}
         # }
 
-        wordformcount = 0
         for lemma in lemmaDict:
-            try:
-                prspron = nfinpron = prsorth = nfinorth = ''
-                if lemmaDict[lemma]['freq'] >= int(minfreq):
-                    try:
-                        if freq[lemmaDict[lemma]['PRS']] > int(minfreq):
-                            prspron = '\t' +  pron[lemmaDict[lemma]['PRS']]  + ';' + pron[lemmaDict[lemma]['PST']]
-                            prsorth = '\t' + lemmaDict[lemma]['PRS']  + ';' + lemmaDict[lemma]['PST']
-                            wordformcount += 1
-                    except KeyError:
-                        prspron = ''
-                        prsorth = ''
-                    try:
-                        if freq[lemmaDict[lemma]['NFIN']] > int(minfreq):
-                            nfinpron = '\t' + pron[lemmaDict[lemma]['NFIN']] + ';' + pron[lemmaDict[lemma]['PST']]
-                            nfinorth = '\t' + lemmaDict[lemma]['NFIN'] + ';' + lemmaDict[lemma]['PST']
-                            wordformcount += 1
-                    except KeyError:
-                        nfinpron = ''
-                        nfinorth = ''
+            prspron, prsorth = getWriteLine(mergedFile, lemma, 'PRS')
+            nfinpron, nfinorth = getWriteLine(mergedFile, lemma, 'NFIN')
 
-                    if prspron + nfinpron != '':
-                        phonFile.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
-                                   prspron + nfinpron + '\n')
-                        orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
-                                   prsorth + nfinorth + '\n')
-                        
-                        
-                        # creating the old-fashioned Pinker english_merged.txt
-                        try: # 'PRS'
-                            mergedFile.write(lemmaDict[lemma]['PRS'] + '\t' + lemmaDict[lemma]['PST']
-                                             + '\t' + pron[lemmaDict[lemma]['PRS']]  + '\t' + pron[lemmaDict[lemma]['PST']]
-                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
-                        except KeyError:
-                            pass
-                        try: # 'NFIN'
-                            mergedFile.write(lemmaDict[lemma]['NFIN'] + '\t' + lemmaDict[lemma]['PST']
-                                             + '\t' + pron[lemmaDict[lemma]['NFIN']]  + '\t' + pron[lemmaDict[lemma]['PST']]
-                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
-                        except KeyError:
-                            pass
-                        
-            except KeyError:
-                pass
+            if prspron + nfinpron != '':
+                try:
+                    phonFile.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               prspron + nfinpron + '\n')
+                    orthFile.write(lemma + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
+                               prsorth + nfinorth + '\n')
+                except KeyError:
+                    pass
 
-        print(wordformcount, "wordforms saved to english_bylemma_orth.txt and to english_bylemma_phon.txt")
+
+    print("All wordforms saved to english_bylemma_orth.txt, to english_bylemma_phon.txt, and to english_merged.txt")
 
 
 if __name__ == "__main__":
-    try:
-        saveDataset(sys.argv[1])
-    except IndexError:
-        saveDataset(-1)
+    saveDataset()

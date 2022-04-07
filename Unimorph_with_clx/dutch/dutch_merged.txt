@@ -35,7 +35,6 @@ accepteer	accepteerde	AksEpter	AksEpterd@	reg
 accepteert	accepteerde	AksEptert	AksEpterd@	reg
 accepteren	accepteerden	AksEpter@	AksEpterd@	reg
 acht	achtte	Axt	Axt@	reg
-acht	achtte	Axt	Axt@	reg
 achten	achtten	Axt@	Axt@	reg
 achterhaal	achterhaalde	Axt@rhal	Axt@rhald@	reg
 achterhaalt	achterhaalde	Axt@rhalt	Axt@rhald@	reg
@@ -70,6 +69,8 @@ ageren	ageerden	aGer@	aGerd@	reg
 alarmeer	alarmeerde	alArmer	alArmerd@	reg
 alarmeert	alarmeerde	alArmert	alArmerd@	reg
 alarmeren	alarmeerden	alArmer@	alArmerd@	reg
+ambieer	ambieerde	Ambijer	Ambijerd@	reg
+ambieert	ambieerde	Ambijert	Ambijerd@	reg
 amputeer	amputeerde	Ampyter	Ampyterd@	reg
 amputeert	amputeerde	Ampytert	Ampyterd@	reg
 amputeren	amputeerden	Ampyter@	Ampyterd@	reg
@@ -97,6 +98,8 @@ antedateren	antedateerden	Ant@dater@	Ant@daterd@	reg
 applaudisseer	applaudisseerde	AplMdiser	AplMdiserd@	reg
 applaudisseert	applaudisseerde	AplMdisert	AplMdiserd@	reg
 applaudisseren	applaudisseerden	AplMdiser@	AplMdiserd@	reg
+apprecieer	apprecieerde	ApreSer	ApreSerd@	reg
+apprecieert	apprecieerde	ApreSert	ApreSerd@	reg
 arbeid	arbeidde	ArbKt	ArbKd@	reg
 arbeidt	arbeidde	ArbKt	ArbKd@	reg
 arbeiden	arbeidden	ArbKd@	ArbKd@	reg
@@ -121,6 +124,8 @@ arroseren	arroseerden	Arozer@	Arozerd@	reg
 assisteer	assisteerde	Asister	Asisterd@	reg
 assisteert	assisteerde	Asistert	Asisterd@	reg
 assisteren	assisteerden	Asister@	Asisterd@	reg
+associeer	associeerde	AsoSer	AsoSerd@	reg
+associeert	associeerde	AsoSert	AsoSerd@	reg
 attaqueer	attaqueerde	AtAker	AtAkerd@	reg
 attaqueert	attaqueerde	AtAkert	AtAkerd@	reg
 attaqueren	attaqueerden	AtAker@	AtAkerd@	reg
@@ -148,6 +153,8 @@ ballen	balden	bAl@	bAld@	reg
 balsem	balsemde	bAls@m	bAls@md@	reg
 balsemt	balsemde	bAls@mt	bAls@md@	reg
 balsemen	balsemden	bAls@m@	bAls@md@	reg
+barbecue	barbecuede	bArb@kjuw	bArb@kjuwd@	reg
+barbecuet	barbecuede	bArb@kjuwt	bArb@kjuwd@	reg
 barn	barnde	bArn	bArnd@	reg
 barnt	barnde	bArnt	bArnd@	reg
 barnen	barnden	bArn@	bArnd@	reg
@@ -163,7 +170,6 @@ beangstigen	beangstigden	b@ANst@G@	b@ANst@Gd@	reg
 beantwoord	beantwoordde	b@Antwort	b@Antword@	reg
 beantwoordt	beantwoordde	b@Antwort	b@Antword@	reg
 beantwoorden	beantwoordden	b@Antword@	b@Antword@	reg
-beboet	beboette	b@but	b@but@	reg
 beboet	beboette	b@but	b@but@	reg
 beboeten	beboetten	b@but@	b@but@	reg
 bebos	beboste	b@bOs	b@bOst@	reg
@@ -208,7 +214,6 @@ bedoelen	bedoelden	b@dul@	b@duld@	reg
 bedonder	bedonderde	b@dOnd@r	b@dOnd@rd@	reg
 bedondert	bedonderde	b@dOnd@rt	b@dOnd@rd@	reg
 bedonderen	bedonderden	b@dOnd@r@	b@dOnd@rd@	reg
-bedot	bedotte	b@dOt	b@dOt@	reg
 bedot	bedotte	b@dOt	b@dOt@	reg
 bedotten	bedotten	b@dOt@	b@dOt@	reg
 bedreig	bedreigde	b@drKx	b@drKGd@	reg
@@ -257,9 +262,7 @@ begroei	begroeide	b@Gruj	b@Grujd@	reg
 begroeit	begroeide	b@Grujt	b@Grujd@	reg
 begroeien	begroeiden	b@Gruj@	b@Grujd@	reg
 begroet	begroette	b@Grut	b@Grut@	reg
-begroet	begroette	b@Grut	b@Grut@	reg
 begroeten	begroetten	b@Grut@	b@Grut@	reg
-begroot	begrootte	b@Grot	b@Grot@	reg
 begroot	begrootte	b@Grot	b@Grot@	reg
 begroten	begrootten	b@Grot@	b@Grot@	reg
 begunstig	begunstigde	b@G}nst@x	b@G}nst@Gd@	reg
@@ -338,7 +341,6 @@ bekoop	bekocht	b@kop	b@kOxt	irreg
 bekoopt	bekocht	b@kopt	b@kOxt	irreg
 bekopen	bekochten	b@kop@	b@kOxt@	irreg
 bekort	bekortte	b@kOrt	b@kOrt@	reg
-bekort	bekortte	b@kOrt	b@kOrt@	reg
 bekorten	bekortten	b@kOrt@	b@kOrt@	reg
 bekostig	bekostigde	b@kOst@x	b@kOst@Gd@	reg
 bekostigt	bekostigde	b@kOst@xt	b@kOst@Gd@	reg
@@ -358,7 +360,6 @@ bekruipen	bekropen	b@krLp@	b@krop@	irreg
 beland	belandde	b@lAnt	b@lAnd@	reg
 belandt	belandde	b@lAnt	b@lAnd@	reg
 belanden	belandden	b@lAnd@	b@lAnd@	reg
-belast	belastte	b@lAst	b@lAst@	reg
 belast	belastte	b@lAst	b@lAst@	reg
 belasten	belastten	b@lAst@	b@lAst@	reg
 belaster	belasterde	b@lAst@r	b@lAst@rd@	reg
@@ -383,7 +384,6 @@ beleen	beleende	b@len	b@lend@	reg
 beleent	beleende	b@lent	b@lend@	reg
 belenen	beleenden	b@len@	b@lend@	reg
 belet	belette	b@lEt	b@lEt@	reg
-belet	belette	b@lEt	b@lEt@	reg
 beletten	beletten	b@lEt@	b@lEt@	reg
 beleef	beleefde	b@lef	b@levd@	reg
 beleeft	beleefde	b@left	b@levd@	reg
@@ -391,7 +391,6 @@ beleven	beleefden	b@lev@	b@levd@	reg
 belichaam	belichaamde	b@lIxam	b@lIxamd@	reg
 belichaamt	belichaamde	b@lIxamt	b@lIxamd@	reg
 belichamen	belichaamden	b@lIxam@	b@lIxamd@	reg
-belicht	belichtte	b@lIxt	b@lIxt@	reg
 belicht	belichtte	b@lIxt	b@lIxt@	reg
 belichten	belichtten	b@lIxt@	b@lIxt@	reg
 belief	beliefde	b@lif	b@livd@	reg
@@ -452,7 +451,6 @@ benoem	benoemde	b@num	b@numd@	reg
 benoemt	benoemde	b@numt	b@numd@	reg
 benoemen	benoemden	b@num@	b@numd@	reg
 benut	benutte	b@n}t	b@n}t@	reg
-benut	benutte	b@n}t	b@n}t@	reg
 benutten	benutten	b@n}t@	b@n}t@	reg
 beoefen	beoefende	b@uf@	b@uf@nd@	reg
 beoefent	beoefende	b@uf@nt	b@uf@nd@	reg
@@ -476,9 +474,7 @@ beplak	beplakte	b@plAk	b@plAkt@	reg
 beplakt	beplakte	b@plAkt	b@plAkt@	reg
 beplakken	beplakten	b@plAk@	b@plAkt@	reg
 bepleit	bepleitte	b@plKt	b@plKt@	reg
-bepleit	bepleitte	b@plKt	b@plKt@	reg
 bepleiten	bepleitten	b@plKt@	b@plKt@	reg
-bepraat	bepraatte	b@prat	b@prat@	reg
 bepraat	bepraatte	b@prat	b@prat@	reg
 bepraten	bepraatten	b@prat@	b@prat@	reg
 beraadslaag	beraadslaagde	b@ratslax	b@ratslaGd@	reg
@@ -487,7 +483,6 @@ beraadslagen	beraadslaagden	b@ratslaG@	b@ratslaGd@	reg
 beraam	beraamde	b@ram	b@ramd@	reg
 beraamt	beraamde	b@ramt	b@ramd@	reg
 beramen	beraamden	b@ram@	b@ramd@	reg
-berecht	berechtte	b@rExt	b@rExt@	reg
 berecht	berechtte	b@rExt	b@rExt@	reg
 berechten	berechtten	b@rExt@	b@rExt@	reg
 beredeneer	beredeneerde	b@red@ner	b@red@nerd@	reg
@@ -515,9 +510,7 @@ beroof	beroofde	b@rof	b@rovd@	reg
 berooft	beroofde	b@roft	b@rovd@	reg
 beroven	beroofden	b@rov@	b@rovd@	reg
 berst	berstte	bErst	bErst@	reg
-berst	berstte	bErst	bErst@	reg
 bersten	berstten	bErst@	bErst@	reg
-berust	berustte	b@r}st	b@r}st@	reg
 berust	berustte	b@r}st	b@r}st@	reg
 berusten	berustten	b@r}st@	b@r}st@	reg
 beschadig	beschadigde	b@sxad@x	b@sxad@Gd@	reg
@@ -529,7 +522,6 @@ beschaven	beschaafden	b@sxav@	b@sxavd@	reg
 bescherm	beschermde	b@sxErm	b@sxErmd@	reg
 beschermt	beschermde	b@sxErmt	b@sxErmd@	reg
 beschermen	beschermden	b@sxErm@	b@sxErmd@	reg
-beschiet	beschoot	b@sxit	b@sxot	irreg
 beschiet	beschoot	b@sxit	b@sxot	irreg
 beschieten	beschoten	b@sxit@	b@sxot@	irreg
 beschijn	bescheen	b@sxKn	b@sxen	irreg
@@ -557,11 +549,9 @@ beschuldig	beschuldigde	b@sx}ld@x	b@sx}ld@Gd@	reg
 beschuldigt	beschuldigde	b@sx}ld@xt	b@sx}ld@Gd@	reg
 beschuldigen	beschuldigden	b@sx}ld@G@	b@sx}ld@Gd@	reg
 beschut	beschutte	b@sx}t	b@sx}t@	reg
-beschut	beschutte	b@sx}t	b@sx}t@	reg
 besla	besloeg	b@sla	b@slux	irreg
 beslaat	besloeg	b@slat	b@slux	irreg
 beslaan	besloegen	b@slan	b@sluG@	irreg
-beslecht	beslechtte	b@slExt	b@slExt@	reg
 beslecht	beslechtte	b@slExt	b@slExt@	reg
 beslechten	beslechtten	b@slExt@	b@slExt@	reg
 beslis	besliste	b@slIs	b@slIst@	reg
@@ -573,7 +563,6 @@ besluipen	beslopen	b@slLp@	b@slop@	irreg
 besmeer	besmeerde	b@smer	b@smerd@	reg
 besmeert	besmeerde	b@smert	b@smerd@	reg
 besmeren	besmeerden	b@smer@	b@smerd@	reg
-besmet	besmette	b@smEt	b@smEt@	reg
 besmet	besmette	b@smEt	b@smEt@	reg
 besmetten	besmetten	b@smEt@	b@smEt@	reg
 besmeur	besmeurde	b@sm|r	b@sm|rd@	reg
@@ -593,7 +582,6 @@ bespeuren	bespeurden	b@sp|r@	b@sp|rd@	reg
 bespioneer	bespioneerde	b@spijoner	b@spijonerd@	reg
 bespioneert	bespioneerde	b@spijonert	b@spijonerd@	reg
 bespioneren	bespioneerden	b@spijoner@	b@spijonerd@	reg
-bespot	bespotte	b@spOt	b@spOt@	reg
 bespot	bespotte	b@spOt	b@spOt@	reg
 bespotten	bespotten	b@spOt@	b@spOt@	reg
 bespreek	besprak	b@sprek	b@sprAk	irreg
@@ -654,7 +642,6 @@ betaam	betaamde	b@tam	b@tamd@	reg
 betaamt	betaamde	b@tamt	b@tamd@	reg
 betamen	betaamden	b@tam@	b@tamd@	reg
 betast	betastte	b@tAst	b@tAst@	reg
-betast	betastte	b@tAst	b@tAst@	reg
 betasten	betastten	b@tAst@	b@tAst@	reg
 betegel	betegelde	b@teG@l	b@teG@ld@	reg
 betegelt	betegelde	b@teG@lt	b@teG@ld@	reg
@@ -666,7 +653,6 @@ beteugel	beteugelde	b@t|G@l	b@t|G@ld@	reg
 beteugelt	beteugelde	b@t|G@lt	b@t|G@ld@	reg
 beteugelen	beteugelden	b@t|G@l@	b@t|G@ld@	reg
 beticht	betichtte	b@tIxt	b@tIxt@	reg
-beticht	betichtte	b@tIxt	b@tIxt@	reg
 betichten	betichtten	b@tIxt@	b@tIxt@	reg
 betitel	betitelde	b@tit@l	b@tit@ld@	reg
 betitelt	betitelde	b@tit@lt	b@tit@ld@	reg
@@ -674,7 +660,6 @@ betitelen	betitelden	b@tit@l@	b@tit@ld@	reg
 betover	betoverde	b@tov@r	b@tov@rd@	reg
 betovert	betoverde	b@tov@rt	b@tov@rd@	reg
 betoveren	betoverden	b@tov@r@	b@tov@rd@	reg
-betracht	betrachtte	b@trAxt	b@trAxt@	reg
 betracht	betrachtte	b@trAxt	b@trAxt@	reg
 betrachten	betrachtten	b@trAxt@	b@trAxt@	reg
 betrap	betrapte	b@trAp	b@trApt@	reg
@@ -698,12 +683,9 @@ betwijfel	betwijfelde	b@twKf@l	b@twKf@ld@	reg
 betwijfelt	betwijfelde	b@twKf@lt	b@twKf@ld@	reg
 betwijfelen	betwijfelden	b@twKf@l@	b@twKf@ld@	reg
 betwist	betwistte	b@twIst	b@twIst@	reg
-betwist	betwistte	b@twIst	b@twIst@	reg
 betwisten	betwistten	b@twIst@	b@twIst@	reg
 bevat	bevatte	b@vAt	b@vAt@	reg
-bevat	bevatte	b@vAt	b@vAt@	reg
 bevatten	bevatten	b@vAt@	b@vAt@	reg
-bevecht	bevocht	b@vExt	b@vOxt	irreg
 bevecht	bevocht	b@vExt	b@vOxt	irreg
 bevechten	bevochten	b@vExt@	b@vOxt@	irreg
 beveilig	beveiligde	b@vKl@x	b@vKl@Gd@	reg
@@ -733,7 +715,6 @@ bevoordelen	bevoordeelden	b@vordel@	b@vordeld@	reg
 bevoorraad	bevoorraadde	b@vorat	b@vorad@	reg
 bevoorraadt	bevoorraadde	b@vorat	b@vorad@	reg
 bevoorraden	bevoorraadden	b@vorad@	b@vorad@	reg
-bevoorrecht	bevoorrechtte	b@vorExt	b@vorExt@	reg
 bevoorrecht	bevoorrechtte	b@vorExt	b@vorExt@	reg
 bevoorrechten	bevoorrechtten	b@vorExt@	b@vorExt@	reg
 bevorder	bevorderde	b@vOrd@r	b@vOrd@rd@	reg
@@ -791,7 +772,6 @@ bezeer	bezeerde	b@zer	b@zerd@	reg
 bezeert	bezeerde	b@zert	b@zerd@	reg
 bezeren	bezeerden	b@zer@	b@zerd@	reg
 bezet	bezette	b@zEt	b@zEt@	reg
-bezet	bezette	b@zEt	b@zEt@	reg
 bezetten	bezetten	b@zEt@	b@zEt@	reg
 bezichtig	bezichtigde	b@zIxt@x	b@zIxt@Gd@	reg
 bezichtigt	bezichtigde	b@zIxt@xt	b@zIxt@Gd@	reg
@@ -802,7 +782,6 @@ bezielen	bezielden	b@zil@	b@zild@	reg
 bezin	bezon	b@zIn	b@zOn	irreg
 bezint	bezon	b@zInt	b@zOn	irreg
 bezinnen	bezonnen	b@zIn@	b@zOn@	irreg
-bezit	bezat	b@zIt	b@zAt	irreg
 bezit	bezat	b@zIt	b@zAt	irreg
 bezitten	bezaten	b@zIt@	b@zat@	irreg
 bezoedel	bezoedelde	b@zud@l	b@zud@ld@	reg
@@ -838,7 +817,6 @@ bezwijmen	bezwijmden	b@zwKm@	b@zwKmd@	reg
 bibber	bibberde	bIb@r	bIb@rd@	reg
 bibbert	bibberde	bIb@rt	bIb@rd@	reg
 bibberen	bibberden	bIb@r@	bIb@rd@	reg
-biecht	biechtte	bixt	bixt@	reg
 biecht	biechtte	bixt	bixt@	reg
 biechten	biechtten	bixt@	bixt@	reg
 bik	bikte	bIk	bIkt@	reg
@@ -902,7 +880,6 @@ boer	boerde	bur	burd@	reg
 boert	boerde	burt	burd@	reg
 boeren	boerden	bur@	burd@	reg
 boet	boette	but	but@	reg
-boet	boette	but	but@	reg
 boeten	boetten	but@	but@	reg
 boetseer	boetseerde	butser	butserd@	reg
 boetseert	boetseerde	butsert	butserd@	reg
@@ -933,7 +910,6 @@ borstelen	borstelden	bOrst@l@	bOrst@ld@	reg
 bots	botste	bOts	bOtst@	reg
 botst	botste	bOtst	bOtst@	reg
 botsen	botsten	bOts@	bOtst@	reg
-boycot	boycotte	bOjkOt	bOjkOt@	reg
 boycot	boycotte	bOjkOt	bOjkOt@	reg
 boycotten	boycotten	bOjkOt@	bOjkOt@	reg
 braad	braadde	brat	brad@	reg
@@ -1074,6 +1050,8 @@ compromitteren	compromitteerden	kOmpromiter@	kOmpromiterd@	reg
 concentreer	concentreerde	kOnsEntrer	kOnsEntrerd@	reg
 concentreert	concentreerde	kOnsEntrert	kOnsEntrerd@	reg
 concentreren	concentreerden	kOnsEntrer@	kOnsEntrerd@	reg
+concipieer	concipieerde	kOnsipijer	kOnsipijerd@	reg
+concipieert	concipieerde	kOnsipijert	kOnsipijerd@	reg
 concludeer	concludeerde	kONklyder	kONklyderd@	reg
 concludeert	concludeerde	kONklydert	kONklyderd@	reg
 concluderen	concludeerden	kONklyder@	kONklyderd@	reg
@@ -1179,6 +1157,8 @@ declineren	declineerden	dekliner@	deklinerd@	reg
 decodeer	decodeerde	dekoder	dekoderd@	reg
 decodeert	decodeerde	dekodert	dekoderd@	reg
 decoderen	decodeerden	dekoder@	dekoderd@	reg
+definieer	definieerde	definjer	definjerd@	reg
+definieert	definieerde	definjert	definjerd@	reg
 dein	deinde	dKn	dKnd@	reg
 deint	deinde	dKnt	dKnd@	reg
 deinen	deinden	dKn@	dKnd@	reg
@@ -1233,6 +1213,8 @@ detineren	detineerden	detiner@	detinerd@	reg
 dien	diende	din	dind@	reg
 dient	diende	dint	dind@	reg
 dienen	dienden	din@	dind@	reg
+differentieer	differentieerde	dIf@rEnSer	dIf@rEnSerd@	reg
+differentieert	differentieerde	dIf@rEnSert	dIf@rEnSerd@	reg
 digereer	digereerde	diG@rer	diG@rerd@	reg
 digereert	digereerde	diG@rert	diG@rerd@	reg
 digereren	digereerden	diG@rer@	diG@rerd@	reg
@@ -1251,6 +1233,8 @@ dirigeren	dirigeerden	diriGer@	diriGerd@	reg
 discrimineer	discrimineerde	dIskriminer	dIskriminerd@	reg
 discrimineert	discrimineerde	dIskriminert	dIskriminerd@	reg
 discrimineren	discrimineerden	dIskriminer@	dIskriminerd@	reg
+discussieer	discussieerde	dIsk}Ser	dIsk}Serd@	reg
+discussieert	discussieerde	dIsk}Sert	dIsk}Serd@	reg
 disputeer	disputeerde	dIspyter	dIspyterd@	reg
 disputeert	disputeerde	dIspytert	dIspyterd@	reg
 disputeren	disputeerden	dIspyter@	dIspyterd@	reg
@@ -1299,7 +1283,6 @@ doppen	dopten	dOp@	dOpt@	reg
 dors	dorste	dOrs	dOrst@	reg
 dorst	dorste	dOrst	dOrst@	reg
 dorsen	dorsten	dOrs@	dOrst@	reg
-dorst	dorstte	dOrst	dOrst@	reg
 dorst	dorstte	dOrst	dOrst@	reg
 dorsten	dorstten	dOrst@	dOrst@	reg
 doseer	doseerde	dozer	dozerd@	reg
@@ -1387,7 +1370,6 @@ duur	duurde	dyr	dyrd@	reg
 duurt	duurde	dyrt	dyrd@	reg
 duren	duurden	dyr@	dyrd@	reg
 dut	dutte	d}t	d}t@	reg
-dut	dutte	d}t	d}t@	reg
 dutten	dutten	d}t@	d}t@	reg
 duw	duwde	dyw	dywd@	reg
 duwt	duwde	dywt	dywd@	reg
@@ -1407,6 +1389,8 @@ dwingen	dwongen	dwIN@	dwON@	irreg
 eb	ebde	Ep	Ebd@	reg
 ebt	ebde	Ept	Ebd@	reg
 ebben	ebden	Eb@	Ebd@	reg
+echo	echode	Exo	Exod@	reg
+echoot	echode	Exot	Exod@	reg
 effectueer	effectueerde	EfEktywer	EfEktywerd@	reg
 effectueert	effectueerde	EfEktywert	EfEktywerd@	reg
 effectueren	effectueerden	EfEktywer@	EfEktywerd@	reg
@@ -1443,7 +1427,6 @@ engageren	engageerden	ANgaZer@	ANgaZerd@	reg
 ensceneer	ensceneerde	Ans@ner	Ans@nerd@	reg
 ensceneert	ensceneerde	Ans@nert	Ans@nerd@	reg
 ensceneren	ensceneerden	Ans@ner@	Ans@nerd@	reg
-ent	entte	Ent	Ent@	reg
 ent	entte	Ent	Ent@	reg
 enten	entten	Ent@	Ent@	reg
 equipeer	equipeerde	ekiper	ekiperd@	reg
@@ -1531,7 +1514,6 @@ federaliseer	federaliseerde	fed@ralizer	fed@ralizerd@	reg
 federaliseert	federaliseerde	fed@ralizert	fed@ralizerd@	reg
 federaliseren	federaliseerden	fed@ralizer@	fed@ralizerd@	reg
 feest	feestte	fest	fest@	reg
-feest	feestte	fest	fest@	reg
 feesten	feestten	fest@	fest@	reg
 feliciteer	feliciteerde	felisiter	felisiterd@	reg
 feliciteert	feliciteerde	felisitert	felisiterd@	reg
@@ -1576,7 +1558,6 @@ flip	flipte	flIp	flIpt@	reg
 flipt	flipte	flIpt	flIpt@	reg
 flippen	flipten	flIp@	flIpt@	reg
 flirt	flirtte	fl}rt	fl}rt@	reg
-flirt	flirtte	fl}rt	fl}rt@	reg
 flirten	flirtten	fl}rt@	fl}rt@	reg
 flits	flitste	flIts	flItst@	reg
 flitst	flitste	flItst	flItst@	reg
@@ -1587,7 +1568,6 @@ floppen	flopten	flOp@	flOpt@	reg
 fluister	fluisterde	flLst@r	flLst@rd@	reg
 fluistert	fluisterde	flLst@rt	flLst@rd@	reg
 fluisteren	fluisterden	flLst@r@	flLst@rd@	reg
-fluit	floot	flLt	flot	irreg
 fluit	floot	flLt	flot	irreg
 fluiten	floten	flLt@	flot@	irreg
 foerageer	foerageerde	furaZer	furaZerd@	reg
@@ -1711,7 +1691,6 @@ genereer	genereerde	xen@rer	xen@rerd@	reg
 genereert	genereerde	xen@rert	xen@rerd@	reg
 genereren	genereerden	xen@rer@	xen@rerd@	reg
 geniet	genoot	x@nit	x@not	irreg
-geniet	genoot	x@nit	x@not	irreg
 genieten	genoten	x@nit@	x@not@	irreg
 geraak	geraakte	x@rak	x@rakt@	reg
 geraakt	geraakte	x@rakt	x@rakt@	reg
@@ -1752,7 +1731,6 @@ gieren	gierden	xir@	xird@	reg
 gijzel	gijzelde	xKz@l	xKz@ld@	reg
 gijzelt	gijzelde	xKz@lt	xKz@ld@	reg
 gijzelen	gijzelden	xKz@l@	xKz@ld@	reg
-gist	gistte	xIst	xIst@	reg
 gist	gistte	xIst	xIst@	reg
 gisten	gistten	xIst@	xIst@	reg
 glaceer	glaceerde	xlaser	xlaserd@	reg
@@ -1849,7 +1827,6 @@ guts	gutste	x}ts	x}tst@	reg
 gutst	gutste	x}tst	x}tst@	reg
 gutsen	gutsten	x}ts@	x}tst@	reg
 haast	haastte	hast	hast@	reg
-haast	haastte	hast	hast@	reg
 haasten	haastten	hast@	hast@	reg
 hagel	hagelde	haG@l	haG@ld@	reg
 hagelt	hagelde	haG@lt	haG@ld@	reg
@@ -1894,13 +1871,11 @@ harmoniseer	harmoniseerde	hArmonizer	hArmonizerd@	reg
 harmoniseert	harmoniseerde	hArmonizert	hArmonizerd@	reg
 harmoniseren	harmoniseerden	hArmonizer@	hArmonizerd@	reg
 haat	haatte	hat	hat@	reg
-haat	haatte	hat	hat@	reg
 haten	haatten	hat@	hat@	reg
 heb	had	hEp	hAt	irreg
 hebt	had	hEpt	hAt	irreg
 heeft	had	heft	hAt	irreg
 hebben	hadden	hEb@	hAd@	irreg
-hecht	hechtte	hExt	hExt@	reg
 hecht	hechtte	hExt	hExt@	reg
 hechten	hechtten	hExt@	hExt@	reg
 heers	heerste	hers	herst@	reg
@@ -1979,7 +1954,6 @@ hertrouw	hertrouwde	hErtrMw	hErtrMwd@	reg
 hertrouwt	hertrouwde	hErtrMwt	hErtrMwd@	reg
 hertrouwen	hertrouwden	hErtrMw@	hErtrMwd@	reg
 hervat	hervatte	hErvAt	hErvAt@	reg
-hervat	hervatte	hErvAt	hErvAt@	reg
 hervatten	hervatten	hErvAt@	hErvAt@	reg
 hervorm	hervormde	hErvOrm	hErvOrmd@	reg
 hervormt	hervormde	hErvOrmt	hErvOrmd@	reg
@@ -2009,7 +1983,6 @@ hinnik	hinnikte	hIn@k	hIn@kt@	reg
 hinnikt	hinnikte	hIn@kt	hIn@kt@	reg
 hinniken	hinnikten	hIn@k@	hIn@kt@	reg
 hint	hintte	hInt	hInt@	reg
-hint	hintte	hInt	hInt@	reg
 hinten	hintten	hInt@	hInt@	reg
 hok	hokte	hOk	hOkt@	reg
 hokt	hokte	hOkt	hOkt@	reg
@@ -2035,7 +2008,6 @@ huilebalken	huilebalkten	hLl@bAlk@	hLl@bAlkt@	reg
 huil	huilde	hLl	hLld@	reg
 huilt	huilde	hLlt	hLld@	reg
 huilen	huilden	hLl@	hLld@	reg
-huisvest	huisvestte	hLsfEst	hLsfEst@	reg
 huisvest	huisvestte	hLsfEst	hLsfEst@	reg
 huisvesten	huisvestten	hLsfEst@	hLsfEst@	reg
 huiver	huiverde	hLv@r	hLv@rd@	reg
@@ -2143,6 +2115,8 @@ interpreteren	interpreteerden	Int@rpr@ter@	Int@rpr@terd@	reg
 interrumpeer	interrumpeerde	Int@r}mper	Int@r}mperd@	reg
 interrumpeert	interrumpeerde	Int@r}mpert	Int@r}mperd@	reg
 interrumperen	interrumpeerden	Int@r}mper@	Int@r}mperd@	reg
+intervenieer	intervenieerde	Int@rvenijer	Int@rvenijerd@	reg
+intervenieert	intervenieerde	Int@rvenijert	Int@rvenijerd@	reg
 interview	interviewde	Int@rvjuw	Int@rvjuwd@	reg
 interviewt	interviewde	Int@rvjuwt	Int@rvjuwd@	reg
 interviewen	interviewden	Int@rvjuw@	Int@rvjuwd@	reg
@@ -2165,7 +2139,6 @@ isoleer	isoleerde	isoler	isolerd@	reg
 isoleert	isoleerde	isolert	isolerd@	reg
 isoleren	isoleerden	isoler@	isolerd@	reg
 jacht	jachtte	jAxt	jAxt@	reg
-jacht	jachtte	jAxt	jAxt@	reg
 jachten	jachtten	jAxt@	jAxt@	reg
 jammer	jammerde	jAm@r	jAm@rd@	reg
 jammert	jammerde	jAm@rt	jAm@rd@	reg
@@ -2176,7 +2149,6 @@ janken	jankten	jANk@	jANkt@	reg
 jas	jaste	jAs	jAst@	reg
 jast	jaste	jAst	jAst@	reg
 jassen	jasten	jAs@	jAst@	reg
-jat	jatte	jAt	jAt@	reg
 jat	jatte	jAt	jAt@	reg
 jatten	jatten	jAt@	jAt@	reg
 jeuk	jeukte	j|k	j|kt@	reg
@@ -2206,7 +2178,6 @@ juichen	juichten	jLx@	jLxt@	reg
 kaard	kaardde	kart	kard@	reg
 kaardt	kaardde	kart	kard@	reg
 kaarden	kaardden	kard@	kard@	reg
-kaart	kaartte	kart	kart@	reg
 kaart	kaartte	kart	kart@	reg
 kaarten	kaartten	kart@	kart@	reg
 kaats	kaatste	kats	katst@	reg
@@ -2258,7 +2229,6 @@ kastijd	kastijdde	kAstKt	kAstKd@	reg
 kastijdt	kastijdde	kAstKt	kAstKd@	reg
 kastijden	kastijdden	kAstKd@	kAstKd@	reg
 kat	katte	kAt	kAt@	reg
-kat	katte	kAt	kAt@	reg
 katten	katten	kAt@	kAt@	reg
 kelder	kelderde	kEld@r	kEld@rd@	reg
 keldert	kelderde	kEld@rt	kEld@rd@	reg
@@ -2299,7 +2269,6 @@ kirren	kirden	kIr@	kIrd@	reg
 kissebis	kissebiste	kIs@bIs	kIs@bIst@	reg
 kissebist	kissebiste	kIs@bIst	kIs@bIst@	reg
 kissebissen	kissebisten	kIs@bIs@	kIs@bIst@	reg
-kist	kistte	kIst	kIst@	reg
 kist	kistte	kIst	kIst@	reg
 kisten	kistten	kIst@	kIst@	reg
 klad	kladde	klAt	klAd@	reg
@@ -2372,7 +2341,6 @@ knars	knarste	knArs	knArst@	reg
 knarst	knarste	knArst	knArst@	reg
 knarsen	knarsten	knArs@	knArst@	reg
 knecht	knechtte	knExt	knExt@	reg
-knecht	knechtte	knExt	knExt@	reg
 knechten	knechtten	knExt@	knExt@	reg
 kneed	kneedde	knet	kned@	reg
 kneedt	kneedde	knet	kned@	reg
@@ -2440,6 +2408,10 @@ kolken	kolkten	kOlk@	kOlkt@	reg
 koloniseer	koloniseerde	kolonizer	kolonizerd@	reg
 koloniseert	koloniseerde	kolonizert	kolonizerd@	reg
 koloniseren	koloniseerden	kolonizer@	kolonizerd@	reg
+kom	kwam	kOm	kwAm	irreg
+komt	kwam	kOmt	kwAm	irreg
+kopieer	kopieerde	kopijer	kopijerd@	reg
+kopieert	kopieerde	kopijert	kopijerd@	reg
 koppel	koppelde	kOp@l	kOp@ld@	reg
 koppelt	koppelde	kOp@lt	kOp@ld@	reg
 koppelen	koppelden	kOp@l@	kOp@ld@	reg
@@ -2447,9 +2419,7 @@ kop	kopte	kOp	kOpt@	reg
 kopt	kopte	kOpt	kOpt@	reg
 koppen	kopten	kOp@	kOpt@	reg
 kort	kortte	kOrt	kOrt@	reg
-kort	kortte	kOrt	kOrt@	reg
 korten	kortten	kOrt@	kOrt@	reg
-kost	kostte	kOst	kOst@	reg
 kost	kostte	kOst	kOst@	reg
 kosten	kostten	kOst@	kOst@	reg
 kots	kotste	kOts	kOtst@	reg
@@ -2525,7 +2495,6 @@ kwaak	kwaakte	kwak	kwakt@	reg
 kwaakt	kwaakte	kwakt	kwakt@	reg
 kwaken	kwaakten	kwak@	kwakt@	reg
 kwartet	kwartette	kwArtEt	kwArtEt@	reg
-kwartet	kwartette	kwArtEt	kwArtEt@	reg
 kwartetten	kwartetten	kwArtEt@	kwArtEt@	reg
 kwets	kwetste	kwEts	kwEtst@	reg
 kwetst	kwetste	kwEtst	kwEtst@	reg
@@ -2536,7 +2505,6 @@ kwijlen	kwijlden	kwKl@	kwKld@	reg
 kwijn	kwijnde	kwKn	kwKnd@	reg
 kwijnt	kwijnde	kwKnt	kwKnd@	reg
 kwijnen	kwijnden	kwKn@	kwKnd@	reg
-kwijt	kweet	kwKt	kwet	irreg
 kwijt	kweet	kwKt	kwet	irreg
 kwijten	kweten	kwKt@	kwet@	irreg
 kwispel	kwispelde	kwIsp@l	kwIsp@ld@	reg
@@ -2597,7 +2565,6 @@ leng	lengde	lEN	lENd@	reg
 lengt	lengde	lENt	lENd@	reg
 lengen	lengden	lEN@	lENd@	reg
 let	lette	lEt	lEt@	reg
-let	lette	lEt	lEt@	reg
 letten	letten	lEt@	lEt@	reg
 leun	leunde	l|n	l|nd@	reg
 leunt	leunde	l|nt	l|nd@	reg
@@ -2609,12 +2576,10 @@ lees	las	les	lAs	irreg
 leest	las	lest	lAs	irreg
 lezen	lazen	lez@	laz@	irreg
 licht	lichtte	lIxt	lIxt@	reg
-licht	lichtte	lIxt	lIxt@	reg
 lichten	lichtten	lIxt@	lIxt@	reg
 lieg	loog	lix	lox	irreg
 liegt	loog	lixt	lox	irreg
 liegen	logen	liG@	loG@	irreg
-lift	liftte	lIft	lIft@	reg
 lift	liftte	lIft	lIft@	reg
 liften	liftten	lIft@	lIft@	reg
 lijd	leed	lKt	let	irreg
@@ -2657,7 +2622,6 @@ loos	loosde	los	lozd@	reg
 loost	loosde	lost	lozd@	reg
 lozen	loosden	loz@	lozd@	reg
 lucht	luchtte	l}xt	l}xt@	reg
-lucht	luchtte	l}xt	l}xt@	reg
 luchten	luchtten	l}xt@	l}xt@	reg
 luid	luidde	lLt	lLd@	reg
 luidt	luidde	lLt	lLd@	reg
@@ -2674,7 +2638,6 @@ lukken	lukten	l}k@	l}kt@	reg
 lummel	lummelde	l}m@l	l}m@ld@	reg
 lummelt	lummelde	l}m@lt	l}m@ld@	reg
 lummelen	lummelden	l}m@l@	l}m@ld@	reg
-lust	lustte	l}st	l}st@	reg
 lust	lustte	l}st	l}st@	reg
 lusten	lustten	l}st@	l}st@	reg
 machtig	machtigde	mAxt@x	mAxt@Gd@	reg
@@ -2789,7 +2752,6 @@ mik	mikte	mIk	mIkt@	reg
 mikt	mikte	mIkt	mIkt@	reg
 mikken	mikten	mIk@	mIkt@	reg
 minacht	minachtte	mInAxt	mInAxt@	reg
-minacht	minachtte	mInAxt	mInAxt@	reg
 minachten	minachtten	mInAxt@	mInAxt@	reg
 minimaliseer	minimaliseerde	minimalizer	minimalizerd@	reg
 minimaliseert	minimaliseerde	minimalizert	minimalizerd@	reg
@@ -2825,9 +2787,7 @@ modificeer	modificeerde	modifiser	modifiserd@	reg
 modificeert	modificeerde	modifisert	modifiserd@	reg
 modificeren	modificeerden	modifiser@	modifiserd@	reg
 moet	moest	mut	must	irreg
-moet	moest	mut	must	irreg
 moeten	moesten	mut@	must@	irreg
-mag	mocht	mAx	mOxt	irreg
 mag	mocht	mAx	mOxt	irreg
 mogen	mochten	moG@	mOxt@	irreg
 mok	mokte	mOk	mOkt@	reg
@@ -2867,12 +2827,10 @@ muilkorf	muilkorfde	mLlkOrf	mLlkOrvd@	reg
 muilkorft	muilkorfde	mLlkOrft	mLlkOrvd@	reg
 muilkorven	muilkorfden	mLlkOrv@	mLlkOrvd@	reg
 muit	muitte	mLt	mLt@	reg
-muit	muitte	mLt	mLt@	reg
 muiten	muitten	mLt@	mLt@	reg
 muteer	muteerde	myter	myterd@	reg
 muteert	muteerde	mytert	myterd@	reg
 muteren	muteerden	myter@	myterd@	reg
-naast	naastte	nast	nast@	reg
 naast	naastte	nast	nast@	reg
 naasten	naastten	nast@	nast@	reg
 nader	naderde	nad@r	nad@rd@	reg
@@ -2902,7 +2860,6 @@ nestelen	nestelden	nEst@l@	nEst@ld@	reg
 neuk	neukte	n|k	n|kt@	reg
 neukt	neukte	n|kt	n|kt@	reg
 neuken	neukten	n|k@	n|kt@	reg
-niet	niette	nit	nit@	reg
 niet	niette	nit	nit@	reg
 nieten	nietten	nit@	nit@	reg
 nijg	neeg	nKx	nex	irreg
@@ -2938,6 +2895,8 @@ oefenen	oefenden	uf@n@	uf@nd@	reg
 offer	offerde	Of@r	Of@rd@	reg
 offert	offerde	Of@rt	Of@rd@	reg
 offeren	offerden	Of@r@	Of@rd@	reg
+olie	oliede	oli	olid@	reg
+oliet	oliede	olit	olid@	reg
 omarm	omarmde	OmArm	OmArmd@	reg
 omarmt	omarmde	OmArmt	OmArmd@	reg
 omarmen	omarmden	OmArm@	OmArmd@	reg
@@ -2963,9 +2922,7 @@ omsingel	omsingelde	OmsIN@l	OmsIN@ld@	reg
 omsingelt	omsingelde	OmsIN@lt	OmsIN@ld@	reg
 omsingelen	omsingelden	OmsIN@l@	OmsIN@ld@	reg
 omsluit	omsloot	OmslLt	Omslot	irreg
-omsluit	omsloot	OmslLt	Omslot	irreg
 omsluiten	omsloten	OmslLt@	Omslot@	irreg
-omvat	omvatte	OmvAt	OmvAt@	reg
 omvat	omvatte	OmvAt	OmvAt@	reg
 omvatten	omvatten	OmvAt@	OmvAt@	reg
 omwikkel	omwikkelde	OmwIk@l	OmwIk@ld@	reg
@@ -3029,12 +2986,10 @@ ontbied	ontbood	Ondbit	Ondbot	irreg
 ontbiedt	ontbood	Ondbit	Ondbot	irreg
 ontbieden	ontboden	Ondbid@	Ondbod@	irreg
 ontbijt	ontbeet	OndbKt	Ondbet	irreg
-ontbijt	ontbeet	OndbKt	Ondbet	irreg
 ontbijten	ontbeten	OndbKt@	Ondbet@	irreg
 ontbind	ontbond	OndbInt	OndbOnt	irreg
 ontbindt	ontbond	OndbInt	OndbOnt	irreg
 ontbinden	ontbonden	OndbInd@	OndbOnd@	irreg
-ontbloot	ontblootte	Ondblot	Ondblot@	reg
 ontbloot	ontblootte	Ondblot	Ondblot@	reg
 ontbloten	ontblootten	Ondblot@	Ondblot@	reg
 ontbrand	ontbrandde	OndbrAnt	OndbrAnd@	reg
@@ -3118,12 +3073,10 @@ ontkoppel	ontkoppelde	OntkOp@l	OntkOp@ld@	reg
 ontkoppelt	ontkoppelde	OntkOp@lt	OntkOp@ld@	reg
 ontkoppelen	ontkoppelden	OntkOp@l@	OntkOp@ld@	reg
 ontkracht	ontkrachtte	OntkrAxt	OntkrAxt@	reg
-ontkracht	ontkrachtte	OntkrAxt	OntkrAxt@	reg
 ontkrachten	ontkrachtten	OntkrAxt@	OntkrAxt@	reg
 ontkurk	ontkurkte	Ontk}rk	Ontk}rkt@	reg
 ontkurkt	ontkurkte	Ontk}rkt	Ontk}rkt@	reg
 ontkurken	ontkurkten	Ontk}rk@	Ontk}rkt@	reg
-ontlast	ontlastte	OntlAst	OntlAst@	reg
 ontlast	ontlastte	OntlAst	OntlAst@	reg
 ontlasten	ontlastten	OntlAst@	OntlAst@	reg
 ontleed	ontleedde	Ontlet	Ontled@	reg
@@ -3147,7 +3100,6 @@ ontmaskeren	ontmaskerden	OntmAsk@r@	OntmAsk@rd@	reg
 ontmoedig	ontmoedigde	Ontmud@x	Ontmud@Gd@	reg
 ontmoedigt	ontmoedigde	Ontmud@xt	Ontmud@Gd@	reg
 ontmoedigen	ontmoedigden	Ontmud@G@	Ontmud@Gd@	reg
-ontmoet	ontmoette	Ontmut	Ontmut@	reg
 ontmoet	ontmoette	Ontmut	Ontmut@	reg
 ontmoeten	ontmoetten	Ontmut@	Ontmut@	reg
 ontneem	ontnam	Ontnem	OntnAm	irreg
@@ -3187,7 +3139,6 @@ ontsluier	ontsluierde	OntslLj@r	OntslLj@rd@	reg
 ontsluiert	ontsluierde	OntslLj@rt	OntslLj@rd@	reg
 ontsluieren	ontsluierden	OntslLj@r@	OntslLj@rd@	reg
 ontsluit	ontsloot	OntslLt	Ontslot	irreg
-ontsluit	ontsloot	OntslLt	Ontslot	irreg
 ontsluiten	ontsloten	OntslLt@	Ontslot@	irreg
 ontsnap	ontsnapte	OntsnAp	OntsnApt@	reg
 ontsnapt	ontsnapte	OntsnApt	OntsnApt@	reg
@@ -3198,7 +3149,6 @@ ontsporen	ontspoorden	Ontspor@	Ontspord@	reg
 ontspring	ontsprong	OntsprIN	OntsprON	irreg
 ontspringt	ontsprong	OntsprINt	OntsprON	irreg
 ontspringen	ontsprongen	OntsprIN@	OntsprON@	irreg
-ontspruit	ontsproot	OntsprLt	Ontsprot	irreg
 ontspruit	ontsproot	OntsprLt	Ontsprot	irreg
 ontspruiten	ontsproten	OntsprLt@	Ontsprot@	irreg
 ontsteek	ontstak	Ontstek	OntstAk	irreg
@@ -3213,7 +3163,6 @@ ontstemmen	ontstemden	OntstEm@	OntstEmd@	reg
 onttrek	onttrok	OntrEk	OntrOk	irreg
 onttrekt	onttrok	OntrEkt	OntrOk	irreg
 onttrekken	onttrokken	OntrEk@	OntrOk@	irreg
-ontvlucht	ontvluchtte	Ontfl}xt	Ontfl}xt@	reg
 ontvlucht	ontvluchtte	Ontfl}xt	Ontfl}xt@	reg
 ontvluchten	ontvluchtten	Ontfl}xt@	Ontfl}xt@	reg
 ontvoer	ontvoerde	Ontfur	Ontfurd@	reg
@@ -3250,15 +3199,13 @@ ontworstel	ontworstelde	OntwOrst@l	OntwOrst@ld@	reg
 ontworstelt	ontworstelde	OntwOrst@lt	OntwOrst@ld@	reg
 ontworstelen	ontworstelden	OntwOrst@l@	OntwOrst@ld@	reg
 ontwricht	ontwrichtte	OntwrIxt	OntwrIxt@	reg
-ontwricht	ontwrichtte	OntwrIxt	OntwrIxt@	reg
 ontwrichten	ontwrichtten	OntwrIxt@	OntwrIxt@	reg
 ontzeg	ontzei	OntsEx	OntsK	irreg
 ontzegt	ontzei	OntsExt	OntsK	irreg
 ontzeggen	ontzeiden	OntsEG@	OntsKd@	irreg
 ontzilt	ontziltte	OntsIlt	OntsIlt@	reg
-ontzilt	ontziltte	OntsIlt	OntsIlt@	reg
 ontzilten	ontziltten	OntsIlt@	OntsIlt@	reg
-oogst	oogstte	oxst	oxst@	reg
+onweert	onweerde	Onwert	Onwerd@	reg
 oogst	oogstte	oxst	oxst@	reg
 oogsten	oogstten	oxst@	oxst@	reg
 oordeel	oordeelde	ordel	ordeld@	reg
@@ -3292,7 +3239,6 @@ oscilleer	oscilleerde	Osiler	Osilerd@	reg
 oscilleert	oscilleerde	Osilert	Osilerd@	reg
 oscilleren	oscilleerden	Osiler@	Osilerd@	reg
 overbelast	overbelastte	ov@rb@lAst	ov@rb@lAst@	reg
-overbelast	overbelastte	ov@rb@lAst	ov@rb@lAst@	reg
 overbelasten	overbelastten	ov@rb@lAst@	ov@rb@lAst@	reg
 overdek	overdekte	ov@rdEk	ov@rdEkt@	reg
 overdekt	overdekte	ov@rdEkt	ov@rdEkt@	reg
@@ -3300,7 +3246,6 @@ overdekken	overdekten	ov@rdEk@	ov@rdEkt@	reg
 overdenk	overdacht	ov@rdENk	ov@rdAxt	irreg
 overdenkt	overdacht	ov@rdENkt	ov@rdAxt	irreg
 overdenken	overdachten	ov@rdENk@	ov@rdAxt@	irreg
-overeet	overat	ov@ret	ov@rAt	irreg
 overeet	overat	ov@ret	ov@rAt	irreg
 overeten	overaten	ov@ret@	ov@rat@	irreg
 overhandig	overhandigde	ov@rhAnd@x	ov@rhAnd@Gd@	reg
@@ -3321,7 +3266,6 @@ overlijden	overleden	ov@rlKd@	ov@rled@	irreg
 overmeester	overmeesterde	ov@rmest@r	ov@rmest@rd@	reg
 overmeestert	overmeesterde	ov@rmest@rt	ov@rmest@rd@	reg
 overmeesteren	overmeesterden	ov@rmest@r@	ov@rmest@rd@	reg
-overnacht	overnachtte	ov@rnAxt	ov@rnAxt@	reg
 overnacht	overnachtte	ov@rnAxt	ov@rnAxt@	reg
 overnachten	overnachtten	ov@rnAxt@	ov@rnAxt@	reg
 overrule	overrulede	ov@rul	ov@ruld@	reg
@@ -3363,7 +3307,6 @@ overwinnen	overwonnen	ov@rwIn@	ov@rwOn@	irreg
 oxydeer	oxydeerde	Oksider	Oksiderd@	reg
 oxydeert	oxydeerde	Oksidert	Oksiderd@	reg
 oxyderen	oxydeerden	Oksider@	Oksiderd@	reg
-pacht	pachtte	pAxt	pAxt@	reg
 pacht	pachtte	pAxt	pAxt@	reg
 pachten	pachtten	pAxt@	pAxt@	reg
 pandoer	pandoerde	pAndur	pAndurd@	reg
@@ -3412,7 +3355,6 @@ persisteer	persisteerde	pErsIster	pErsIsterd@	reg
 persisteert	persisteerde	pErsIstert	pErsIsterd@	reg
 persisteren	persisteerden	pErsIster@	pErsIsterd@	reg
 pest	pestte	pEst	pEst@	reg
-pest	pestte	pEst	pEst@	reg
 pesten	pestten	pEst@	pEst@	reg
 peuter	peuterde	p|t@r	p|t@rd@	reg
 peutert	peuterde	p|t@rt	p|t@rd@	reg
@@ -3454,7 +3396,6 @@ plaag	plaagde	plax	plaGd@	reg
 plaagt	plaagde	plaxt	plaGd@	reg
 plagen	plaagden	plaG@	plaGd@	reg
 plant	plantte	plAnt	plAnt@	reg
-plant	plantte	plAnt	plAnt@	reg
 planten	plantten	plAnt@	plAnt@	reg
 plas	plaste	plAs	plAst@	reg
 plast	plaste	plAst	plAst@	reg
@@ -3480,7 +3421,6 @@ ploffen	ploften	plOf@	plOft@	reg
 plooi	plooide	ploj	plojd@	reg
 plooit	plooide	plojt	plojd@	reg
 plooien	plooiden	ploj@	plojd@	reg
-plot	plotte	plOt	plOt@	reg
 plot	plotte	plOt	plOt@	reg
 plotten	plotten	plOt@	plOt@	reg
 pluim	pluimde	plLm	plLmd@	reg
@@ -3508,7 +3448,6 @@ polariseer	polariseerde	polarizer	polarizerd@	reg
 polariseert	polariseerde	polarizert	polarizerd@	reg
 polariseren	polariseerden	polarizer@	polarizerd@	reg
 polijst	polijstte	polKst	polKst@	reg
-polijst	polijstte	polKst	polKst@	reg
 polijsten	polijstten	polKst@	polKst@	reg
 pomp	pompte	pOmp	pOmpt@	reg
 pompt	pompte	pOmpt	pOmpt@	reg
@@ -3526,18 +3465,14 @@ poseer	poseerde	pozer	pozerd@	reg
 poseert	poseerde	pozert	pozerd@	reg
 poseren	poseerden	pozer@	pozerd@	reg
 post	postte	pOst	pOst@	reg
-post	postte	pOst	pOst@	reg
 posten	postten	pOst@	pOst@	reg
 postuleer	postuleerde	pOstyler	pOstylerd@	reg
 postuleert	postuleerde	pOstylert	pOstylerd@	reg
 postuleren	postuleerden	pOstyler@	pOstylerd@	reg
 poot	pootte	pot	pot@	reg
-poot	pootte	pot	pot@	reg
 poten	pootten	pot@	pot@	reg
 pot	potte	pOt	pOt@	reg
-pot	potte	pOt	pOt@	reg
 potten	potten	pOt@	pOt@	reg
-praat	praatte	prat	prat@	reg
 praat	praatte	prat	prat@	reg
 praten	praatten	prat@	prat@	reg
 predik	predikte	pred@k	pred@kt@	reg
@@ -3565,7 +3500,6 @@ prik	prikte	prIk	prIkt@	reg
 prikt	prikte	prIkt	prIkt@	reg
 prikken	prikten	prIk@	prIkt@	reg
 print	printte	prInt	prInt@	reg
-print	printte	prInt	prInt@	reg
 printen	printten	prInt@	prInt@	reg
 procedeer	procedeerde	pros@der	pros@derd@	reg
 procedeert	procedeerde	pros@dert	pros@derd@	reg
@@ -3573,7 +3507,6 @@ procederen	procedeerden	pros@der@	pros@derd@	reg
 proclameer	proclameerde	proklamer	proklamerd@	reg
 proclameert	proclameerde	proklamert	proklamerd@	reg
 proclameren	proclameerden	proklamer@	proklamerd@	reg
-proest	proestte	prust	prust@	reg
 proest	proestte	prust	prust@	reg
 proesten	proestten	prust@	prust@	reg
 profeteer	profeteerde	prof@ter	prof@terd@	reg
@@ -3628,7 +3561,6 @@ puncteer	puncteerde	p}Nkter	p}Nkterd@	reg
 puncteert	puncteerde	p}Nktert	p}Nkterd@	reg
 puncteren	puncteerden	p}Nkter@	p}Nkterd@	reg
 put	putte	p}t	p}t@	reg
-put	putte	p}t	p}t@	reg
 putten	putten	p}t@	p}t@	reg
 raadpleeg	raadpleegde	ratplex	ratpleGd@	reg
 raadpleegt	raadpleegde	ratplext	ratpleGd@	reg
@@ -3676,7 +3608,6 @@ realiseer	realiseerde	rejalizer	rejalizerd@	reg
 realiseert	realiseerde	rejalizert	rejalizerd@	reg
 realiseren	realiseerden	rejalizer@	rejalizerd@	reg
 recht	rechtte	rExt	rExt@	reg
-recht	rechtte	rExt	rExt@	reg
 rechten	rechtten	rExt@	rExt@	reg
 rechtvaardig	rechtvaardigde	rExtfard@x	rExtfard@Gd@	reg
 rechtvaardigt	rechtvaardigde	rExtfard@xt	rExtfard@Gd@	reg
@@ -3699,7 +3630,6 @@ redeneren	redeneerden	red@ner@	red@nerd@	reg
 reed	reedde	ret	red@	reg
 reedt	reedde	ret	red@	reg
 reden	reedden	red@	red@	reg
-redetwist	redetwistte	red@twIst	red@twIst@	reg
 redetwist	redetwistte	red@twIst	red@twIst@	reg
 redetwisten	redetwistten	red@twIst@	red@twIst@	reg
 reduceer	reduceerde	redyser	redyserd@	reg
@@ -3796,7 +3726,6 @@ revolteer	revolteerde	revOlter	revOlterd@	reg
 revolteert	revolteerde	revOltert	revOlterd@	reg
 revolteren	revolteerden	revOlter@	revOlterd@	reg
 richt	richtte	rIxt	rIxt@	reg
-richt	richtte	rIxt	rIxt@	reg
 richten	richtten	rIxt@	rIxt@	reg
 ridder	ridderde	rId@r	rId@rd@	reg
 riddert	ridderde	rId@rt	rId@rd@	reg
@@ -3814,7 +3743,6 @@ rijp	rijpte	rKp	rKpt@	reg
 rijpt	rijpte	rKpt	rKpt@	reg
 rijpen	rijpten	rKp@	rKpt@	reg
 rijt	reet	rKt	ret	irreg
-rijt	reet	rKt	ret	irreg
 rijten	reten	rKt@	ret@	irreg
 rijs	rees	rKs	res	irreg
 rijst	rees	rKst	res	irreg
@@ -3829,7 +3757,6 @@ riskeer	riskeerde	rIsker	rIskerd@	reg
 riskeert	riskeerde	rIskert	rIskerd@	reg
 riskeren	riskeerden	rIsker@	rIskerd@	reg
 rit	ritte	rIt	rIt@	reg
-rit	ritte	rIt	rIt@	reg
 ritten	ritten	rIt@	rIt@	reg
 roddel	roddelde	rOd@l	rOd@ld@	reg
 roddelt	roddelde	rOd@lt	rOd@ld@	reg
@@ -3837,7 +3764,6 @@ roddelen	roddelden	rOd@l@	rOd@ld@	reg
 roem	roemde	rum	rumd@	reg
 roemt	roemde	rumt	rumd@	reg
 roemen	roemden	rum@	rumd@	reg
-roest	roestte	rust	rust@	reg
 roest	roestte	rust	rust@	reg
 roesten	roestten	rust@	rust@	reg
 rook	rookte	rok	rokt@	reg
@@ -3894,6 +3820,8 @@ runnen	runden	r}n@	r}nd@	reg
 ruw	ruwde	ryw	rywd@	reg
 ruwt	ruwde	rywt	rywd@	reg
 ruwen	ruwden	ryw@	rywd@	reg
+ruzie	ruziede	ryzi	ryzid@	reg
+ruziet	ruziede	ryzit	ryzid@	reg
 sabbel	sabbelde	sAb@l	sAb@ld@	reg
 sabbelt	sabbelde	sAb@lt	sAb@ld@	reg
 sabbelen	sabbelden	sAb@l@	sAb@ld@	reg
@@ -3912,7 +3840,6 @@ schaduwen	schaduwden	sxadyw@	sxadywd@	reg
 schaf	schafte	sxAf	sxAft@	reg
 schaft	schafte	sxAft	sxAft@	reg
 schaffen	schaften	sxAf@	sxAft@	reg
-schaft	schaftte	sxAft	sxAft@	reg
 schaft	schaftte	sxAft	sxAft@	reg
 schaften	schaftten	sxAft@	sxAft@	reg
 schakel	schakelde	sxak@l	sxak@ld@	reg
@@ -3952,12 +3879,10 @@ scherts	schertste	sxErts	sxErtst@	reg
 schertst	schertste	sxErtst	sxErtst@	reg
 schertsen	schertsten	sxErts@	sxErtst@	reg
 schift	schiftte	sxIft	sxIft@	reg
-schift	schiftte	sxIft	sxIft@	reg
 schiften	schiftten	sxIft@	sxIft@	reg
 schijn	scheen	sxKn	sxen	irreg
 schijnt	scheen	sxKnt	sxen	irreg
 schijnen	schenen	sxKn@	sxen@	irreg
-schijt	scheet	sxKt	sxet	irreg
 schijt	scheet	sxKt	sxet	irreg
 schijten	scheten	sxKt@	sxet@	irreg
 schilder	schilderde	sxIld@r	sxIld@rd@	reg
@@ -4065,13 +3990,13 @@ sjorren	sjorden	SOr@	SOrd@	reg
 sjouw	sjouwde	SMw	SMwd@	reg
 sjouwt	sjouwde	SMwt	SMwd@	reg
 sjouwen	sjouwden	SMw@	SMwd@	reg
+skiet	skiede	skit	skid@	reg
 slaapwandel	slaapwandelde	slapwAnd@l	slapwAnd@ld@	reg
 slaapwandelt	slaapwandelde	slapwAnd@lt	slapwAnd@ld@	reg
 slaapwandelen	slaapwandelden	slapwAnd@l@	slapwAnd@ld@	reg
 slabak	slabakte	slabAk	slabAkt@	reg
 slabakt	slabakte	slabAkt	slabAkt@	reg
 slabakken	slabakten	slabAk@	slabAkt@	reg
-slacht	slachtte	slAxt	slAxt@	reg
 slacht	slachtte	slAxt	slAxt@	reg
 slachten	slachtten	slAxt@	slAxt@	reg
 slaag	slaagde	slax	slaGd@	reg
@@ -4080,6 +4005,8 @@ slagen	slaagden	slaG@	slaGd@	reg
 slaap	sliep	slap	slip	irreg
 slaapt	sliep	slapt	slip	irreg
 slapen	sliepen	slap@	slip@	irreg
+slee	sleede	sle	sled@	reg
+sleet	sleede	slet	sled@	reg
 slenter	slenterde	slEnt@r	slEnt@rd@	reg
 slentert	slenterde	slEnt@rt	slEnt@rd@	reg
 slenteren	slenterden	slEnt@r@	slEnt@rd@	reg
@@ -4092,7 +4019,6 @@ sleutelen	sleutelden	sl|t@l@	sl|t@ld@	reg
 slijp	sleep	slKp	slep	irreg
 slijpt	sleep	slKpt	slep	irreg
 slijpen	slepen	slKp@	slep@	irreg
-slijt	sleet	slKt	slet	irreg
 slijt	sleet	slKt	slet	irreg
 slijten	sleten	slKt@	slet@	irreg
 slik	slikte	slIk	slIkt@	reg
@@ -4120,12 +4046,10 @@ sluip	sloop	slLp	slop	irreg
 sluipt	sloop	slLpt	slop	irreg
 sluipen	slopen	slLp@	slop@	irreg
 sluit	sloot	slLt	slot	irreg
-sluit	sloot	slLt	slot	irreg
 sluiten	sloten	slLt@	slot@	irreg
 sluis	sluisde	slLs	slLzd@	reg
 sluist	sluisde	slLst	slLzd@	reg
 sluizen	sluisden	slLz@	slLzd@	reg
-smacht	smachtte	smAxt	smAxt@	reg
 smacht	smachtte	smAxt	smAxt@	reg
 smachten	smachtten	smAxt@	smAxt@	reg
 smaad	smaadde	smat	smad@	reg
@@ -4144,12 +4068,10 @@ smeek	smeekte	smek	smekt@	reg
 smeekt	smeekte	smekt	smekt@	reg
 smeken	smeekten	smek@	smekt@	reg
 smelt	smolt	smElt	smOlt	irreg
-smelt	smolt	smElt	smOlt	irreg
 smelten	smolten	smElt@	smOlt@	irreg
 smeul	smeulde	sm|l	sm|ld@	reg
 smeult	smeulde	sm|lt	sm|ld@	reg
 smeulen	smeulden	sm|l@	sm|ld@	reg
-smijt	smeet	smKt	smet	irreg
 smijt	smeet	smKt	smet	irreg
 smijten	smeten	smKt@	smet@	irreg
 smikkel	smikkelde	smIk@l	smIk@ld@	reg
@@ -4206,7 +4128,6 @@ snuf	snufte	sn}f	sn}ft@	reg
 snuft	snufte	sn}ft	sn}ft@	reg
 snuffen	snuften	sn}f@	sn}ft@	reg
 snuit	snoot	snLt	snot	irreg
-snuit	snoot	snLt	snot	irreg
 snuiten	snoten	snLt@	snot@	irreg
 snuif	snoof	snLf	snof	irreg
 snuift	snoof	snLft	snof	irreg
@@ -4226,7 +4147,6 @@ spannen	spanden	spAn@	spAnd@	reg
 spaar	spaarde	spar	spard@	reg
 spaart	spaarde	spart	spard@	reg
 sparen	spaarden	spar@	spard@	reg
-spat	spatte	spAt	spAt@	reg
 spat	spatte	spAt	spAt@	reg
 spatten	spatten	spAt@	spAt@	reg
 specialiseer	specialiseerde	speSalizer	speSalizerd@	reg
@@ -4260,12 +4180,10 @@ spijker	spijkerde	spKk@r	spKk@rd@	reg
 spijkert	spijkerde	spKk@rt	spKk@rd@	reg
 spijkeren	spijkerden	spKk@r@	spKk@rd@	reg
 spijt	speet	spKt	spet	irreg
-spijt	speet	spKt	spet	irreg
 spijten	speten	spKt@	spet@	irreg
 spioneer	spioneerde	spijoner	spijonerd@	reg
 spioneert	spioneerde	spijonert	spijonerd@	reg
 spioneren	spioneerden	spijoner@	spijonerd@	reg
-splijt	spleet	splKt	splet	irreg
 splijt	spleet	splKt	splet	irreg
 splijten	spleten	splKt@	splet@	irreg
 splits	splitste	splIts	splItst@	reg
@@ -4277,7 +4195,6 @@ spoken	spookten	spok@	spokt@	reg
 sponsor	sponsorde	spOns@r	spOns@rd@	reg
 sponsort	sponsorde	spOns@rt	spOns@rd@	reg
 sponsoren	sponsorden	spOns@r@	spOns@rd@	reg
-sport	sportte	spOrt	spOrt@	reg
 sport	sportte	spOrt	spOrt@	reg
 sporten	sportten	spOrt@	spOrt@	reg
 spouw	spouwde	spMw	spMwd@	reg
@@ -4299,7 +4216,6 @@ sprokkel	sprokkelde	sprOk@l	sprOk@ld@	reg
 sprokkelt	sprokkelde	sprOk@lt	sprOk@ld@	reg
 sprokkelen	sprokkelden	sprOk@l@	sprOk@ld@	reg
 spruit	sproot	sprLt	sprot	irreg
-spruit	sproot	sprLt	sprot	irreg
 spruiten	sproten	sprLt@	sprot@	irreg
 spuug	spuugde	spyx	spyGd@	reg
 spuugt	spuugde	spyxt	spyGd@	reg
@@ -4307,7 +4223,6 @@ spugen	spuugden	spyG@	spyGd@	reg
 spui	spuide	spL	spLd@	reg
 spuit	spuide	spLt	spLd@	reg
 spuien	spuiden	spLj@	spLd@	reg
-spuit	spoot	spLt	spot	irreg
 spuit	spoot	spLt	spot	irreg
 spuiten	spoten	spLt@	spot@	irreg
 spuw	spuwde	spyw	spywd@	reg
@@ -4329,7 +4244,6 @@ stamp	stampte	stAmp	stAmpt@	reg
 stampt	stampte	stAmpt	stAmpt@	reg
 stampen	stampten	stAmp@	stAmpt@	reg
 stampvoet	stampvoette	stAmpfut	stAmpfut@	reg
-stampvoet	stampvoette	stAmpfut	stAmpfut@	reg
 stampvoeten	stampvoetten	stAmpfut@	stAmpfut@	reg
 stang	stangde	stAN	stANd@	reg
 stangt	stangde	stANt	stANd@	reg
@@ -4344,7 +4258,6 @@ staar	staarde	star	stard@	reg
 staart	staarde	start	stard@	reg
 staren	staarden	star@	stard@	reg
 start	startte	stArt	stArt@	reg
-start	startte	stArt	stArt@	reg
 starten	startten	stArt@	stArt@	reg
 steiger	steigerde	stKG@r	stKG@rd@	reg
 steigert	steigerde	stKG@rt	stKG@rd@	reg
@@ -4352,7 +4265,6 @@ steigeren	steigerden	stKG@r@	stKG@rd@	reg
 sterk	sterkte	stErk	stErkt@	reg
 sterkt	sterkte	stErkt	stErkt@	reg
 sterken	sterkten	stErk@	stErkt@	reg
-sticht	stichtte	stIxt	stIxt@	reg
 sticht	stichtte	stIxt	stIxt@	reg
 stichten	stichtten	stIxt@	stIxt@	reg
 stimuleer	stimuleerde	stimyler	stimylerd@	reg
@@ -4385,7 +4297,6 @@ stompen	stompten	stOmp@	stOmpt@	reg
 stoor	stoorde	stor	stord@	reg
 stoort	stoorde	stort	stord@	reg
 storen	stoorden	stor@	stord@	reg
-stort	stortte	stOrt	stOrt@	reg
 stort	stortte	stOrt	stOrt@	reg
 storten	stortten	stOrt@	stOrt@	reg
 stotter	stotterde	stOt@r	stOt@rd@	reg
@@ -4428,7 +4339,6 @@ studeer	studeerde	styder	styderd@	reg
 studeert	studeerde	stydert	styderd@	reg
 studeren	studeerden	styder@	styderd@	reg
 stuit	stuitte	stLt	stLt@	reg
-stuit	stuitte	stLt	stLt@	reg
 stuiten	stuitten	stLt@	stLt@	reg
 stuiter	stuiterde	stLt@r	stLt@rd@	reg
 stuitert	stuiterde	stLt@rt	stLt@rd@	reg
@@ -4437,11 +4347,12 @@ stuif	stoof	stLf	stof	irreg
 stuift	stoof	stLft	stof	irreg
 stuiven	stoven	stLv@	stov@	irreg
 stunt	stuntte	st}nt	st}nt@	reg
-stunt	stuntte	st}nt	st}nt@	reg
 stunten	stuntten	st}nt@	st}nt@	reg
 stuw	stuwde	styw	stywd@	reg
 stuwt	stuwde	stywt	stywd@	reg
 stuwen	stuwden	styw@	stywd@	reg
+subsidieer	subsidieerde	s}psidijer	s}psidijerd@	reg
+subsidieert	subsidieerde	s}psidijert	s}psidijerd@	reg
 sudder	sudderde	s}d@r	s}d@rd@	reg
 suddert	sudderde	s}d@rt	s}d@rd@	reg
 sudderen	sudderden	s}d@r@	s}d@rd@	reg
@@ -4473,9 +4384,7 @@ tank	tankte	tENk	tENkt@	reg
 tankt	tankte	tENkt	tENkt@	reg
 tanken	tankten	tENk@	tENkt@	reg
 tart	tartte	tArt	tArt@	reg
-tart	tartte	tArt	tArt@	reg
 tarten	tartten	tArt@	tArt@	reg
-tast	tastte	tAst	tAst@	reg
 tast	tastte	tAst	tAst@	reg
 tasten	tastten	tAst@	tAst@	reg
 taxeer	taxeerde	tAkser	tAkserd@	reg
@@ -4497,7 +4406,6 @@ tennis	tenniste	tEn@s	tEn@st@	reg
 tennist	tenniste	tEn@st	tEn@st@	reg
 tennissen	tennisten	tEn@s@	tEn@st@	reg
 test	testte	tEst	tEst@	reg
-test	testte	tEst	tEst@	reg
 testen	testten	tEst@	tEst@	reg
 tier	tierde	tir	tird@	reg
 tiert	tierde	tirt	tird@	reg
@@ -4505,7 +4413,6 @@ tieren	tierden	tir@	tird@	reg
 til	tilde	tIl	tIld@	reg
 tilt	tilde	tIlt	tIld@	reg
 tillen	tilden	tIl@	tIld@	reg
-tint	tintte	tInt	tInt@	reg
 tint	tintte	tInt	tInt@	reg
 tinten	tintten	tInt@	tInt@	reg
 tippel	tippelde	tIp@l	tIp@ld@	reg
@@ -4530,7 +4437,6 @@ tolk	tolkte	tOlk	tOlkt@	reg
 tolkt	tolkte	tOlkt	tOlkt@	reg
 tolken	tolkten	tOlk@	tOlkt@	reg
 toost	toostte	tost	tost@	reg
-toost	toostte	tost	tost@	reg
 toosten	toostten	tost@	tost@	reg
 toucheer	toucheerde	tuSer	tuSerd@	reg
 toucheert	toucheerde	tuSert	tuSerd@	reg
@@ -4542,11 +4448,12 @@ traceer	traceerde	traser	traserd@	reg
 traceert	traceerde	trasert	traserd@	reg
 traceren	traceerden	traser@	traserd@	reg
 tracht	trachtte	trAxt	trAxt@	reg
-tracht	trachtte	trAxt	trAxt@	reg
 trachten	trachtten	trAxt@	trAxt@	reg
 trakteer	trakteerde	trAkter	trAkterd@	reg
 trakteert	trakteerde	trAktert	trAkterd@	reg
 trakteren	trakteerden	trAkter@	trAkterd@	reg
+tralie	traliede	trali	tralid@	reg
+traliet	traliede	tralit	tralid@	reg
 traan	traande	tran	trand@	reg
 traant	traande	trant	trand@	reg
 tranen	traanden	tran@	trand@	reg
@@ -4584,7 +4491,6 @@ troon	troonde	tron	trond@	reg
 troont	troonde	tront	trond@	reg
 tronen	troonden	tron@	trond@	reg
 troost	troostte	trost	trost@	reg
-troost	troostte	trost	trost@	reg
 troosten	troostten	trost@	trost@	reg
 trotseer	trotseerde	trOtser	trOtserd@	reg
 trotseert	trotseerde	trOtsert	trOtserd@	reg
@@ -4595,7 +4501,6 @@ tuchtigen	tuchtigden	t}xt@G@	t}xt@Gd@	reg
 tuinier	tuinierde	tLnir	tLnird@	reg
 tuiniert	tuinierde	tLnirt	tLnird@	reg
 tuinieren	tuinierden	tLnir@	tLnird@	reg
-tuit	tuitte	tLt	tLt@	reg
 tuit	tuitte	tLt	tLt@	reg
 tuiten	tuitten	tLt@	tLt@	reg
 tuur	tuurde	tyr	tyrd@	reg
@@ -4617,7 +4522,6 @@ typeer	typeerde	tiper	tiperd@	reg
 typeert	typeerde	tipert	tiperd@	reg
 typeren	typeerden	tiper@	tiperd@	reg
 uit	uitte	Lt	Lt@	reg
-uit	uitte	Lt	Lt@	reg
 uiten	uitten	Lt@	Lt@	reg
 urineer	urineerde	yriner	yrinerd@	reg
 urineert	urineerde	yrinert	yrinerd@	reg
@@ -4628,10 +4532,10 @@ vagen	vaagden	vaG@	vaGd@	reg
 vang	ving	vAN	vIN	irreg
 vangt	ving	vANt	vIN	irreg
 vangen	vingen	vAN@	vIN@	irreg
-vat	vatte	vAt	vAt@	reg
+varieer	varieerde	varijer	varijerd@	reg
+varieert	varieerde	varijert	varijerd@	reg
 vat	vatte	vAt	vAt@	reg
 vatten	vatten	vAt@	vAt@	reg
-vecht	vocht	vExt	vOxt	irreg
 vecht	vocht	vExt	vOxt	irreg
 vechten	vochten	vExt@	vOxt@	irreg
 veeg	veegde	vex	veGd@	reg
@@ -4647,9 +4551,7 @@ vel	velde	vEl	vEld@	reg
 velt	velde	vElt	vEld@	reg
 vellen	velden	vEl@	vEld@	reg
 vent	ventte	vEnt	vEnt@	reg
-vent	ventte	vEnt	vEnt@	reg
 venten	ventten	vEnt@	vEnt@	reg
-veracht	verachtte	v@rAxt	v@rAxt@	reg
 veracht	verachtte	v@rAxt	v@rAxt@	reg
 verachten	verachtten	v@rAxt@	v@rAxt@	reg
 veradem	verademde	v@rad@m	v@rad@md@	reg
@@ -4751,7 +4653,6 @@ verdelgen	verdelgden	v@rdElG@	v@rdElGd@	reg
 verdenk	verdacht	v@rdENk	v@rdAxt	irreg
 verdenkt	verdacht	v@rdENkt	v@rdAxt	irreg
 verdenken	verdachten	v@rdENk@	v@rdAxt@	irreg
-verdicht	verdichtte	v@rdIxt	v@rdIxt@	reg
 verdicht	verdichtte	v@rdIxt	v@rdIxt@	reg
 verdichten	verdichtten	v@rdIxt@	v@rdIxt@	reg
 verdien	verdiende	v@rdin	v@rdind@	reg
@@ -4887,7 +4788,6 @@ vergezel	vergezelde	v@rG@zEl	v@rG@zEld@	reg
 vergezelt	vergezelde	v@rG@zElt	v@rG@zEld@	reg
 vergezellen	vergezelden	v@rG@zEl@	v@rG@zEld@	reg
 vergiet	vergoot	v@rGit	v@rGot	irreg
-vergiet	vergoot	v@rGit	v@rGot	irreg
 vergieten	vergoten	v@rGit@	v@rGot@	irreg
 vergiftig	vergiftigde	v@rGIft@x	v@rGIft@Gd@	reg
 vergiftigt	vergiftigde	v@rGIft@xt	v@rGIft@Gd@	reg
@@ -4913,7 +4813,6 @@ vergrijzen	vergrijsden	v@rGrKz@	v@rGrKzd@	reg
 vergroei	vergroeide	v@rGruj	v@rGrujd@	reg
 vergroeit	vergroeide	v@rGrujt	v@rGrujd@	reg
 vergroeien	vergroeiden	v@rGruj@	v@rGrujd@	reg
-vergroot	vergrootte	v@rGrot	v@rGrot@	reg
 vergroot	vergrootte	v@rGrot	v@rGrot@	reg
 vergroten	vergrootten	v@rGrot@	v@rGrot@	reg
 verguis	verguisde	v@rGLs	v@rGLzd@	reg
@@ -4955,7 +4854,6 @@ verheugen	verheugden	v@rh|G@	v@rh|Gd@	reg
 verhinder	verhinderde	v@rhInd@r	v@rhInd@rd@	reg
 verhindert	verhinderde	v@rhInd@rt	v@rhInd@rd@	reg
 verhinderen	verhinderden	v@rhInd@r@	v@rhInd@rd@	reg
-verhit	verhitte	v@rhIt	v@rhIt@	reg
 verhit	verhitte	v@rhIt	v@rhIt@	reg
 verhitten	verhitten	v@rhIt@	v@rhIt@	reg
 verhoog	verhoogde	v@rhox	v@rhoGd@	reg
@@ -5012,7 +4910,6 @@ verkleur	verkleurde	v@rkl|r	v@rkl|rd@	reg
 verkleurt	verkleurde	v@rkl|rt	v@rkl|rd@	reg
 verkleuren	verkleurden	v@rkl|r@	v@rkl|rd@	reg
 verkloot	verklootte	v@rklot	v@rklot@	reg
-verkloot	verklootte	v@rklot	v@rklot@	reg
 verkloten	verklootten	v@rklot@	v@rklot@	reg
 verkneukel	verkneukelde	v@rkn|k@l	v@rkn|k@ld@	reg
 verkneukelt	verkneukelde	v@rkn|k@lt	v@rkn|k@ld@	reg
@@ -5036,9 +4933,7 @@ verkoper	verkoperde	v@rkop@r	v@rkop@rd@	reg
 verkopert	verkoperde	v@rkop@rt	v@rkop@rd@	reg
 verkoperen	verkoperden	v@rkop@r@	v@rkop@rd@	reg
 verkort	verkortte	v@rkOrt	v@rkOrt@	reg
-verkort	verkortte	v@rkOrt	v@rkOrt@	reg
 verkorten	verkortten	v@rkOrt@	v@rkOrt@	reg
-verkracht	verkrachtte	v@rkrAxt	v@rkrAxt@	reg
 verkracht	verkrachtte	v@rkrAxt	v@rkrAxt@	reg
 verkrachten	verkrachtten	v@rkrAxt@	v@rkrAxt@	reg
 verkreukel	verkreukelde	v@rkr|k@l	v@rkr|k@ld@	reg
@@ -5050,7 +4945,6 @@ verkrijgen	verkregen	v@rkrKG@	v@rkreG@	irreg
 verkwik	verkwikte	v@rkwIk	v@rkwIkt@	reg
 verkwikt	verkwikte	v@rkwIkt	v@rkwIkt@	reg
 verkwikken	verkwikten	v@rkwIk@	v@rkwIkt@	reg
-verkwist	verkwistte	v@rkwIst	v@rkwIst@	reg
 verkwist	verkwistte	v@rkwIst	v@rkwIst@	reg
 verkwisten	verkwistten	v@rkwIst@	v@rkwIst@	reg
 verlaag	verlaagde	v@rlax	v@rlaGd@	reg
@@ -5071,7 +4965,6 @@ verlenen	verleenden	v@rlen@	v@rlend@	reg
 verleng	verlengde	v@rlEN	v@rlENd@	reg
 verlengt	verlengde	v@rlENt	v@rlENd@	reg
 verlengen	verlengden	v@rlEN@	v@rlENd@	reg
-verlicht	verlichtte	v@rlIxt	v@rlIxt@	reg
 verlicht	verlichtte	v@rlIxt	v@rlIxt@	reg
 verlichten	verlichtten	v@rlIxt@	v@rlIxt@	reg
 verlief	verliefde	v@rlif	v@rlivd@	reg
@@ -5183,7 +5076,6 @@ verontreinig	verontreinigde	v@rOntrKn@x	v@rOntrKn@Gd@	reg
 verontreinigt	verontreinigde	v@rOntrKn@xt	v@rOntrKn@Gd@	reg
 verontreinigen	verontreinigden	v@rOntrKn@G@	v@rOntrKn@Gd@	reg
 verontrust	verontrustte	v@rOntr}st	v@rOntr}st@	reg
-verontrust	verontrustte	v@rOntr}st	v@rOntr}st@	reg
 verontrusten	verontrustten	v@rOntr}st@	v@rOntr}st@	reg
 verontschuldig	verontschuldigde	v@rOntsx}ld@x	v@rOntsx}ld@Gd@	reg
 verontschuldigt	verontschuldigde	v@rOntsx}ld@xt	v@rOntsx}ld@Gd@	reg
@@ -5219,7 +5111,6 @@ verpand	verpandde	v@rpAnt	v@rpAnd@	reg
 verpandt	verpandde	v@rpAnt	v@rpAnd@	reg
 verpanden	verpandden	v@rpAnd@	v@rpAnd@	reg
 verpest	verpestte	v@rpEst	v@rpEst@	reg
-verpest	verpestte	v@rpEst	v@rpEst@	reg
 verpesten	verpestten	v@rpEst@	v@rpEst@	reg
 verpieter	verpieterde	v@rpit@r	v@rpit@rd@	reg
 verpietert	verpieterde	v@rpit@rt	v@rpit@rd@	reg
@@ -5227,7 +5118,6 @@ verpieteren	verpieterden	v@rpit@r@	v@rpit@rd@	reg
 verplaats	verplaatste	v@rplats	v@rplatst@	reg
 verplaatst	verplaatste	v@rplatst	v@rplatst@	reg
 verplaatsen	verplaatsten	v@rplats@	v@rplatst@	reg
-verplant	verplantte	v@rplAnt	v@rplAnt@	reg
 verplant	verplantte	v@rplAnt	v@rplAnt@	reg
 verplanten	verplantten	v@rplAnt@	v@rplAnt@	reg
 verpleeg	verpleegde	v@rplex	v@rpleGd@	reg
@@ -5237,9 +5127,7 @@ verpletter	verpletterde	v@rplEt@r	v@rplEt@rd@	reg
 verplettert	verpletterde	v@rplEt@rt	v@rplEt@rd@	reg
 verpletteren	verpletterden	v@rplEt@r@	v@rplEt@rd@	reg
 verplicht	verplichtte	v@rplIxt	v@rplIxt@	reg
-verplicht	verplichtte	v@rplIxt	v@rplIxt@	reg
 verplichten	verplichtten	v@rplIxt@	v@rplIxt@	reg
-verpot	verpotte	v@rpOt	v@rpOt@	reg
 verpot	verpotte	v@rpOt	v@rpOt@	reg
 verpotten	verpotten	v@rpOt@	v@rpOt@	reg
 verpruts	verprutste	v@rpr}ts	v@rpr}tst@	reg
@@ -5255,7 +5143,6 @@ verrek	verrekte	v@rEk	v@rEkt@	reg
 verrekt	verrekte	v@rEkt	v@rEkt@	reg
 verrekken	verrekten	v@rEk@	v@rEkt@	reg
 verricht	verrichtte	v@rIxt	v@rIxt@	reg
-verricht	verrichtte	v@rIxt	v@rIxt@	reg
 verrichten	verrichtten	v@rIxt@	v@rIxt@	reg
 verrijk	verrijkte	v@rKk	v@rKkt@	reg
 verrijkt	verrijkte	v@rKkt	v@rKkt@	reg
@@ -5267,9 +5154,7 @@ verroer	verroerde	v@rur	v@rurd@	reg
 verroert	verroerde	v@rurt	v@rurd@	reg
 verroeren	verroerden	v@rur@	v@rurd@	reg
 verroest	verroestte	v@rust	v@rust@	reg
-verroest	verroestte	v@rust	v@rust@	reg
 verroesten	verroestten	v@rust@	v@rust@	reg
-verrot	verrotte	v@rOt	v@rOt@	reg
 verrot	verrotte	v@rOt	v@rOt@	reg
 verrotten	verrotten	v@rOt@	v@rOt@	reg
 verruk	verrukte	v@r}k	v@r}kt@	reg
@@ -5290,7 +5175,6 @@ verschepen	verscheepten	v@rsxep@	v@rsxept@	reg
 verscheur	verscheurde	v@rsx|r	v@rsx|rd@	reg
 verscheurt	verscheurde	v@rsx|rt	v@rsx|rd@	reg
 verscheuren	verscheurden	v@rsx|r@	v@rsx|rd@	reg
-verschiet	verschoot	v@rsxit	v@rsxot	irreg
 verschiet	verschoot	v@rsxit	v@rsxot	irreg
 verschieten	verschoten	v@rsxit@	v@rsxot@	irreg
 verschijn	verscheen	v@rsxKn	v@rsxen	irreg
@@ -5333,7 +5217,6 @@ verslechter	verslechterde	v@rslExt@r	v@rslExt@rd@	reg
 verslechtert	verslechterde	v@rslExt@rt	v@rslExt@rd@	reg
 verslechteren	verslechterden	v@rslExt@r@	v@rslExt@rd@	reg
 verslijt	versleet	v@rslKt	v@rslet	irreg
-verslijt	versleet	v@rslKt	v@rslet	irreg
 verslijten	versleten	v@rslKt@	v@rslet@	irreg
 verslik	verslikte	v@rslIk	v@rslIkt@	reg
 verslikt	verslikte	v@rslIkt	v@rslIkt@	reg
@@ -5344,7 +5227,6 @@ verslinden	verslonden	v@rslInd@	v@rslOnd@	irreg
 versmal	versmalde	v@rsmAl	v@rsmAld@	reg
 versmalt	versmalde	v@rsmAlt	v@rsmAld@	reg
 versmallen	versmalden	v@rsmAl@	v@rsmAld@	reg
-versmelt	versmolt	v@rsmElt	v@rsmOlt	irreg
 versmelt	versmolt	v@rsmElt	v@rsmOlt	irreg
 versmelten	versmolten	v@rsmElt@	v@rsmOlt@	irreg
 versnel	versnelde	v@rsnEl	v@rsnEld@	reg
@@ -5435,7 +5317,6 @@ vertrek	vertrok	v@rtrEk	v@rtrOk	irreg
 vertrekt	vertrok	v@rtrEkt	v@rtrOk	irreg
 vertrekken	vertrokken	v@rtrEk@	v@rtrOk@	irreg
 vertroost	vertroostte	v@rtrost	v@rtrost@	reg
-vertroost	vertroostte	v@rtrost	v@rtrost@	reg
 vertroosten	vertroostten	v@rtrost@	v@rtrost@	reg
 vertrouw	vertrouwde	v@rtrMw	v@rtrMwd@	reg
 vertrouwt	vertrouwde	v@rtrMwt	v@rtrMwd@	reg
@@ -5492,7 +5373,6 @@ verwaarloos	verwaarloosde	v@rwarlos	v@rwarlozd@	reg
 verwaarloost	verwaarloosde	v@rwarlost	v@rwarlozd@	reg
 verwaarlozen	verwaarloosden	v@rwarloz@	v@rwarlozd@	reg
 verwacht	verwachtte	v@rwAxt	v@rwAxt@	reg
-verwacht	verwachtte	v@rwAxt	v@rwAxt@	reg
 verwachten	verwachtten	v@rwAxt@	v@rwAxt@	reg
 verwarm	verwarmde	v@rwArm	v@rwArmd@	reg
 verwarmt	verwarmde	v@rwArmt	v@rwArmd@	reg
@@ -5531,7 +5411,6 @@ verwijder	verwijderde	v@rwKd@r	v@rwKd@rd@	reg
 verwijdert	verwijderde	v@rwKd@rt	v@rwKd@rd@	reg
 verwijderen	verwijderden	v@rwKd@r@	v@rwKd@rd@	reg
 verwijt	verweet	v@rwKt	v@rwet	irreg
-verwijt	verweet	v@rwKt	v@rwet	irreg
 verwijten	verweten	v@rwKt@	v@rwet@	irreg
 verwijf	verwijfde	v@rwKf	v@rwKvd@	reg
 verwijft	verwijfde	v@rwKft	v@rwKvd@	reg
@@ -5552,7 +5431,6 @@ verwittig	verwittigde	v@rwIt@x	v@rwIt@Gd@	reg
 verwittigt	verwittigde	v@rwIt@xt	v@rwIt@Gd@	reg
 verwittigen	verwittigden	v@rwIt@G@	v@rwIt@Gd@	reg
 verwoest	verwoestte	v@rwust	v@rwust@	reg
-verwoest	verwoestte	v@rwust	v@rwust@	reg
 verwoesten	verwoestten	v@rwust@	v@rwust@	reg
 verwond	verwondde	v@rwOnt	v@rwOnd@	reg
 verwondt	verwondde	v@rwOnt	v@rwOnd@	reg
@@ -5566,7 +5444,6 @@ verwoorden	verwoordden	v@rword@	v@rword@	reg
 verwring	verwrong	v@rwrIN	v@rwrON	irreg
 verwringt	verwrong	v@rwrINt	v@rwrON	irreg
 verwringen	verwrongen	v@rwrIN@	v@rwrON@	irreg
-verzacht	verzachtte	v@rzAxt	v@rzAxt@	reg
 verzacht	verzachtte	v@rzAxt	v@rzAxt@	reg
 verzachten	verzachtten	v@rzAxt@	v@rzAxt@	reg
 verzadig	verzadigde	v@rzad@x	v@rzad@Gd@	reg
@@ -5590,7 +5467,6 @@ verzenden	verzonden	v@rzEnd@	v@rzOnd@	irreg
 verzeng	verzengde	v@rzEN	v@rzENd@	reg
 verzengt	verzengde	v@rzENt	v@rzENd@	reg
 verzengen	verzengden	v@rzEN@	v@rzENd@	reg
-verzet	verzette	v@rzEt	v@rzEt@	reg
 verzet	verzette	v@rzEt	v@rzEt@	reg
 verzetten	verzetten	v@rzEt@	v@rzEt@	reg
 verziek	verziekte	v@rzik	v@rzikt@	reg
@@ -5669,9 +5545,7 @@ vlam	vlamde	vlAm	vlAmd@	reg
 vlamt	vlamde	vlAmt	vlAmd@	reg
 vlammen	vlamden	vlAm@	vlAmd@	reg
 vlecht	vlocht	vlExt	vlOxt	irreg
-vlecht	vlocht	vlExt	vlOxt	irreg
 vlechten	vlochten	vlExt@	vlOxt@	irreg
-vliet	vloot	vlit	vlot	irreg
 vliet	vloot	vlit	vlot	irreg
 vlieten	vloten	vlit@	vlot@	irreg
 vlinder	vlinderde	vlInd@r	vlInd@rd@	reg
@@ -5684,9 +5558,7 @@ vloer	vloerde	vlur	vlurd@	reg
 vloert	vloerde	vlurt	vlurd@	reg
 vloeren	vloerden	vlur@	vlurd@	reg
 vlot	vlotte	vlOt	vlOt@	reg
-vlot	vlotte	vlOt	vlOt@	reg
 vlotten	vlotten	vlOt@	vlOt@	reg
-vlucht	vluchtte	vl}xt	vl}xt@	reg
 vlucht	vluchtte	vl}xt	vl}xt@	reg
 vluchten	vluchtten	vl}xt@	vl}xt@	reg
 voed	voedde	vut	vud@	reg
@@ -5846,7 +5718,6 @@ wervel	wervelde	wErv@l	wErv@ld@	reg
 wervelt	wervelde	wErv@lt	wErv@ld@	reg
 wervelen	wervelden	wErv@l@	wErv@ld@	reg
 wet	wette	wEt	wEt@	reg
-wet	wette	wEt	wEt@	reg
 wetten	wetten	wEt@	wEt@	reg
 weef	weefde	wef	wevd@	reg
 weeft	weefde	weft	wevd@	reg
@@ -5871,7 +5742,6 @@ wikkelt	wikkelde	wIk@lt	wIk@ld@	reg
 wikkelen	wikkelden	wIk@l@	wIk@ld@	reg
 wil	wilde	wIl	wIld@	reg
 wilt	wilde	wIlt	wIld@	reg
-wil	wilde	wIl	wIld@	reg
 willen	wilden	wIl@	wIld@	reg
 winkel	winkelde	wINk@l	wINk@ld@	reg
 winkelt	winkelde	wINk@lt	wINk@ld@	reg
@@ -5888,7 +5758,6 @@ wisselen	wisselden	wIs@l@	wIs@ld@	reg
 wis	wiste	wIs	wIst@	reg
 wist	wiste	wIst	wIst@	reg
 wissen	wisten	wIs@	wIst@	reg
-wit	witte	wIt	wIt@	reg
 wit	witte	wIt	wIt@	reg
 witten	witten	wIt@	wIt@	reg
 woed	woedde	wut	wud@	reg
@@ -5925,12 +5794,10 @@ wring	wrong	wrIN	wrON	irreg
 wringt	wrong	wrINt	wrON	irreg
 wringen	wrongen	wrIN@	wrON@	irreg
 wrocht	wrochtte	wrOxt	wrOxt@	reg
-wrocht	wrochtte	wrOxt	wrOxt@	reg
 wrochten	wrochtten	wrOxt@	wrOxt@	reg
 wroeg	wroegde	wrux	wruGd@	reg
 wroegt	wroegde	wruxt	wruGd@	reg
 wroegen	wroegden	wruG@	wruGd@	reg
-wroet	wroette	wrut	wrut@	reg
 wroet	wroette	wrut	wrut@	reg
 wroeten	wroetten	wrut@	wrut@	reg
 wurg	wurgde	w}rx	w}rGd@	reg
@@ -5967,7 +5834,6 @@ zie	zag	zi	zAx	irreg
 ziet	zag	zit	zAx	irreg
 zien	zagen	zin	zaG@	irreg
 zift	ziftte	zIft	zIft@	reg
-zift	ziftte	zIft	zIft@	reg
 ziften	ziftten	zIft@	zIft@	reg
 zing	zong	zIN	zON	irreg
 zingt	zong	zINt	zON	irreg
@@ -5981,7 +5847,6 @@ zoemen	zoemden	zum@	zumd@	reg
 zoen	zoende	zun	zund@	reg
 zoent	zoende	zunt	zund@	reg
 zoenen	zoenden	zun@	zund@	reg
-zoet	zoette	zut	zut@	reg
 zoet	zoette	zut	zut@	reg
 zoeten	zoetten	zut@	zut@	reg
 zoog	zoogde	zox	zoGd@	reg
@@ -5999,16 +5864,12 @@ zomeren	zomerden	zom@r@	zom@rd@	reg
 zonnebaad	zonnebaadde	zOn@bat	zOn@bad@	reg
 zonnebaadt	zonnebaadde	zOn@bat	zOn@bad@	reg
 zonnebaden	zonnebaadden	zOn@bad@	zOn@bad@	reg
-zoom	zoomde	zum	zumd@	reg
-zoomt	zoomde	zumt	zumd@	reg
 zoomen	zoomden	zum@	zumd@	reg
 zorg	zorgde	zOrx	zOrGd@	reg
 zorgt	zorgde	zOrxt	zOrGd@	reg
 zorgen	zorgden	zOrG@	zOrGd@	reg
 zout	zoutte	zMt	zMt@	reg
-zout	zoutte	zMt	zMt@	reg
 zouten	zoutten	zMt@	zMt@	reg
-zucht	zuchtte	z}xt	z}xt@	reg
 zucht	zuchtte	z}xt	z}xt@	reg
 zuchten	zuchtten	z}xt@	z}xt@	reg
 zuig	zoog	zLx	zox	irreg
@@ -6022,7 +5883,6 @@ zuivert	zuiverde	zLv@rt	zLv@rd@	reg
 zuiveren	zuiverden	zLv@r@	zLv@rd@	reg
 zal	zou	zAl	zMw	irreg
 zult	zou	z}lt	zMw	irreg
-zal	zou	zAl	zMw	irreg
 zullen	zouden	z}l@	zMd@	irreg
 zwaai	zwaaide	zwaj	zwajd@	reg
 zwaait	zwaaide	zwajt	zwajd@	reg
@@ -6049,12 +5909,10 @@ zwerf	zwierf	zwErf	zwirf	irreg
 zwerft	zwierf	zwErft	zwirf	irreg
 zwerven	zwierven	zwErv@	zwirv@	irreg
 zweet	zweette	zwet	zwet@	reg
-zweet	zweette	zwet	zwet@	reg
 zweten	zweetten	zwet@	zwet@	reg
 zwets	zwetste	zwEts	zwEtst@	reg
 zwetst	zwetste	zwEtst	zwEtst@	reg
 zwetsen	zwetsten	zwEts@	zwEtst@	reg
-zwicht	zwichtte	zwIxt	zwIxt@	reg
 zwicht	zwichtte	zwIxt	zwIxt@	reg
 zwichten	zwichtten	zwIxt@	zwIxt@	reg
 zwiep	zwiepte	zwip	zwipt@	reg
