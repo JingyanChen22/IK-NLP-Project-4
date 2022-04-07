@@ -214,7 +214,9 @@ def saveDataset(minfreq=-99):
                     pl3pron = ''
                     pl3orth = ''
                 
+                doubleEntryFound = False
                 if pl1orth == pl3orth: # wir machen / sie machen
+                    doubleEntryFound = True
                     pl3pron = ''
                     pl3orth = ''
                     if pl1orth != '':
@@ -257,13 +259,16 @@ def saveDataset(minfreq=-99):
                                          + '\t' + lemmaDict[lemma]['regular'] + '\n')
                     except KeyError:
                         pass
-                    try: # 'PL3'
-                        mergedFile.write(lemmaDict[lemma]['PRS']['PL']['3'] + '\t' + lemmaDict[lemma]['PST']['PL']['3']
-                                         + '\t' + pron[lemmaDict[lemma]['PRS']['PL']['3']]  + '\t' + pron[lemmaDict[lemma]['PST']['PL']['3']]
-                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
-                    except KeyError:
-                        pass
 
+
+                    if not doubleEntryFound:
+                        try: # 'PL3'
+                            mergedFile.write(lemmaDict[lemma]['PRS']['PL']['3'] + '\t' + lemmaDict[lemma]['PST']['PL']['3']
+                                             + '\t' + pron[lemmaDict[lemma]['PRS']['PL']['3']]  + '\t' + pron[lemmaDict[lemma]['PST']['PL']['3']]
+                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                        except KeyError:
+                            pass
+                    
             except KeyError:
                 pass
 

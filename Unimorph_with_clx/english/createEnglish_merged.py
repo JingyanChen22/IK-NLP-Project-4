@@ -80,8 +80,8 @@ with open('unimorph-wordforms.txt') as reader:
             if pos in ['V;3;SG;PRS', 'V;NFIN', 'V;PST']: # yes, add this item to lemmaDict
                 tense = pos.split(';')[-1]
                 if tense == 'PST':
-                    # ending with 'ed', but still irregular are variants of bled, bred, led, fled, fed
-                    if word in ('bled', 'bred', 'led', 'misled', 'fled', 'fed', 'breastfed', 'force-fed', 'bottle-fed', 'force-fed', 'bottle-fed'):
+                    # ending with 'ed', but still irregular are variants of bled, bred, led, fled, fed (words used from english_merged of Pinker & Prince)
+                    if word in ('bled', 'bred', 'led', 'misled', 'fled', 'fed', 'breastfed', 'force-fed', 'bottle-fed', 'force-fed'):
                         regular = 'irreg'
                     elif word[-2:] == 'ed':
                         regular = 'reg'

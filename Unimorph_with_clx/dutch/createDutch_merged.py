@@ -181,11 +181,15 @@ def saveDataset(minfreq=-99):
                 except KeyError:
                     sg3pron = ''
                     sg3orth = ''
+                
+                doubleEntryFound = False
                 if sg2orth == sg3orth: # jij loopt/ hij loopt
+                    doubleEntryFound = True
                     sg3orth = ''
                     sg3pron = ''
                     if sg2orth != '':
                         wordformcount -= 1
+                
                 try:
                     if freq[lemmaDict[lemma]['PRS']['PL']] > int(minfreq):
                         plpron = '\t' + pron[lemmaDict[lemma]['PRS']['PL']]      + ';' + pron[lemmaDict[lemma]['PST']['PL']]
@@ -214,12 +218,13 @@ def saveDataset(minfreq=-99):
                                          + '\t' + lemmaDict[lemma]['regular'] + '\n')
                     except KeyError:
                         pass
-                    try: # 'SG3'
-                        mergedFile.write(lemmaDict[lemma]['PRS']['SG']['3'] + '\t' + lemmaDict[lemma]['PST']['SG']['3']
-                                         + '\t' + pron[lemmaDict[lemma]['PRS']['SG']['3']]  + '\t' + pron[lemmaDict[lemma]['PST']['SG']['3']]
-                                         + '\t' + lemmaDict[lemma]['regular'] + '\n')
-                    except KeyError:
-                        pass
+                    if not doubleEntryFound: # jij loopt/ hij loopt
+                        try: # 'SG3'
+                            mergedFile.write(lemmaDict[lemma]['PRS']['SG']['3'] + '\t' + lemmaDict[lemma]['PST']['SG']['3']
+                                             + '\t' + pron[lemmaDict[lemma]['PRS']['SG']['3']]  + '\t' + pron[lemmaDict[lemma]['PST']['SG']['3']]
+                                             + '\t' + lemmaDict[lemma]['regular'] + '\n')
+                        except KeyError:
+                            pass
                     try: # 'PL'
                         mergedFile.write(lemmaDict[lemma]['PRS']['PL'] + '\t' + lemmaDict[lemma]['PST']['PL']
                                          + '\t' + pron[lemmaDict[lemma]['PRS']['PL']]  + '\t' + pron[lemmaDict[lemma]['PST']['PL']]
