@@ -147,11 +147,11 @@ def getWriteLine(mergedFile, lemma, person, number):
     try:
         phon = '\t' + pron[lemmaDict[lemma]['PRS'][person][number]] + ';' + pron[lemmaDict[lemma]['PST'][person][number]]
         orth = '\t' + lemmaDict[lemma]['PRS'][person][number] + ';' + lemmaDict[lemma]['PST'][person][number]
-        if orth in allLines:
+        if orth.split(';')[0] in allLines:
             phon = ''
             orth = ''
         else:
-            allLines.append(orth)
+            allLines.append(orth.split(';')[0])
 
             # creating the old-fashioned Pinker language_merged.txt
             mergedFile.write(lemmaDict[lemma]['PRS'][person][number] + '\t' + lemmaDict[lemma]['PST'][person][number]
@@ -176,9 +176,21 @@ def saveDataset():
             sg2pron, sg2orth = getWriteLine(mergedFile, lemma, 'SG', '2')
             sg3pron, sg3orth = getWriteLine(mergedFile, lemma, 'SG', '3')
             pl1pron, pl1orth = getWriteLine(mergedFile, lemma, 'PL', '1')
-            pl2pron, pl2orth = getWriteLine(mergedFile, lemma, 'PL', '2')
+            #pl2pron, pl2orth = getWriteLine(mergedFile, lemma, 'PL', '2')
             pl3pron, pl3orth = getWriteLine(mergedFile, lemma, 'PL', '3')
-                
+            
+            pl2pron = ''
+            pl2orth = ''
+            #if sg2orth != '':
+            #    
+            #if sg3orth.split(';')[0] == sg2orth.split(';')[0]:
+            #    print("DD" + str(sg3orth.split(';')) + "DD")
+            #    print("DD" + str(sg2orth.split(';')) + "DD")
+            #    sg2pron = ''
+            #    sg2orth = ''
+            #    print("EE" + str(sg3orth.split(';')) + "DD")
+            #    print("EE" + str(sg2orth.split(';')) + "DD")
+            
             if sg1pron + sg2pron + sg3pron + pl1pron + pl2pron + pl3pron != '':
                 try:
                     phonFile.write(pron[lemma] + '\t' + str(lemmaDict[lemma]['freq']) + '\t' + lemmaDict[lemma]['regular'] +
