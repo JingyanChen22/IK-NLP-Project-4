@@ -25,7 +25,7 @@ Examples:
     {'pron': 'z w K x t', 'regular': False, 'past': {'pron': 'z w e x', 'ortho': 'zweeg'}}
     - orthoDict['zwijgt']['past']['ortho'] gives 'zweeg'
       English: the past tense of 'keeps silence' is 'kept silence'
-    - 'Merken' is a regular verb, so orthoDict['merkt']['regular'] gives 'True'
+    - 'Merken' is a regular verb, so orthoDict['merkt']['regular'] gives 'reg'
 
 @author: Arjan
 """
@@ -49,7 +49,7 @@ with open('EN-pron-freq.txt') as reader:
         freq[currentWord[0]] = int(currentWord[1])
 
 # we need a temporary dictionairy for the lemma's
-lemmaDict = {} # or defaultdict(lambda:{'PRS': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'},'PST': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'}})
+lemmaDict = {}
 '''
 example of lemmaDict, key 'have':
 {
@@ -96,16 +96,15 @@ with open('unimorph-wordforms.txt') as reader:
                 update(lemmaDict, newEntry)
 
 orthoDict = {}
-#example of Dutch key 'ligt': {'pron': 'lIxt'}, {'PST': {'pron' : 'lAx', 'ortho' : 'lag'}}
-#example of non-extistent English key 'swims': {'pron': 'swIms'}, {'pst': {'pron' : 'swEm', 'ortho' : 'swam'}}
+#example of English key 'swims': {'pron': 'swIms'}, {'pst': {'pron' : 'swEm', 'ortho' : 'swam'}}
 #so, orthoDict['swims']['pron'] gives: 'swIms'
 with open('unimorph-wordforms.txt') as reader:
     for line in reader:
         currentWordForm = line.split('\t')  # example:
         lemma = currentWordForm[0].strip()  # abonneren
         word = currentWordForm[1].strip()   # abonneert
-        pos = currentWordForm[2].strip() # V;IND;PRS;3;SG
-        if pos in ['V;3;SG;PRS', 'V;NFIN']: # yes, add this item to phonDict/orthoDict
+        pos = currentWordForm[2].strip()    # V;IND;PRS;3;SG
+        if pos in ['V;3;SG;PRS', 'V;NFIN']: # yes, add this item to orthoDict
             tense = pos.split(';')[-1]
             if 'PST' in lemmaDict[lemma]:
                 PRS = word

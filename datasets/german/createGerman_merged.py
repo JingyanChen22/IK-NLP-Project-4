@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import collections.abc
 from collections import defaultdict
-import sys
 
 import os 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -25,10 +24,11 @@ Examples:
     {'pron': 'z w K x t', 'regular': False, 'past': {'pron': 'z w e x', 'ortho': 'zweeg'}}
     - orthoDict['zwijgt']['past']['ortho'] gives 'zweeg'
       English: the past tense of 'keeps silence' is 'kept silence'
-    - 'Merken' is a regular verb, so orthoDict['merkt']['regular'] gives 'True'
+    - 'Merken' is a regular verb, so orthoDict['merkt']['regular'] gives 'reg'
 
 @author: Arjan
 """
+
 # from https://stackoverflow.com/a/3233356
 def update(d, u):
     for k, v in u.items():
@@ -47,6 +47,7 @@ with open('DE-pron-freq.txt') as reader:
         currentWord = line.split('\t')
         pron[currentWord[0]] = currentWord[2].strip('\n')
         freq[currentWord[0]] = int(currentWord[1])
+
 
 # we need a temporary dictionairy for the lemma's
 lemmaDict = {} # or defaultdict(lambda:{'PRS': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'},'PST': {'SG': {1:'<unk>', 2:'<unk>',3:'<unk>'}, 'PL': '<unk>'}})
@@ -69,7 +70,6 @@ POS-tags to ignore:
     machen	gemacht	V.PTCP;PST
     machen	machend	V.PTCP;PRS
     machen	machen	V;NFIN
-
 
 example of lemmaDict, key 'machen':
 {
@@ -121,7 +121,7 @@ with open('unimorph-wordforms.txt') as reader:
 
 orthoDict = {}
 #example of Dutch key 'ligt': {'pron': 'lIxt'}, {'PST': {'pron' : 'lAx', 'ortho' : 'lag'}}
-#example of non-extistent English key 'swims': {'pron': 'swIms'}, {'pst': {'pron' : 'swEm', 'ortho' : 'swam'}}
+#example of English key 'swims': {'pron': 'swIms'}, {'pst': {'pron' : 'swEm', 'ortho' : 'swam'}}
 #so, orthoDict['swims']['pron'] gives: 'swIms'
 with open('unimorph-wordforms.txt') as reader:
     for line in reader:
@@ -179,17 +179,9 @@ def saveDataset():
             #pl2pron, pl2orth = getWriteLine(mergedFile, lemma, 'PL', '2')
             pl3pron, pl3orth = getWriteLine(mergedFile, lemma, 'PL', '3')
             
+            # We ignore the second person plural informal (see paper)
             pl2pron = ''
             pl2orth = ''
-            #if sg2orth != '':
-            #    
-            #if sg3orth.split(';')[0] == sg2orth.split(';')[0]:
-            #    print("DD" + str(sg3orth.split(';')) + "DD")
-            #    print("DD" + str(sg2orth.split(';')) + "DD")
-            #    sg2pron = ''
-            #    sg2orth = ''
-            #    print("EE" + str(sg3orth.split(';')) + "DD")
-            #    print("EE" + str(sg2orth.split(';')) + "DD")
             
             if sg1pron + sg2pron + sg3pron + pl1pron + pl2pron + pl3pron != '':
                 try:

@@ -4,8 +4,6 @@ import codecs
 import _pickle as cPickle
 import random
 random.seed(123)
-from collections import defaultdict
-import pandas as pd
 import sys
 import os 
 
