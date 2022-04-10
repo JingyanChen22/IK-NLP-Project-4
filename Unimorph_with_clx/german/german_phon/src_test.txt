@@ -1,161 +1,620 @@
-e p i l i r @	reg
-& r t i k u l i r @	reg
-b @ t o n i r t	reg
-E r h O f @ n	reg
-f E r m I s @ n	reg
-f E r f & N @	reg
-U m = I N @ l n	reg
-& r t i k u l i r t	reg
-b & l @	reg
-f E r v I k @ l t	reg
-f E r b i g @	reg
-f E r f & N @ n	reg
-f U r = @ n	reg
-g r U p i r s t	reg
-p & s t | r i z i r t	reg
-g l i d @ r s t	reg
-g @ r u @	reg
-b @ = I x t I g @	reg
-f E r S t B s t	reg
-b @ = I x t I x s t	reg
-g r U p i r t	reg
-m & g n e t i z i r s t	reg
-r W x t	reg
-S o n @	reg
-f E r d & m + s t	reg
-b @ t r X @ n	reg
-U m & r m t	reg
-E r g r W f t	irreg
-E r f r I S @	reg
-b & l s t	reg
-t & p t	reg
-m & g n e t i z i r @ n	reg
-f E r S t B @	reg
-f l & n i r @ n	reg
-S B t	reg
-r W x @	reg
-f E r m I s @	reg
-b @ h W = @ n	reg
-h U N @ r s t	reg
-h U N @ r n	reg
-g l i d @ r t	reg
-t & p s t	reg
-S v e p s t	reg
-f E r v I k @ l s t	irreg
-k n I s t @ r s t	reg
-f E r m I s t	irreg
-E n t v I S @ n	irreg
-b @ h W = @	reg
-b & l @ n	reg
-E r f r I S @ n	reg
-v i @ r n	reg
-z i = @ n	reg
-I m + @	reg
-E n t v I S s t	reg
-z e = i r s t	reg
-E r g r W f @	reg
-S v e b @ n	reg
-g r a z @ n	irreg
-f E r v I k @ l n	reg
-l I s p l @	reg
-z e = i r t	reg
-g r U p i r @	reg
-k O n k U r i r s t	reg
-S B @ n	reg
-l I s p @ l n	reg
-z e = i r @	reg
-g @ r u s t	reg
-p & s t | r i z i r @	reg
-g @ r u t	reg
-f E r S t B @ n	reg
-b @ t r X t	reg
-U m = I N @ l t	reg
-I m + @ n	reg
-l I s p @ l s t	reg
-b & l t	reg
-b @ h W = t	reg
-p & s t | r i z i r @ n	reg
-E n t v I S t	reg
-S v & N k s t	reg
-b @ = B b @ r t	reg
-g r U p i r @ n	reg
-t & p @ n	reg
-r W x s t	reg
-k n I s t @ r n	reg
-f E r S t B t	reg
-z i = t	reg
-t & p @	reg
-z i = @	reg
-g @ r u @ n	reg
-& r t i k u l i r s t	reg
-r W x @ n	reg
-b @ t o n i r s t	reg
-f l & n i r @	reg
-I m + s t	reg
-f l & n i r t	irreg
-E r f r I S t	reg
-k O n k U r i r @	reg
-E r g r W f @ n	reg
-m & g n e t i z i r t	irreg
-f E r b i k s t	reg
-S o n @ n	reg
-S v & N k @ n	reg
-l I s p @ l t	reg
-b @ t o n i r @ n	reg
-E r g r W f s t	reg
-m o d i f i = i r s t	reg
-f U r = @	reg
-f E r b i g @ n	reg
-S o n t	reg
-I m + t	reg
-m o d i f i = i r @ n	reg
-b @ t o n i r @	reg
-m & g n e t i z i r @	reg
-m o d i f i = i r @	reg
-f E r b i k t	reg
-b @ = B b @ r n	reg
-f E r d & m + t	irreg
-e p i l i r @ n	reg
-S B @	reg
-E r f r I S s t	reg
-E r h O f @	reg
-U m & r m @	irreg
-E r h O f s t	reg
-f U r = t	reg
-& r t i k u l i r @ n	reg
-S v & N k t	reg
-f E r d & m + @	reg
-S B s t	reg
-z e = i r @ n	reg
-U m & r m @ n	reg
-b @ t r X s t	reg
-S v e b @	reg
-v i @ r s t	reg
-S v & N k @	reg
-S o n s t	reg
-U m = I N @ l s t	reg
-g l i d @ r n	irreg
-e p i l i r s t	reg
-k O n k U r i r t	reg
-p & s t | r i z i r s t	reg
-U m = I N l @	reg
-b @ = B b @ r s t	reg
-E r h O f t	reg
-g r a z @	reg
-g r a s t	reg
-b @ = I x t I g @ n	reg
-U m & r m s t	reg
-f E r d & m + @ n	reg
-k O n d E n z i r @	reg
-f E r v I k l @	reg
-b @ = I x t I x t	reg
-f l & n i r s t	reg
-h U N @ r t	irreg
-e p i l i r t	reg
-k n I s t @ r t	reg
-v i @ r t	reg
-k O n k U r i r @ n	reg
-m o d i f i = i r t	reg
-b @ t r X @	reg
-E n t v I S @	reg
-S v e p t	reg
+S t E m @ n
+f E r d & N k @ n
+b E l s t
+d e z E n z i b i l i z i r @
+f E r v e r t @
+b & l @ n
+b @ & x t @
+b @ = v I N @ n
+f l & n i r @
+l I s p @ l t
+l e g @ n
+E r f r I S t
+f E r z u x t
+b @ S n W d @ n
+E n t f & x @ n
+E k s p O r t i r @ n
+z e n @
+I m + s t
+m u m i f i = i r s t
+g l W t @ n
+b @ v & f n @ s t
+d e m O n s t r i r @ n
+= E r s t
+g & k @ r n
+S l I x t @ n
+S l I x t @ s t
+f E r z u x s t
+n o t l & n d @
+e p i l i r s t
+I n & k t i v i r @ n
+E r g r W f @
+f E r U r t W l @ n
+k n & k s t
+f E r b i k s t
+S B s t
+g I l = t
+S t O k s t
+b & l t
+b & l s t
+f E r b i k t
+S m o r t
+l U l s t
+k I k @ n
+f O r m s t
+g l i d @ r n
+v a r t
+E n t z a k s t
+I n & k t i v i r s t
+E r t W l @
+S p i g l @
+f E r z u x @
+I m + @ n
+f I l t @ r t
+m I s b r B x t
+S v E N k t
+S t & g n i r @
+m & g n e t i z i r @ n
+k r i m i n & l i z i r s t
+S o n @
+f E r z E = @ n
+k O n k U r i r @ n
+z e n s t
+& l & r m i r @
+t U r n @
+g r U p i r t
+E r f r I S @ n
+k O m p o n i r @ n
+k I k @
+S t r W t @ n
+v I m l @
+v a r @ n
+S m o r s t
+d U r x k v e r @ n
+z & t l @
+e p n @ n
+b @ l a g @ r n
+b & l @
+m & g n e t i z i r @
+j B l @
+S t O k t
+f O l E n d @ t
+f E r v I k @ l s t
+r e n o v i r s t
+k r X = I g @
+f E r S t B @
+b @ v & f n @ n
+v i d @ r r u f t
+k o O r d i n i r @ n
+m & g n e t i z i r s t
+g E l t @
+b I m @ l n
+e p i l i r t
+k O n k U r i r t
+S o n s t
+e p i l i r @
+f E r m & x s t
+d o t i r t
+g @ l o p t
+U m & r m @
+j B l s t
+E n t z a k t
+k O n d E n z i r @
+n o t l & n d @ t
+S l I x t @
+= E n z i r @
+t r W b @ n
+b @ l X x t @ s t
+z & t @ l s t
+z e = i r s t
+g l W t @ t
+k O m p o n i r @
+& s I s t i r @ n
+g r a z @
+d e S I f r i r t
+b @ S U l d I g @ n
+m I s b r B x @
+f o t o g r & f i r @ n
+& k r e d i t i r @ n
+b @ d E k t
+S t E m @
+b @ r I x t @ t
+k n & k @
+b @ h W = @
+E r g r W f t
+b @ h W = t
+f E r d & N k s t
+S v e b @
+U m & r m @ n
+f E r v I k l @
+z o = i a l i z i r s t
+E r h O f @
+E k s p O r t i r @
+I n t @ r n i r t
+p & s t | r i z i r t
+e m i g r i r @
+b @ l & s t @ s t
+S a d @
+t r W p t
+S t & g n i r s t
+S l & x t @ t
+f E r d & m + s t
+S l E p t
+z o = i a l i z i r t
+f E r z u x @ n
+l I s p @ l n
+f E r m & x @ n
+= E r f a z @ r n
+E r S p a r t
+e p n @ t
+b @ t r X @ n
+E r S p a r s t
+e m i g r i r @ n
+f r o l O k t
+S p U k t
+f o t o g r & f i r s t
+e p n @
+Z e n i r @ n
+E k s t E m p o r i r s t
+E r f r I S s t
+g @ r u t
+S m o r @
+& k r e d i t i r t
+= & p @ l s t
+S p i g @ l n
+g l W t @
+S v E N k @ n
+p r o = E s i r @ n
+f E r W n I x s t
+b I m @ l s t
+b l & f t
+S p i g @ l t
+v i d @ r r u f @ n
+d E s & v u i r s t
+= E r f a z @ r t
+b @ t o n i r s t
+f E r j a g @ n
+S B @
+v a t @ n
+f E r m I s @ n
+= E n t r i r @ n
+S v & N k @ n
+E n t f & x @
+b @ v & f n @ t
+v i @ r t
+t & p @ n
+z & t @ l t
+b l & f @ n
+b @ l & s t @ n
+f O r m @ n
+g r U p i r s t
+f O l E n d @
+l I s p l @
+f O l E n d @ s t
+E r t W l s t
+d e z E n z i b i l i z i r s t
+f I l t @ r n
+f E r S t B t
+b & l @
+E r f r I S @
+b & l s t
+t & p s t
+S l & x t @ n
+r I s k i r @
+l e g @
+f E r z B t
+b @ & x t @ t
+f E r v e r t @ t
+b @ l a g @ r s t
+m O p t
+d e S I f r i r @ n
+d r I f t @
+& l & r m i r t
+f E r d & N k t
+I m + t
+b @ r I x t @ s t
+r e n o v i r @
+p E r z o n i f i = i r s t
+v a r @
+d E s & v u i r t
+S v E N k s t
+S v E N k @
+k l I N @ l t
+b I m l @
+S o n @ n
+d e m O n s t r i r t
+m o d i f i = i r @ n
+U m = I N @ l t
+= & p @ l t
+m o d i f i = i r s t
+g r U p i r @
+p W l @ n
+f O l E n d @ n
+k n I s t @ r t
+m u m i f i = i r @
+& r t i k u l i r t
+l I s p @ l s t
+e m i g r i r s t
+f E r f & N @
+g & k @ r s t
+r W x @
+b @ t o n i r @
+l a b @ r n
+f o t o g r & f i r t
+b I m l @
+I n t @ r n i r @
+p W l t
+g l i d @ r s t
+v I m @ l t
+E r m O r d @ s t
+k r X = I g @ n
+r I s k i r @ n
+& k r e d i t i r @
+S p U k s t
+f O r m t
+b E l t
+U m & r m s t
+r e v i d i r @ n
+f l & n i r s t
+b @ & x t @ s t
+& r t i k u l i r @
+b @ S U l d I g @
+f l & n i r t
+b @ d E k @
+S a d @ n
+f E r f e l @ n
+g @ l o p s t
+k r i m i n & l i z i r @ n
+f E r m & x @
+k O n s t & t i r t
+b @ t r X s t
+z i = @ n
+= E n t r i r t
+f E r v e r t @ s t
+b @ l X x t @
+k O n s t & t i r @ n
+b @ l & s t @
+d U r x k v e r @
+& s I s t i r @
+b @ = I x t I g @ n
+b @ S n W d @ t
+b @ S n W d @ s t
+S m o r @ n
+S v & N k t
+v i d @ r r u f @
+v I m @ l n
+S B @ n
+E r g r W f s t
+S p U k @
+S a d @ s t
+d r I f t @ n
+p & s t | r i z i r @ n
+f E r z B @
+& l & r m i r s t
+f U r = @
+f E r W n I x t
+d e m O n s t r i r @
+S t E x @
+E r r e g @
+z o = i a l i z i r @
+f E r b i g @ n
+f E r f e l t
+g @ l o b @
+b @ = v I N t
+E r h O f @ n
+r W x t
+b @ t r X t
+f E r b I t @ r s t
+f E r m I s t
+h I n d @ r t
+h I n d @ r s t
+f E r l & N z a m s t
+f E r f & N @ n
+f E r U r t W l t
+k o l o r i r s t
+f E r j a k s t
+E n t z a g @ n
+h U N @ r s t
+b @ & x t @ n
+v a r s t
+k r i m i n & l i z i r t
+k o l o r i r t
+k O m p o n i r t
+& r t i k u l i r @ n
+g r a z @ n
+r e n o v i r @ n
+h O l p @ r t
+I n & k t i v i r @
+p r o = E s i r s t
+v i @ r n
+k n & k @ n
+n o t l & n d @ n
+k n U s p @ r t
+l U l @
+E r m O r d @
+g r a s t
+U m & r m t
+f r o l O k @
+Z e n i r @
+k l I N @ l n
+b @ l X x t @ n
+S t I x s t
+p W l s t
+f E r z B @ n
+k O m p o n i r s t
+S l E p @ n
+p r o = E s i r t
+r W x s t
+e p i l i r @ n
+l a b @ r s t
+f E r z E = @
+g & k @ r t
+E k s t E m p o r i r t
+k O n d E n z i r s t
+& s I s t i r t
+g @ l o b @ n
+j B l @ n
+f E r l & N z a m @ n
+E k s t E m p o r i r @ n
+v i @ r s t
+I n t @ r n i r @ n
+E r h O f t
+h O l p @ r s t
+Z e n i r t
+v i d @ r r u f s t
+f E r f e l s t
+E k s p O r t i r s t
+b E l @ n
+U m = I N @ l n
+m O p @ n
+d U r x k v e r s t
+S t E m t
+S p U k @ n
+S v & N k @
+r I s k i r s t
+b E l @
+S t O k @
+= & p l @
+t U r n @ n
+f E r S t B @ n
+= E n z i r s t
+k n & k s t
+f O r m @
+f E r f e l @
+z o = i a l i z i r @ n
+f o t o g r & f i r @
+f E r b I t @ r t
+E n t v I S @
+r e n o v i r t
+k l I N l @
+b @ S U l d I x s t
+b @ = B b @ r t
+k O n d E n z i r t
+n o t l & n d @ s t
+b @ = B b @ r n
+t & p @
+f E r j a k t
+S t r W t @ s t
+z i = @
+= E n t r i r @
+S l & x t @ s t
+m o d i f i = i r @
+k n U s p @ r n
+z i = t
+b @ = B b @ r s t
+d e S I f r i r @
+b @ t r X @
+r I s k i r t
+b @ t o n i r @ n
+S m E t @ r s t
+S t E m s t
+m & g n e t i z i r t
+b @ r I x t @
+f E r m I s @
+g @ r u @ n
+g E l t @ n
+k o l o r i r @
+S v & N k s t
+k r i m i n & l i z i r @
+k r X = I x s t
+e p n @ s t
+S l I x t @ t
+k n U s p @ r s t
+f E r U r t W l s t
+E n t v I S t
+k l I N @ l s t
+r e v i d i r @
+k n & k @ n
+S m E t @ r n
+t r W b @
+S o n t
+E n t t r o n s t
+m u m i f i = i r t
+k n & k @
+b @ l & s t @ t
+b @ h W = @ n
+p E r z o n i f i = i r @
+= E n z i r t
+t U r n t
+b I m @ l t
+f E r m & x t
+S t i b I = @
+f E r z E = t
+v a t @ t
+S t r W t @ t
+b l & f s t
+f E r l & N z a m @
+E n t v I S s t
+S t i b I = t
+z e = i r t
+E n t z a g @
+E r m O r d @ n
+h O l p @ r n
+& k r e d i t i r s t
+b @ = I x t I x t
+S t E x @ n
+b @ = v I N s t
+r e v i d i r s t
+k I k t
+f E r t i f t
+l a b @ r t
+d E s & v u i r @ n
+k o O r d i n i r t
+e m i g r i r t
+E r S p a r @
+E r g r W f @ n
+S t & g n i r t
+g l W t @ s t
+S t r W t @
+f U r = @ n
+k O n k U r i r @
+f E r W n I g @
+k o O r d i n i r s t
+r e v i d i r t
+l U l @ n
+z e = i r @
+& l & r m i r @ n
+m I s b r B x s t
+d e S I f r i r s t
+f E r d & m + @ n
+S t i b I = @ n
+t & p t
+g I l t
+f E r z B s t
+f U r = t
+l e k s t
+S l E p @
+b I m @ l s t
+f E r d & N k @
+& s I s t i r s t
+m I s b r B x @ n
+b @ = I x t I g @
+E n t t r o n @ n
+v I m @ l s t
+S t I x t
+= E r f a z @ r s t
+z e n @ n
+k I k s t
+f E r j a g @
+E r t W l @ n
+l U l t
+d e m O n s t r i r s t
+m O p s t
+b @ t o n i r t
+S m E t @ r t
+E n t t r o n @
+S v e b @ n
+S p i g @ l s t
+d o t i r @ n
+Z e n i r s t
+b @ v & f n @
+d U r x k v e r t
+b @ l X x t @ t
+k n I s t @ r s t
+p E r z o n i f i = i r t
+j B l t
+b @ d E k s t
+t U r n s t
+f E r b i g @
+p & s t | r i z i r s t
+U m = I N l @
+k O n s t & t i r s t
+m u m i f i = i r @ n
+f E r W n I g @ n
+b @ l a g @ r t
+b @ r I x t @ n
+b @ S n W d @
+k o O r d i n i r @
+E n t f & x t
+h U N @ r t
+k n I s t @ r n
+g @ r u s t
+S l & x t @
+E r r e k t
+k n & k t
+k O n k U r i r s t
+E k s t E m p o r i r @
+b I m @ l n
+S a d @ t
+E n t t r o n t
+k o l o r i r @ n
+E r h O f s t
+= E n t r i r s t
+b @ S U l d I x t
+f E r l & N z a m t
+I n & k t i v i r t
+S v e p t
+k r X = I x t
+f E r v I k @ l n
+p r o = E s i r @
+g l i d @ r t
+= E r t
+S t & g n i r @ n
+z & t @ l n
+I m + @
+E r S p a r @ n
+h I n d @ r n
+= E r @
+f E r U r t W l @
+t r W p s t
+d r I f t @ t
+b @ = I x t I x s t
+d E s & v u i r @
+z e = i r @ n
+= E n z i r @ n
+E r t W l t
+k O n s t & t i r @
+d e z E n z i b i l i z i r t
+d r I f t @ s t
+E n t f & x s t
+p E r z o n i f i = i r @ n
+E r m O r d @ t
+k n & k t
+S v e p s t
+d o t i r @
+b @ = v I N @
+z e n t
+b I m @ l t
+d e z E n z i b i l i z i r @ n
+I n t @ r n i r s t
+E k s p O r t i r t
+f E r d & m + @
+b l & f @
+f E r t i f @
+m O p @
+f E r v e r t @ n
+= & p @ l n
+g r U p i r @ n
+f E r S t B s t
+f l & n i r @ n
+r W x @ n
+g @ r u @
+m o d i f i = i r t
+f E r b I t @ r n
+d o t i r s t
+S B t
+E n t v I S @ n
+E r r e k s t
+f r o l O k s t
+S l E p s t
+U m = I N @ l s t
+f I l t @ r s t
+S t O k @ n
+b & l @ n
+v a t @
+= E r @ n
+h U N @ r n
+k O n d E n z i r @ n
+f r o l O k @ n
+l e k t
+b & l t
+v a t @ s t
+b @ d E k @ n
+E r r e g @ n
+f E r d & m + t
+p & s t | r i z i r @
+f E r t i f s t
+p W l @
+f E r v I k @ l t
+f E r t i f @ n
+& r t i k u l i r s t

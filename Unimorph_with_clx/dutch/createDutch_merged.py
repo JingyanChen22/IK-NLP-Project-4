@@ -138,7 +138,7 @@ def saveDataset():
                 except KeyError:
                     pass
             
-    print(len(allLines), "wordforms saved to dutch_bylemma_orth.txt and to dutch_bylemma_phon.txt")
+    print("All wordforms saved to dutch_bylemma_orth.txt and to dutch_bylemma_phon.txt")
 
 def examples():
     print("Let me show you some examples")

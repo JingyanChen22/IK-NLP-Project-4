@@ -33,12 +33,9 @@ lowfreqTargets = []
 #frequencies = []
 numberOfLines = 0
 numberOfWordforms = 0
-regular = []
-lowfreqregular = []
 for line in fin:
     parts = line.strip().split()
     freq = int(parts[1])
-    reg = parts[2]
     prs = [item.split(';')[0] for item in parts[3:]]
     pst = [item.split(';')[1] for item in parts[3:]]
     
@@ -48,11 +45,9 @@ for line in fin:
     if freq >= 1:
         sources.append(' '.join(prs))
         targets.append(' '.join(pst))
-        regular.append(reg)
     else:
         lowfreqSources.append(' '.join(prs))
         lowfreqTargets.append(' '.join(pst))
-        lowfreqregular.append(reg)
     #frequencies.append(int(freq))
 fin.close()
 
@@ -60,9 +55,9 @@ meanNumberOfWordforms = numberOfWordforms/(len(sources)+len(lowfreqSources))
 totalWordforms = 6108
 totalLemmas = totalWordforms / meanNumberOfWordforms
 lemmasStillNeeded = int(totalLemmas - len(sources))
-lowfreqItemstoadd = random.choices(list(zip(lowfreqSources,lowfreqTargets,lowfreqregular)), k = lemmasStillNeeded)
+lowfreqItemstoadd = random.choices(list(zip(lowfreqSources,lowfreqTargets)), k = lemmasStillNeeded)
 
-pairs = list(zip(sources,targets,regular)) + lowfreqItemstoadd
+pairs = list(zip(sources,targets)) + lowfreqItemstoadd
 random.shuffle(pairs)
 
 #split into train and test
@@ -73,66 +68,57 @@ test = pairs[int(.9*len(pairs)):]
 #write the outputs
 sList = []
 tList = []
-rList = []
-for s,t,r in train:
+for s,t in train:
     s = s.split(' ')
     t = t.split(' ')
-    r = r.split(' ')
     sList.extend(s)
     tList.extend(t)
-    rList.extend(r)
-shuffledTrain = list(zip(sList,tList,rList))
+shuffledTrain = list(zip(sList,tList))
 random.seed(123)
 random.shuffle(shuffledTrain)
-for s,t,r in shuffledTrain:
+for s,t in shuffledTrain:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
     s = " ".join(s)
     t = " ".join(t)
-    fout_src_train.write(s + '\t' + r +'\n')
-    fout_tgt_train.write(t + '\t' + r +'\n')
+    fout_src_train.write(s + '\n')
+    fout_tgt_train.write(t + '\n')
 
 sList = []
 tList = []
-rList = []
-for s,t,r in valid:
+for s,t in valid:
     s = s.split(' ')
     t = t.split(' ')
-    r = r.split(' ')
     sList.extend(s)
     tList.extend(t)
-    rList.extend(r)
-shuffledValid = list(zip(sList,tList,rList))
+shuffledValid = list(zip(sList,tList))
 random.seed(123)
 random.shuffle(shuffledValid)
-for s,t,r in shuffledValid:
+for s,t in shuffledValid:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
     s = " ".join(s)
     t = " ".join(t)
-    fout_src_valid.write(s + '\t' + r +'\n')
-    fout_tgt_valid.write(t + '\t' + r +'\n')
+    fout_src_valid.write(s + '\n')
+    fout_tgt_valid.write(t + '\n')
 
 sList = []
 tList = []
-rList = []
-for s,t,r in test:
+for s,t in test:
     s = s.split(' ')
     t = t.split(' ')
-    r = r.split(' ')
     sList.extend(s)
     tList.extend(t)
-    rList.extend(r)
-shuffledTest = list(zip(sList,tList,rList))
+shuffledTest = list(zip(sList,tList))
 random.seed(123)
 random.shuffle(shuffledTest)
-for s,t,r in shuffledTest:
+for s,t in shuffledTest:
     s = s.replace(' ', '\n')
     t = t.replace(' ', '\n')
     s = " ".join(s)
     t = " ".join(t)
-    fout_src_test.write(s + '\t' + r + '\n')
-    fout_tgt_test.write(t + '\t' + r + '\n')
+    fout_src_test.write(s +'\n')
+    fout_tgt_test.write(t + '\n')
 
 fout_src_train.close()
 fout_tgt_train.close()
