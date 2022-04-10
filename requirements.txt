@@ -1,4 +1,4 @@
 pandas
 onmt
-matplotlib.pyplot
+matplotlib
 re
