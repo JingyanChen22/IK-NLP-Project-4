@@ -80,6 +80,7 @@ for s,t,r in train:
     r = r.split(' ')
     sList.extend(s)
     tList.extend(t)
+    rList.extend(r)
 shuffledTrain = list(zip(sList,tList,rList))
 random.seed(123)
 random.shuffle(shuffledTrain)
