@@ -15,4 +15,4 @@ You can prepare all datasets by running ```sh ./createALLdatasets.sh``` from wit
   After that, 6100 wordforms are chosen and saved to ```[src|tgt]_[train|test|valid].txt```
   
 ### 2. Running the experiments
-The ```experiments``` folder contains the experiments that replicate the two experiments in the paper Kirov & Cotterell (2018), and also include experiments using new generated English, German and Dutch data. You can run the experiments by starting from '''experiment_1.ipynb''' for replication and '''experiments.ipynb''' for extension. 
+The ```experiments``` folder contains the experiments that replicate the two experiments in the paper Kirov & Cotterell (2018), and also include experiments using new generated English, German and Dutch data. You can run the experiments by starting from ```experiment_1.ipynb``` for replication and ```experiments.ipynb``` for extension. 
