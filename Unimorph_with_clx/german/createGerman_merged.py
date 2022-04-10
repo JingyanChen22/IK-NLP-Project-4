@@ -200,7 +200,7 @@ def saveDataset():
                 except KeyError:
                     pass
                 
-    print("All wordforms saved to german_bylemma_orth.txt, to german_bylemma_phon.txt, and to german_merged.txt")
+    print(len(allLines), "All wordforms saved to german_bylemma_orth.txt, to german_bylemma_phon.txt, and to german_merged.txt")
 
 
 if __name__ == "__main__":
