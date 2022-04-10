@@ -1,3 +1,5 @@
+# toy_en_de.yaml
+
 ## Where the samples will be written
 save_data: data2/run/example
 ## Where the vocab(s) will be written
@@ -9,15 +11,15 @@ overwrite: False
 # Corpus opts:
 data:
     corpus_1:
-        path_src: data_dutch/src_train_dutch.txt
-        path_tgt: data_dutch/tgt_train_dutch.txt
+        path_src: data2/src_train_tagged.txt
+        path_tgt: data2/tgt_train_tagged.txt
     valid:
-        path_src: data_dutch/src_valid_dutch.txt
-        path_tgt: data_dutch/tgt_valid_dutch.txt
+        path_src: data2/src_valid_tagged.txt
+        path_tgt: data/phon/tgt_valid.txt
 
 # Vocabulary files that were just created
-src_vocab: data_dutch/example.vocab.src
-tgt_vocab: data_dutch/example.vocab.tgt
+src_vocab: data2/run/example.vocab.src
+tgt_vocab: data2/run/example.vocab.tgt
 
 # Train on a single GPU
 # world_size: 1
@@ -29,7 +31,7 @@ decoder_type: rnn
 rnn_type: LSTM
 batch_size: 20
 learning_rate: 1.0
-train_steps: 23185
+train_steps: 75205
 enc_layers: 2
 feat_merge: concat
 dec_layers: 2
@@ -39,11 +41,13 @@ feat_vec_size: 300
 beam_size: 12
 optim: adadelta
 verbose: True
+tensorboard: True
+tensorboard_log_dir: logs
 learning_rate_decay: 1.0
-
-
+report_every: 752
+log_file: '/Users/shirleenyoung/Desktop/Groningen/NLP/data2/log_file_exp2.txt'
+log_file_level: 20
 # Where to save the checkpoints
-save_model: data_dutch/model
-save_checkpoint_steps: 12000
-train_steps: 23185
-valid_steps: 2900
+save_model: data2/run/model
+save_checkpoint_steps: 7520
+train_steps: 75205

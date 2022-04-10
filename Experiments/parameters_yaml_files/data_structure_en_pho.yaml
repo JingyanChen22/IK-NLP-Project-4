@@ -1,0 +1,53 @@
+
+## Where the samples will be written
+save_data: data_eng/run/phon/example
+## Where the vocab(s) will be written
+src_vocab: data_eng/run/phon/example.vocab.src
+tgt_vocab: data_eng/run/phon/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: data_eng/phon/src_train.txt
+        path_tgt: data_eng/phon/tgt_train.txt
+    valid:
+        path_src: data_eng/phon/src_valid.txt
+        path_tgt: data_eng/phon/tgt_valid.txt
+
+# Vocabulary files that were just created
+src_vocab: data_eng/run/phon/example.vocab.src
+tgt_vocab: data_eng/run/phon/example.vocab.tgt
+
+# Train on a single GPU
+# world_size: 1
+# gpu_ranks: [0]
+seed: 123
+encoder_type: brnn
+dropout: 0.3
+decoder_type: rnn
+rnn_type: LSTM
+batch_size: 20
+learning_rate: 1.0
+train_steps: 24440
+enc_layers: 2
+feat_merge: concat
+dec_layers: 2
+enc_rnn_size: 100
+dec_rnn_size: 100
+feat_vec_size: 300
+beam_size: 12
+optim: adadelta
+verbose: True
+learning_rate_decay: 1.0
+tensorboard: True
+tensorboard_log_dir: logs
+report_every: 244
+log_file: '/Users/shirleenyoung/Desktop/Groningen/NLP/data_eng/phon/log_file_eng_pho.txt'
+log_file_level: 20
+
+# Where to save the checkpoints
+save_model: data_eng/phon/model
+save_checkpoint_steps: 2440
+train_steps: 24440
