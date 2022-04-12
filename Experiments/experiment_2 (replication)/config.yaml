@@ -22,7 +22,7 @@ tgt_vocab: /experiment_2/run/example.vocab.tgt
 
 # Where to save the checkpoints
 save_model: /experiment_2/run/model
-save_checkpoint_steps: 37600
+save_checkpoint_steps: 7520
 
 train_steps: 75200
 
@@ -49,4 +49,4 @@ tensorboard: True
 tensorboard_log_dir: logs
 report_every: 752
 log_file: /experiment_2/log.txt
-log_file_level: 2
+log_file_level: 20
