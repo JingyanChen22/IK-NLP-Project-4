@@ -21,7 +21,7 @@ tgt_vocab: /experiment_1/run/example.vocab.tgt
 
 # Where to save the checkpoints
 save_model: /experiment_1/run/model
-save_checkpoint_steps: 8100
+save_checkpoint_steps: 1620
 
 train_steps: 16200
 
