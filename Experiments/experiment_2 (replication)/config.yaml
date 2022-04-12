@@ -1,27 +1,27 @@
 # config.yaml
 
 ## Where the samples will be written
-save_data: /experiment_2/run
+save_data: .../experiment_2/run
 ## Where the vocab(s) will be written
-src_vocab: /experiment_2/run/example.vocab.src
-tgt_vocab: /experiment_2/run/example.vocab.tgt
+src_vocab: .../experiment_2/run/example.vocab.src
+tgt_vocab: .../experiment_2/run/example.vocab.tgt
 # Prevent overwriting existing files in the folder
 overwrite: False
 
 # Corpus opts:
 data:
     corpus_1:
-        path_src: /experiment_2/src_train_tagged.txt
-        path_tgt: /experiment_2/tgt_train_tagged.txt
+        path_src: .../experiment_2/src_train_tagged.txt
+        path_tgt: .../experiment_2/tgt_train_tagged.txt
 
 
 # Vocabulary files that were just created
-src_vocab: /experiment_2/run/example.vocab.src
-tgt_vocab: /experiment_2/run/example.vocab.tgt
+src_vocab: .../experiment_2/run/example.vocab.src
+tgt_vocab: .../experiment_2/run/example.vocab.tgt
 
 
 # Where to save the checkpoints
-save_model: /experiment_2/run/model
+save_model: .../experiment_2/run/model
 save_checkpoint_steps: 7520
 
 train_steps: 75200
@@ -48,5 +48,5 @@ seed: 123
 tensorboard: True
 tensorboard_log_dir: logs
 report_every: 752
-log_file: /experiment_2/log.txt
+log_file: '.../experiment_2/log.txt'
 log_file_level: 20
