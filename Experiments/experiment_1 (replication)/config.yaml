@@ -4,7 +4,7 @@
 save_data: /experiment_1/run
 ## Where the vocab(s) will be written
 src_vocab: /experiment_1/run/example.vocab.src
-tgt_vocab:/experiment_1/run/example.vocab.tgt
+tgt_vocab: /experiment_1/run/example.vocab.tgt
 # Prevent overwriting existing files in the folder
 overwrite: False
 
@@ -35,7 +35,7 @@ dropout: 0.3
 enc_rnn_size: 100
 dec_rnn_size: 100
 learning_rate_decay: 1.0
-learning_rate：1.0
+learning_rate: 1.0
 batch_size: 20
 
 brnn_merge: concat
@@ -48,4 +48,4 @@ tensorboard: True
 tensorboard_log_dir: logs
 report_every: 162
 log_file: /experiment_1/log.txt
-log_file_level: 2
+log_file_level: 20
