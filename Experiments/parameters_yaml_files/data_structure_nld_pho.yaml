@@ -43,7 +43,7 @@ learning_rate_decay: 1.0
 tensorboard: True
 tensorboard_log_dir: logs
 report_every: 244
-log_file: '/Users/shirleenyoung/Desktop/Groningen/NLP/data_dutch/phon/log_file_nld_pho.txt'
+log_file: 'data_dutch/phon/log_file_nld_pho.txt'
 log_file_level: 20
 
 # Where to save the checkpoints
