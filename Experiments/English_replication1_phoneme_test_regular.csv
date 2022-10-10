@@ -1,4 +1,0 @@
-	present_orth	present_phon	past_phon	pred	correct	past_orth	reg
-267	rubber-stamp	rVb@st&mp	rVb@st&mpt	rVb@stUmpt	False	rubber-stamped	reg
-334	right	raIt	raItId	r@Ut	False	righted	reg
-335	reiterate	rIIt@reIt	rIIt@reItId	rIt@reItId	False	reiterated	reg
