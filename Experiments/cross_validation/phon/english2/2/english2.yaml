@@ -13,7 +13,7 @@ data:
         path_tgt: cross_validation/phon/english2/2/tgt_train.txt
     valid:
         path_src: cross_validation/phon/english2/2/src_valid.txt
-        path_tgt: cross_validation/phon/english2/2/tgt_valid.txt
+        path_tgt: cross_validation/phon/english1/2/tgt_valid.txt
 
 # Vocabulary files that were just created
 src_vocab: cross_validation/phon/english2/2/example.vocab.src
