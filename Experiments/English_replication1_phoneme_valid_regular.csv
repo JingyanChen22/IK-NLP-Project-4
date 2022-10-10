@@ -1,0 +1,5 @@
+	present_orth	present_phon	past_phon	pred	correct	past_orth	reg
+14	love	lVv	lVvd	lVvt	False	loved	reg
+147	excommunicate	Eksk@mju:nIkeIt	Eksk@mju:nIkeItId	Ekskju:nInIkeItId	False	excommunicated	reg
+192	rend	rEnd	rEnt	rEndId	False	rent	reg
+347	stake	steIk	steIkt	stUk	False	staked	reg

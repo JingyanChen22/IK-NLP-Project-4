@@ -1,0 +1,12 @@
+	present_orth	present_phon	past_phon	pred	correct	past_orth	reg
+112	blow	bl@U	blu:	bl@Ud	False	blew	irreg
+129	become	b@kVm	b@keIm	b@kVmd	False	became	irreg
+161	win	wIn	wVn	wInd	False	won	irreg
+199	stick	stIk	stVk	stIkt	False	stuck	irreg
+232	build	bIld	bIlt	bIldId	False	built	irreg
+243	overhear	@Uv@hI@r*	@Uv@h3:d	@Uv@hI@d	False	overheard	irreg
+263	bid	bId	beId	bIdId	False	bade	irreg
+275	steal	sti:l	st@Ul	sti:ld	False	stole	irreg
+325	override	@Uv@raId	@Uv@r@Ud	@Uv@raIdId	False	overrode	irreg
+382	swear	swE@r*	swO:r*	swE@d	False	swore	irreg
+400	beget	b@gEt	b@gOt	b@gEtId	False	begot	irreg

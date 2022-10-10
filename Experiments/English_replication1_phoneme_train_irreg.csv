@@ -1,0 +1,3 @@
+	present_orth	present_phon	past_phon	pred	correct	past_orth	reg
+1315	bear	bE@r*	bO:r*	bE@d	False	bore	irreg
+2428	wring	rIN	rVN	r&N	False	wrung	irreg
