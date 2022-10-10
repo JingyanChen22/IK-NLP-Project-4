@@ -1,4 +1,1 @@
 Language	Experiment	Ling_feature	Dataset	Accuracy_overall	Accuracy_regular	Accuracy_irregular
-English	replication1	phoneme	test	0.965	0.992	0.353
-English	replication1	phoneme	train	0.999	0.999	0.984
-English	replication1	phoneme	valid	0.953	0.99	0.211
