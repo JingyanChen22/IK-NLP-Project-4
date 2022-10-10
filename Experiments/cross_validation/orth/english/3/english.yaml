@@ -46,5 +46,5 @@ log_file_level: 20
 
 # Where to save the checkpoints
 save_model: cross_validation/orth/english/3/model
-save_checkpoint_steps: 4595
-train_steps: 45955
+save_checkpoint_steps: 2441
+train_steps: 24415
