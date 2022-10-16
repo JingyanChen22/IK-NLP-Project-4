@@ -13,7 +13,7 @@ data:
         path_tgt: cross_validation/orth/english2/2/tgt_train.txt
     valid:
         path_src: cross_validation/orth/english2/2/src_valid.txt
-        path_tgt: cross_validation/orth/english2/2/tgt_valid.txt
+        path_tgt: cross_validation/orth/english1/2/tgt_valid.txt
 
 # Vocabulary files that were just created
 src_vocab: cross_validation/orth/english2/2/example.vocab.src
@@ -46,5 +46,5 @@ log_file_level: 20
 
 # Where to save the checkpoints
 save_model: cross_validation/orth/english2/2/model
-save_checkpoint_steps: 7432
-train_steps: 74325
+save_checkpoint_steps: 7457
+train_steps: 74575

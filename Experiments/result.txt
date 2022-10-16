@@ -1,1 +1,10 @@
 Language	Experiment	Ling_feature	Dataset	Accuracy_overall	Accuracy_regular	Accuracy_irregular
+English	replication2	phoneme	test	0.97	0.992	0.1
+English	replication2	phoneme	train	0.998	0.999	0.978
+English	replication2	phoneme	valid	0.948	0.969	0.357
+English	replication2_multi	phoneme	train	0.999	1.0	1.0
+English	replication2_multi	phoneme	test	0.965	0.987	0.1
+English	replication2_multi	phoneme	valid	0.96	0.982	0.357
+dutch	extension2	phoneme	test	0.973	0.977	0.937
+English	extension2	phoneme	test	0.948	0.991	0.714
+german	extension2	phoneme	test	0.994	0.997	0.971

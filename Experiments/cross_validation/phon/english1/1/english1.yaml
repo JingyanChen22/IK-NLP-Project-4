@@ -41,7 +41,7 @@ learning_rate_decay: 1.0
 tensorboard: True
 tensorboard_log_dir: logs
 report_every: 244
-log_file: 'cross_validation/phon/english1/1/log_file_phon.txt'
+log_file: 'cross_validation/phon/english1/1/log_file_orth.txt'
 log_file_level: 20
 
 # Where to save the checkpoints
